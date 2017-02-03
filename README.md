@@ -2,6 +2,7 @@
 > Note this code only works with python 3.* 
 
 First run `pip install -r requirements.txt`.
+
 If you have more than one python version installed, to use python 3's pip instead run `python3 -m pip install -r requirements.txt`.
 
 ## Prerequisites
