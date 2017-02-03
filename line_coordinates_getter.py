@@ -5,6 +5,14 @@ import codecs
 from bs4 import BeautifulSoup
 import json
 from pyproj import Proj, transform
+from config_parser import get_info_from_config
+from git_client import *
+import logging
+
+log_file_name = get_info_from_config("configuration.config", "log", "log_file_name")
+logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
+
+coord_file_name = get_info_from_config("configuration.config", "coord", "coord_file_name")
 
 class Stop:
 	def __init__(self, stopCode, stopName, coordinates):
@@ -54,26 +62,65 @@ def get_stops_by_line_id(lineId):
 			if(stop not in stops):
 				stops.append(stop)
 				
+def get_all_stops():
+	logging.info("Initialized getting stop info by line!")
+	for transportation_type in transportation_types:
+		response = urllib.request.urlopen(base_url_line_ids.format(transportation_type))
+		html = response.read()
+
+		soup = BeautifulSoup(html, "html.parser")
+
+		all_inputs = soup.find_all("input")
+
+		for input in all_inputs:
+			lineId = input.get("value")
+			if lineId != "-1":
+				get_stops_by_line_id(lineId)
+	logging.info("Done getting stop info by line!")
+
+def upload_coordinates():
+	'''
+		uploads the coordinates file to github
+	'''
+	logging.info("Uploading coordinates to remote server...")
+	add_file(coord_file_name)
+	commit("latest update to coordinates")
+	push()
+	logging.info("Done uploading!")
+				
+def write_file():
+	'''
+		writes the file containing coordinates only if changes were made compared to the last one
+	'''	
+	old_coordinates = ""
+	old_coordinates_dict = {}
 			
-for transportation_type in transportation_types:
-	response = urllib.request.urlopen(base_url_line_ids.format(transportation_type))
-	html = response.read()
+	try:
+		with codecs.open(coord_file_name,'r', encoding='utf-8') as myfile:
+			old_coordinates = myfile.read().replace('\n', '')
+	except FileNotFoundError:
+		old_coordinates = None
 
-	soup = BeautifulSoup(html, "html.parser")
+	if old_coordinates is not None:
+		old_coordinates_dict = json.loads(old_coordinates)
 
-	all_inputs = soup.find_all("input")
-
-	for input in all_inputs:
-		lineId = input.get("value")
-		if lineId != "-1":
-			get_stops_by_line_id(lineId)
+	new_coordinates_dict = [stop.__dict__ for stop in stops]
 		
-json_repr = json.dumps(stops, cls=Encoder, ensure_ascii=False, indent=4)
 
-print("Number of stops: {0}".format(len(stops)))
+	if old_coordinates_dict != new_coordinates_dict:
+		logging.info("There are changes in the coordinates file!")
+		new_coordinates = json.dumps(stops, cls=Encoder, ensure_ascii=False, indent=4)
+		f = codecs.open(coord_file_name, "w+", "utf-8")
+		f.write(new_coordinates)
+		f.close()	
+		upload_coordinates()
+	else:
+		logging.info("No changes in the coordinates file.")
+		
+if __name__ == '__main__':
+	get_all_stops()
+	write_file()
 
-f = codecs.open("coordinates.json", "w+", "utf-8")
-f.write(json_repr)
-f.close()
+
 	
 	
