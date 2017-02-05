@@ -8,6 +8,8 @@ from pyproj import Proj, transform
 from config_parser import get_info_from_config
 from git_client import *
 import logging
+from optparse import OptionParser
+from push_notification import push_notification
 
 log_file_name = get_info_from_config("configuration.config", "log", "log_file_name")
 logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
@@ -88,9 +90,11 @@ def upload_coordinates():
 	push()
 	logging.info("Done uploading!")
 				
-def write_file():
+def manage_new_coordinates_information(should_upload, should_push):
 	'''
-		writes the file containing coordinates only if changes were made compared to the last one
+		writes the file containing coordinates only if changes were made compared to the last run of the script
+		also upload the file to github if should_upload is true
+		push notification if should_push is true
 	'''	
 	old_coordinates = ""
 	old_coordinates_dict = {}
@@ -112,15 +116,23 @@ def write_file():
 		new_coordinates = json.dumps(stops, cls=Encoder, ensure_ascii=False, indent=4)
 		f = codecs.open(coord_file_name, "w+", "utf-8")
 		f.write(new_coordinates)
-		f.close()	
-		upload_coordinates()
+		f.close()
+		if should_upload:
+			upload_coordinates()
+		if should_push:
+			push_notification("Stops info has changed!")
 	else:
 		logging.info("No changes in the coordinates file.")
-		
+
+def prepare_commandline_parser():
+	parser = OptionParser()
+	parser.add_option("-u", "--upload", action="store_true", dest="should_upload", help="whether to upload to github or not", default=False)
+	parser.add_option("-p", "--push", action="store_true", dest="should_push_notification", help="whether should push notification to phone", default=False)
+	return parser
+	
 if __name__ == '__main__':
+	parser = prepare_commandline_parser()
+	(options, args) = parser.parse_args()
+	
 	get_all_stops()
-	write_file()
-
-
-	
-	
+	manage_new_coordinates_information(options.should_upload, options.should_push_notification)
