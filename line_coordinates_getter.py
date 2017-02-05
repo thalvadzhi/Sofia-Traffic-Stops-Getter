@@ -72,7 +72,7 @@ class DownloadJob(workerpool.Job):
     def __init__(self, lineId):
         self.lineId = lineId # The url we'll need to download when the job runs
     def run(self):
-        get_stops_by_line_id(lineId)
+        get_stops_by_line_id(self.lineId)
 				
 def get_all_stops():
 	pool = workerpool.WorkerPool(size=8)
