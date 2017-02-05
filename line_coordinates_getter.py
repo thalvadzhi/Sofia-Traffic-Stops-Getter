@@ -25,7 +25,7 @@ class Stop:
 		
 	def __eq__(self, other):
 		if isinstance(other, Stop):
-			return self.stopCode == other.stopCode
+			return self.stopCode == other.stopCode and self.stopName == other.stopName and self.coordinates == other.coordinates
 	
 	def __hash__(self):
 		return hash(self.stopCode)
