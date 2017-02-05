@@ -10,7 +10,8 @@ from git_client import *
 import logging
 from optparse import OptionParser
 from push_notification import push_notification
-
+import workerpool
+import time
 log_file_name = get_info_from_config("configuration.config", "log", "log_file_name")
 logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
 
@@ -45,6 +46,8 @@ base_url_line_information = "https://www.sofiatraffic.bg/interactivecard/lines/s
 inProj = Proj(init='epsg:3857')
 outProj = Proj(init='epsg:4326')
 
+
+
 def get_stops_by_line_id(lineId):
 	resp = requests.get(base_url_line_information.format(lineId))
 	d = resp.json()
@@ -63,8 +66,16 @@ def get_stops_by_line_id(lineId):
 			stop = Stop(code, name, coordinates)
 			if(stop not in stops):
 				stops.append(stop)
+
+class DownloadJob(workerpool.Job):
+    "Job for downloading a given URL."
+    def __init__(self, lineId):
+        self.lineId = lineId # The url we'll need to download when the job runs
+    def run(self):
+        get_stops_by_line_id(lineId)
 				
 def get_all_stops():
+	pool = workerpool.WorkerPool(size=8)
 	logging.info("Initialized getting stop info by line!")
 	for transportation_type in transportation_types:
 		response = urllib.request.urlopen(base_url_line_ids.format(transportation_type))
@@ -77,8 +88,15 @@ def get_all_stops():
 		for input in all_inputs:
 			lineId = input.get("value")
 			if lineId != "-1":
-				get_stops_by_line_id(lineId)
+				job = DownloadJob(lineId)
+				pool.put(job)
+	pool.shutdown()
+	pool.wait()
 	logging.info("Done getting stop info by line!")
+	
+
+	
+
 
 def upload_coordinates():
 	'''
@@ -89,6 +107,12 @@ def upload_coordinates():
 	commit("latest update to coordinates")
 	push()
 	logging.info("Done uploading!")
+	
+def coords_have_changed(new_coordinates, old_coordinates):
+	for stop in new_coordinates:
+		if stop not in old_coordinates:
+			return True
+	return False
 				
 def manage_new_coordinates_information(should_upload, should_push):
 	'''
@@ -111,7 +135,7 @@ def manage_new_coordinates_information(should_upload, should_push):
 	new_coordinates_dict = [stop.__dict__ for stop in stops]
 		
 
-	if old_coordinates_dict != new_coordinates_dict:
+	if coords_have_changed(new_coordinates_dict, old_coordinates_dict):
 		logging.info("There are changes in the coordinates file!")
 		new_coordinates = json.dumps(stops, cls=Encoder, ensure_ascii=False, indent=4)
 		f = codecs.open(coord_file_name, "w+", "utf-8")
@@ -131,8 +155,11 @@ def prepare_commandline_parser():
 	return parser
 	
 if __name__ == '__main__':
+	start = time.time()
 	parser = prepare_commandline_parser()
 	(options, args) = parser.parse_args()
 	
 	get_all_stops()
 	manage_new_coordinates_information(options.should_upload, options.should_push_notification)
+	end = time.time()
+	print("Finished downloading {0} stops in {0}s".format(len(stops), (end - start)))
