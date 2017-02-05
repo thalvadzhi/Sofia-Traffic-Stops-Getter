@@ -162,4 +162,4 @@ if __name__ == '__main__':
 	get_all_stops()
 	manage_new_coordinates_information(options.should_upload, options.should_push_notification)
 	end = time.time()
-	print("Finished downloading {0} stops in {1}s".format(len(stops), (end - start)))
+	logging.info("Finished execution in {0}s, downloaded {1} stops".format((end - start), len(stops)))
