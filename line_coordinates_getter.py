@@ -26,6 +26,9 @@ class Stop:
 	def __eq__(self, other):
 		if isinstance(other, Stop):
 			return self.stopCode == other.stopCode
+	
+	def __hash__(self):
+		return hash(self.stopCode)
 			
 
 class Encoder(json.JSONEncoder):
@@ -36,7 +39,7 @@ class Encoder(json.JSONEncoder):
 		return json.JSONEncoder.default(self, obj)
         
 		
-stops = []
+stops = set()
 
 
 transportation_types = [1, 2, 3]
@@ -64,18 +67,17 @@ def get_stops_by_line_id(lineId):
 			x_new, y_new = transform(inProj, outProj, x, y)
 			coordinates = [y_new, x_new]
 			stop = Stop(code, name, coordinates)
-			if(stop not in stops):
-				stops.append(stop)
+			stops.add(stop)
 
 class DownloadJob(workerpool.Job):
     "Job for downloading a given URL."
     def __init__(self, lineId):
-        self.lineId = lineId # The url we'll need to download when the job runs
+        self.lineId = lineId 
     def run(self):
         get_stops_by_line_id(self.lineId)
 				
 def get_all_stops():
-	pool = workerpool.WorkerPool(size=8)
+	pool = workerpool.WorkerPool(size=4)
 	logging.info("Initialized getting stop info by line!")
 	for transportation_type in transportation_types:
 		response = urllib.request.urlopen(base_url_line_ids.format(transportation_type))
@@ -93,8 +95,6 @@ def get_all_stops():
 	pool.shutdown()
 	pool.wait()
 	logging.info("Done getting stop info by line!")
-	
-
 	
 
 
