@@ -137,7 +137,7 @@ def manage_new_coordinates_information(should_upload, should_push):
 
 	if coords_have_changed(new_coordinates_dict, old_coordinates_dict):
 		logging.info("There are changes in the coordinates file!")
-		new_coordinates = json.dumps(stops, cls=Encoder, ensure_ascii=False, indent=4)
+		new_coordinates = json.dumps(list(stops), cls=Encoder, ensure_ascii=False, indent=4)
 		f = codecs.open(coord_file_name, "w+", "utf-8")
 		f.write(new_coordinates)
 		f.close()
