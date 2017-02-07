@@ -33,7 +33,7 @@ class Stop:
 		return hash(self.stopCode)
 
 	def __str__(self):
-		return "code: " + str(self.stopCode) + "\nstopName: " + str(self.stopName) + "\n coordinates: " + str(self.coordinates)
+		return "code: " + str(self.stopCode) + " | stopName: " + str(self.stopName) + " | coordinates: " + str(self.coordinates)
 
 
 class Encoder(json.JSONEncoder):
@@ -131,9 +131,10 @@ def coords_have_changed(new_coordinates, old_coordinates):
 
 	for stop in difference:
 		if stop in new_coordinates:
-			logging.info("New stop added: \n" + str(stop))
+			logging.info("New stop added: " + str(stop))
 		else:
-			logging.info("Old stop removed: \n" + str(stop))
+			logging.info("Old stop removed: " + str(stop))
+	return True
 
 def manage_new_coordinates_information(should_upload, should_push):
 	'''
