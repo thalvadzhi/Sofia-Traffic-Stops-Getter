@@ -22,23 +22,23 @@ class Stop:
 		self.stopCode = stopCode
 		self.coordinates = coordinates
 		self.stopName = stopName
-		
+
 	def __eq__(self, other):
 		if isinstance(other, Stop):
 			return self.stopCode == other.stopCode and self.stopName == other.stopName and self.coordinates == other.coordinates
-	
+
 	def __hash__(self):
 		return hash(self.stopCode)
-			
+
 
 class Encoder(json.JSONEncoder):
 	def default(self, obj):
 		if isinstance(obj, Stop):
 			return obj.__dict__
-		
+
 		return json.JSONEncoder.default(self, obj)
-        
-		
+
+
 stops = set()
 
 
@@ -72,10 +72,10 @@ def get_stops_by_line_id(lineId):
 class DownloadJob(workerpool.Job):
     "Job for downloading a given URL."
     def __init__(self, lineId):
-        self.lineId = lineId 
+        self.lineId = lineId
     def run(self):
         get_stops_by_line_id(self.lineId)
-				
+
 def get_all_stops():
 	pool = workerpool.WorkerPool(size=4)
 	logging.info("Initialized getting stop info by line!")
@@ -95,7 +95,7 @@ def get_all_stops():
 	pool.shutdown()
 	pool.wait()
 	logging.info("Done getting stop info by line!")
-	
+
 
 
 def upload_coordinates():
@@ -107,22 +107,24 @@ def upload_coordinates():
 	commit("latest update to coordinates")
 	push()
 	logging.info("Done uploading!")
-	
+
 def coords_have_changed(new_coordinates, old_coordinates):
+	if len(new_coordinates) != len(old_coordinates):
+		return True
 	for stop in new_coordinates:
 		if stop not in old_coordinates:
 			return True
 	return False
-				
+
 def manage_new_coordinates_information(should_upload, should_push):
 	'''
 		writes the file containing coordinates only if changes were made compared to the last run of the script
 		also upload the file to github if should_upload is true
 		push notification if should_push is true
-	'''	
+	'''
 	old_coordinates = ""
 	old_coordinates_dict = {}
-			
+
 	try:
 		with codecs.open(coord_file_name,'r', encoding='utf-8') as myfile:
 			old_coordinates = myfile.read().replace('\n', '')
@@ -133,7 +135,7 @@ def manage_new_coordinates_information(should_upload, should_push):
 		old_coordinates_dict = json.loads(old_coordinates)
 
 	new_coordinates_dict = [stop.__dict__ for stop in stops]
-		
+
 
 	if coords_have_changed(new_coordinates_dict, old_coordinates_dict):
 		logging.info("There are changes in the coordinates file!")
@@ -153,12 +155,12 @@ def prepare_commandline_parser():
 	parser.add_option("-u", "--upload", action="store_true", dest="should_upload", help="whether to upload to github or not", default=False)
 	parser.add_option("-p", "--push", action="store_true", dest="should_push_notification", help="whether should push notification to phone", default=False)
 	return parser
-	
+
 if __name__ == '__main__':
 	start = time.time()
 	parser = prepare_commandline_parser()
 	(options, args) = parser.parse_args()
-	
+
 	get_all_stops()
 	manage_new_coordinates_information(options.should_upload, options.should_push_notification)
 	end = time.time()
