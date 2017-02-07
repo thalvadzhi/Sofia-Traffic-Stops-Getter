@@ -12,7 +12,9 @@ from optparse import OptionParser
 from push_notification import push_notification
 import workerpool
 import time
+
 log_file_name = get_info_from_config("configuration.config", "log", "log_file_name")
+
 logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
 
 coord_file_name = get_info_from_config("configuration.config", "coord", "coord_file_name")
@@ -30,6 +32,9 @@ class Stop:
 	def __hash__(self):
 		return hash(self.stopCode)
 
+	def __str__(self):
+		return "code: " + str(self.stopCode) + "\nstopName: " + str(self.stopName) + "\n coordinates: " + str(self.coordinates)
+
 
 class Encoder(json.JSONEncoder):
 	def default(self, obj):
@@ -38,6 +43,12 @@ class Encoder(json.JSONEncoder):
 
 		return json.JSONEncoder.default(self, obj)
 
+class Decoder(json.JSONDecoder):
+    def __init__(self):
+        json.JSONDecoder.__init__(self, object_hook=self.deserialize)
+
+    def deserialize(self, d):
+        return Stop(d["stopCode"], d["stopName"], d["coordinates"])
 
 stops = set()
 
@@ -109,12 +120,20 @@ def upload_coordinates():
 	logging.info("Done uploading!")
 
 def coords_have_changed(new_coordinates, old_coordinates):
-	if len(new_coordinates) != len(old_coordinates):
+	if old_coordinates is None:
+		#if it is the first time we run the program
 		return True
-	for stop in new_coordinates:
-		if stop not in old_coordinates:
-			return True
-	return False
+	#find by which stops the old and the new info differs
+	difference = new_coordinates.symmetric_difference(old_coordinates)
+	if len(difference) == 0:
+		#no difference between old and new
+		return False
+
+	for stop in difference:
+		if stop in new_coordinates:
+			logging.info("New stop added: \n" + str(stop))
+		else:
+			logging.info("Old stop removed: \n" + str(stop))
 
 def manage_new_coordinates_information(should_upload, should_push):
 	'''
@@ -132,12 +151,14 @@ def manage_new_coordinates_information(should_upload, should_push):
 		old_coordinates = None
 
 	if old_coordinates is not None:
-		old_coordinates_dict = json.loads(old_coordinates)
+		old_coordinates_set = json.loads(old_coordinates, cls=Decoder)
+	else:
+		old_coordinates_set = None
 
-	new_coordinates_dict = [stop.__dict__ for stop in stops]
+	new_coordinates_set = stops
 
 
-	if coords_have_changed(new_coordinates_dict, old_coordinates_dict):
+	if coords_have_changed(new_coordinates_set, old_coordinates_set):
 		logging.info("There are changes in the coordinates file!")
 		new_coordinates = json.dumps(list(stops), cls=Encoder, ensure_ascii=False, indent=4)
 		f = codecs.open(coord_file_name, "w+", "utf-8")
