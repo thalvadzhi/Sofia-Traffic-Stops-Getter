@@ -37,7 +37,7 @@ The script accepts two command line options:
 
 `-p` - push notification to phone(when results have changed).
 
-The script will generate a < LOG_FILE_NAME >.log file containing information about when it tried to obtain stop data and when it found that the data has changed and tried to upload it to github. Also the log will contain which stops changed.
+The script will generate a < LOG_FILE_NAME >.log file containing information about when it tried to obtain stop data and when it found that the data has changed and tried to upload it to github. Also the log will contain which stops have changed.
 
 ## Bonus
 
