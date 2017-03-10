@@ -2,11 +2,13 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
+	"sort"
 	"sync"
 	"sync/atomic"
 	"time"
@@ -90,7 +92,7 @@ func readLineStops(l line, c chan string) {
 	li := new(lineInfo)
 	json.Unmarshal(data, li)
 	for _, route := range li.Routes {
-		direction := fmt.Sprintf("%v - %v", route.Stops[0].Name, route.Stops[len(route.Stops)-1].Name)
+		direction := fmt.Sprintf("%v-%v", route.Stops[0].Name, route.Stops[len(route.Stops)-1].Name)
 		for _, stop := range route.Stops {
 			id := fmt.Sprintf("%v,%v,%v", l.Type, l.Name, stop.Code)
 			c <- id + "=" + direction
@@ -120,11 +122,44 @@ func writeToFile(c chan string) {
 	w.Flush()
 }
 
+func writeToFileString(descriptions string) {
+	f, err := os.Create(descriptionsFileName)
+	check(err)
+	w := bufio.NewWriter(f)
+	w.WriteString(descriptions)
+	w.Flush()
+}
+
+func getStringFromChannel(c chan string) string {
+	var buffer bytes.Buffer
+	sorted := make([]string, int(count))
+	for i := 0; i < int(count); i++ {
+		sorted[i] = <-c
+	}
+	sort.Strings(sorted)
+	for i := 0; i < int(count); i++ {
+		if i != int(count)-1 {
+			buffer.WriteString(sorted[i] + ";")
+		} else {
+			buffer.WriteString(sorted[i])
+		}
+	}
+	return buffer.String()
+}
+
 func generateRequest(url string) *http.Request {
 	request, _ := http.NewRequest("GET", url, nil)
 	request.Header.Set("X-Api-Key", conf.APIKey)
 	request.Header.Set("X-User-Id", conf.UserID)
 	return request
+}
+
+func compare(newDesc string) bool {
+	if _, err := os.Stat(descriptionsFileName); err != nil {
+		return true
+	}
+	oldDesc, _ := ioutil.ReadFile(descriptionsFileName)
+	return string(oldDesc) == newDesc
 }
 
 func main() {
@@ -138,8 +173,11 @@ func main() {
 	getAllLines(c)
 
 	wg.Wait()
-
-	writeToFile(c)
+	st := getStringFromChannel(c)
+	if compare(st) {
+		writeToFileString(st)
+		UploadDescriptionsToGithub(descriptionsFileName)
+	}
 
 	fmt.Println(count)
 	fmt.Println(time.Since(start))
