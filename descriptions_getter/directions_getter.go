@@ -92,7 +92,7 @@ func readLineStops(l line, c chan string) {
 	li := new(lineInfo)
 	json.Unmarshal(data, li)
 	for _, route := range li.Routes {
-		direction := fmt.Sprintf("%v-%v", route.Stops[0].Name, route.Stops[len(route.Stops)-1].Name)
+		direction := fmt.Sprintf("%v - %v", route.Stops[0].Name, route.Stops[len(route.Stops)-1].Name)
 		for _, stop := range route.Stops {
 			id := fmt.Sprintf("%v,%v,%v", l.Type, l.Name, stop.Code)
 			c <- id + "=" + direction
