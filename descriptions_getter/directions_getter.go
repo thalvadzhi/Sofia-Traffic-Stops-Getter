@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 	"sort"
@@ -163,6 +164,18 @@ func compare(newDesc string) bool {
 }
 
 func main() {
+	//logging
+	file, err := os.OpenFile("descriptions_log.txt", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+
+	}
+	defer file.Close()
+
+	descLog := log.New(file,
+		"INFO: ",
+		log.Ldate|log.Ltime|log.Lshortfile)
+
+	descLog.Println("Starting getting description info...")
 	data, _ := ioutil.ReadFile("config.json")
 	conf = new(configuration)
 	json.Unmarshal(data, conf)
@@ -175,10 +188,13 @@ func main() {
 	wg.Wait()
 	st := getStringFromChannel(c)
 	if compare(st) {
+		descLog.Println("Description file changed!")
 		writeToFileString(st)
 		UploadDescriptionsToGithub(descriptionsFileName)
+	} else {
+		descLog.Println("No changes in description file")
 	}
-
+	descLog.Println(fmt.Sprintf("Finished in %v seconds, downloaded %v descriptions", time.Since(start), count))
 	fmt.Println(count)
 	fmt.Println(time.Since(start))
 }
