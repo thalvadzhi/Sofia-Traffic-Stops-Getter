@@ -187,7 +187,8 @@ func main() {
 
 	wg.Wait()
 	st := getStringFromChannel(c)
-	if compare(st) {
+
+	if !compare(st) && len(st) > 0 {
 		descLog.Println("Description file changed!")
 		writeToFileString(st)
 		UploadDescriptionsToGithub(descriptionsFileName)
