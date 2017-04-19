@@ -114,7 +114,7 @@ def upload_coordinates():
 		uploads the coordinates file to github
 	'''
 	logging.info("Uploading coordinates to remote server...")
-	add_file(coord_file_name)
+	add_file("stops_getter/" + coord_file_name)
 	commit("latest update to coordinates")
 	push()
 	logging.info("Done uploading!")
