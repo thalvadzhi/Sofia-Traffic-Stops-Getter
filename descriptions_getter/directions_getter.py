@@ -34,7 +34,7 @@ class DownloadJob(workerpool.Job):
 
 def get_all_lines():
     logging.info("Started getting stops descriptions!")
-    pool = workerpool.WorkerPool(multiprocessing.cpu_count())
+    pool = workerpool.WorkerPool(multiprocessing.cpu_count() * 2)
     for line_type in line_types:
         resp = requests.get(linesBaseURL.format(line_type), headers=headers)
         d = resp.json()
