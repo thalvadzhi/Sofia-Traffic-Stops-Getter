@@ -35,6 +35,7 @@ class DownloadJob(workerpool.Job):
 def get_all_lines():
     logging.info("Started getting stops descriptions!")
     pool = workerpool.WorkerPool(multiprocessing.cpu_count() * 2)
+
     for line_type in line_types:
         resp = requests.get(linesBaseURL.format(line_type), headers=headers)
         d = resp.json()
@@ -50,6 +51,7 @@ def read_line_stops(line):
     url =linesStopsURL.format(line["type"], line["id"])
     resp = requests.get(url, headers=headers)
     d = resp.json()
+    print(d)
     routes = d['routes']
     for route in routes:
         stops = route['stops']
@@ -77,6 +79,13 @@ def write_to_file(stops_desc):
         f.write(stops_desc)
     logging.info("Wrote to file!")
 
+def upload_coordinates():
+    logging.info("Uploading changes...")
+    add_file('descriptions_getter/' + desc_file_name)
+    commit("Descriptions update")
+    push()
+    logging.info("Done uploading!")
+
 def main():
     start = time.time()
     get_all_lines()
@@ -87,12 +96,11 @@ def main():
     if stops_descs_have_changed(stops_desc):
         logging.info("Stops descriptions have changed!")
         write_to_file(stops_desc)
-        add_file('descriptions_getter/' + desc_file_name)
-        commit("Descriptions update")
-        push()
+        upload_coordinates()
         push_notification("Descriptions have changed!")
     else:
         logging.info("No changes in descriptions.")
     logging.info("Finished gettings {0} descriptions in {1}s".format(len(stop_ids_l), time.time() - start))
 
-main()
+if __name__ == '__main__':
+    main()
