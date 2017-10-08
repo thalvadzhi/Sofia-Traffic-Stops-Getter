@@ -124,6 +124,10 @@ def main():
     get_all_lines()
     print("finished")
     stop_ids_l = list(stop_ids)
+    if len(stop_ids_l) < 100:
+        #less than 100 descriptions is a suspiciosly low amount
+        logging.info("Descriptions are suspiciosly low, aborting...")
+        return
     stop_ids_l.sort()
 
     stops_desc = generate_stops_desc(stop_ids_l)

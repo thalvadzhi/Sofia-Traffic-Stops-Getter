@@ -21,6 +21,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, le
 
 coord_file_name = get_info_from_config("configuration.config", "coord", "coord_file_name")
 hash_file_name = "hash.txt"
+hash_file_name_temp = "hash_new.txt"
 class Stop:
     def __init__(self, stopCode, stopName, coordinates, lineTypes):
         self.stopCode = stopCode
@@ -108,7 +109,7 @@ def calculate_hash():
     sha256 = hashlib.sha256()
     sha256.update(stops_string)
     new_hash = sha256.hexdigest()
-    with open("hash_new.txt", "w") as f:
+    with open(hash_file_name_temp, "w") as f:
         f.write(new_hash)
 
 def get_all_stops():
@@ -147,19 +148,19 @@ def upload_coordinates():
 
 
 def coords_have_changed_hash():
-    if not os.path.isfile("hash.txt"):
-        os.rename("hash_new.txt", "hash.txt")
+    if not os.path.isfile(hash_file_name):
+        os.rename(hash_file_name_temp, hash_file_name)
         return True
 
-    with open("hash_new.txt", "r") as new, open("hash.txt", "r") as old:
+    with open(hash_file_name_temp, "r") as new, open(hash_file_name, "r") as old:
         new_read = new.read()
         old_read = old.read()
         if old_read != new_read:
-            os.remove("hash.txt")
-            os.rename("hash_new.txt", "hash.txt")
+            os.remove(hash_file_name)
+            os.rename(hash_file_name_temp, hash_file_name)
             return True
         else:
-            os.remove("hash_new.txt")
+            os.remove(hash_file_name_temp)
             return False
 
 def manage_new_coordinates_information(should_upload, should_push):
@@ -169,6 +170,10 @@ def manage_new_coordinates_information(should_upload, should_push):
         push notification if should_push is true
     '''
     stops = code_to_stop.values()
+    if len(stops) < 100:
+        logging.info("Stops are suspiciosly low, aborting...")
+        return
+        
     if coords_have_changed_hash():
         logging.info("There are changes in the coordinates file!")
         stops = list(stops)
