@@ -1,5 +1,4 @@
-import sys
-sys.path.insert(0, '../stops_getter/')
+import sys         
 from bs4 import UnicodeDammit
 import json
 import requests
