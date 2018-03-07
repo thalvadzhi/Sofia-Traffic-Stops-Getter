@@ -1,1 +1,1 @@
-../stops_getter/git_client.py
+stops_getter/git_client.py

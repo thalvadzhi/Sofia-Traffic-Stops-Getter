@@ -1,1 +1,1 @@
-../stops_getter/config_parser.py
+stops_getter/config_parser.py
