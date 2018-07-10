@@ -498,7 +498,7 @@
     },
     {
         "first_stop": "1287",
-        "geo": "w}pcGccmmCj@y@r`@}n@dDsFhAeBfJ}NhTq\\xXgc@lHiLhDeEhBqChCcDn@eAZcAfBkCb@g@VSXMRE~@OfAYV]^w@L{@L{AhAuBPc@xJ{O`JeOtD}Fd@o@nDyCX_@bJuNtAwBcA{AzPeXx@qA|AoBNGVFHHFN@Te@~EMRYLKCQSWi@g@{AK]kAaDm@yAUc@wBcDgCqDiA{AmDiEiFaHwCqDaAiA}EnE{ArBkFsB{BaAqJwCcJ{CmIoDuBaAmBwAiIoGkAy@uAu@iEqBeEoAc@c@mBqFaA{Ak@c@oAg@uDkAua@{LgDcAg@bD[zAK^sJsCSMK[CYj@mEGKKGuAc@MBKHMFUXCT@`@H^",
+        "geo": "w}pcGccmmCj@y@r`@}n@dDsFhAeBfJ}NhTq\\xXgc@lHiLhDeEhBqChCcDn@eAZcAfBkCb@g@VSXMRE~@OfAYV]^w@L{@L{AhAuBPc@xJ{O`JeOtD}Fd@o@nDyCX_@bJuNtAwBcA{AzPeXx@qA|AoBNGVFHHFN@Te@~EMRYLKCQSWi@g@{AK]kAaDm@yAUc@{A}B[e@}CkD{@eAuCuC_DyBkD_Bug@uO{DqAyCoA_FeCiFiDqKuImCkBiDeBmAe@{Ag@cDq@gHcAeDk@wH_CsBg@sAOyAE}@MqJmCoQiFSMK[CYj@mEGKKGuAc@MBKHMFUXCT@`@H^",
         "last_stop": "1006",
         "name": "184",
         "type": 1
@@ -827,14 +827,14 @@
     },
     {
         "first_stop": "611",
-        "geo": "icgcG{m|mCIh@w@D@bHB`LQ|AWnAaAzCiBlFSf@uBnGgClHy@dCe@tAk@r@[Ne@Tw@@aL?yA?WBSFQH]^S\\gAdC_@Q{BgAyJyEiEoBYf@WZuJdP}E`JMRg@KgCa@s@Oy@B_C\\iBxHq@|BuAfDuB`Fu@bBi@`As@~@iCtC}GzHiG`HiAdAqBtAsBvCeBy@{D}AoBw@yCeAeCy@wDmAaEsAa@Qi@UoCgAmAg@aDqAk@_@y@g@o@o@iEkD_CmB}A_AoDeBwDkAeAWc@a@u@iBi@uBBI@QGMGCIDsAyAc@a@iAc@cA[}Bs@uZ}IiJuC`@_DvJ_m@yHaGsBoDqC_F}BoEw@eAe@k@}@Yw@?WVIlBFv@",
+        "geo": null,
         "last_stop": "2454",
         "name": "384",
         "type": 1
     },
     {
         "first_stop": "2455",
-        "geo": "_mpcG{}{mCFJBB?@@@@Bz@xA^`@`@Z|DlBtJfGhAt@qDvTuEjZCR|f@~NtDjAnAf@j@b@`AzAlBpFb@b@dEnAhEpBtAt@jAx@hInGlBvAtB`AlInDbJzCpJvCzB`AjFrBbChAx@ZXJbC}BbAw@pBsA`CuArB{@rFsB|A_AjA{@r@cAZo@`@_ARm@rBeIj@mBvI{UrA_DtBmExMcUXe@|U~KRJlBqE^c@b@Uh@A`OAh@Ed@MTOX[Te@|Oae@d@yDCgR?mAbAIRSJW?????A?@??????KV",
+        "geo": "umpcGsk|mCoAEM?MHGREzB@`@FZFRhEbI^`@^Z~DnBp@X~HhFrAz@_Hpa@yB~NF]|f@~NtDjAnAf@j@b@`AzAlBpFb@b@dEnAhEpBtAt@jAx@hInGlBvAtB`AlInDbJzCpJvCzB`AjFrBbChAx@ZXJbC}BbAw@pBsA`CuArB{@rFsB|A_AjA{@r@cAZo@`@_ARm@rBeIj@mBvI{UrA_DtBmExMcUXe@|U~KTNjBuE^c@d@Uf@A`OAh@Ed@MTOZ[Re@|Oae@TuANcBCgR?mAbAIRSd@kAB[GWOMQ@ONGV?dBQR",
         "last_stop": "612",
         "name": "384",
         "type": 1
