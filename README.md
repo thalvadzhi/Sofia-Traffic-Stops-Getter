@@ -41,7 +41,7 @@ The script will generate a < LOG_FILE_NAME >.log file containing information abo
 
 ## Bonus
 
-To clean the log file once a month and run the script once a day use the following jobs in cron:
+To clean the log file once a month and run the script once a day use the following jobs in cron :
 ```
 0 0 1 * * rm <PATH_TO_REPO>/<LOG_FILE_NAME>.log
 0 0 * * * cd <PATH_TO_REPO> && python3 <PATH_TO_REPO>/stops_getter/line_coordinates_getter.py -u -p
