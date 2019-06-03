@@ -98,6 +98,20 @@
         "type": 0
     },
     {
+        "first_stop": "596",
+        "geo": "qjncGwksmCf@KLOXw@JOZILMbAcDVaA^uBZ_CzHgu@x@kBLe@Jo@hAaJbAoMZgDjF{h@\\uCb@}BZ_A|DiKvKsXlIoRnDyIxE{M\\oAlBcJ\\eBL}@FKFCNDl@TPD`A\\~BdAbh@xShFzBzi@jWl@X",
+        "last_stop": "2594",
+        "name": "23",
+        "type": 0
+    },
+    {
+        "first_stop": "6213",
+        "geo": "_zhcG_dzmCwa@{RgF{ByEiBqVaKwAi@cGaC_CcAqCaAG@EDEHO`As@pDuApG]nAmAnDmCjHoDzIaH`Pk@lAwKtX}DdK[bAa@~B_@pCiGfn@aAnM_AnHU~Ae@rA]r@Ih@sHht@[zBa@vBW`AaAzCQPg@?MGk@c@YU",
+        "last_stop": "2595",
+        "name": "23",
+        "type": 0
+    },
+    {
         "first_stop": "621",
         "geo": "{aucGwscmCv@Kb@@LF|@z@|GvFVDTCVSHM@EnQof@lCaZJ[PGF?pXhFh@CVIJKRi@vCe^BOhHe{@RkC@[COGOe@i@IMEe@h@cGASO]KIuA[{g@iKyXuCCCGYNmEE_K[cDMYSI]AYJeAx@KLKV_D~LGT",
         "last_stop": "1332",
@@ -501,20 +515,6 @@
         "geo": "wfedG{wbnCa@~@S`AHd@lCpIPHzAVfNzB~B^|GdA~A?vMm@~j@}BhBFvCh@lAb@fAx@`f@rd@t@p@zC_BzAa@`Da@rAMdGi@f@p@@\\kDbQCj@Bj@Rh@zMtKhDhCz@z@lDxEpDnFtCdEjFzIzBdDvF|D`Al@vB{I|@iDfBwHd@mBdHsYvB_AbDq@rDuBl@`@jBDdA|@z@zA{@{AeA}@kBEm@a@sDtBcDp@wB~@iEjQ{AfGe@lBgBvHkDfNI\\aAm@eB`DiErHuMnEi@\\_Ax@g@jAcApC}XxlA}ArCeBpC}ApDg@T[VS^q@jCEtAzAnBfFbGTXrB|BlGxHnAbA~AbAfAPfEH~OPpi@NvRf@nEBbBEvMuB`AGr_@jCtOfAxHtQbAzBp@rA|@hAhCdC~ChDd@z@xTvl@pGxQrFjOrEpLfJnWtQbf@l@bBbDrInCrHjMz\\R|@RhDNjA`FfZDTnC~OpAbGXx@l@jARR~Ah@hAhB~IxUBHsG~FwC~BwFpElAxCFH`[rQJHjAvApN|LNTNj@@\\GpB@RJZdAvABFHNHHvB[zGsAPBJJFD@BTbAT|Bt@vMF|BQbHABKt@KbASbFCl@",
         "last_stop": "1275",
         "name": "20",
-        "type": 1
-    },
-    {
-        "first_stop": "52",
-        "geo": "_qncG_osmC|F~DBBxAuEbA}C`@}AX}AX_CvBmSDWpEmc@n@kKJ}@bGyk@fAyJ^eDr@gFH_@nAqDfCwGp_@m_AxAoEx@}CzAeInE{VRmAfv@tG`CRsBdIoBrH",
-        "last_stop": "2424",
-        "name": "20-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "605",
-        "geo": "}xicGsz{mCpAcFav@sGgCUcFhY{AdIy@|CyAnEq_@l_AgCvGoApDI^m@pEETmArKiHbr@}G|n@AHyAfO_@hDMdAi@pCYfA_@QiBs@k@jCITIDeAU_@A",
-        "last_stop": "53",
-        "name": "20-ТМ",
         "type": 1
     },
     {
