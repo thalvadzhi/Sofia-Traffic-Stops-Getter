@@ -25288,7 +25288,7 @@
             0
         ],
         "stopCode": 2434,
-        "stopName": "Ж.К. ОБЕЛЯ-1"
+        "stopName": "Ж. К. ОБЕЛЯ 1"
     },
     {
         "coordinates": [
@@ -28576,6 +28576,17 @@
         ],
         "stopCode": 2812,
         "stopName": "УЛ.САВА ФИЛАРЕТОВ"
+    },
+    {
+        "coordinates": [
+            42.586249381148306,
+            23.30491309461551
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2813,
+        "stopName": "ВИТОШКО ЛАЛЕ"
     },
     {
         "coordinates": [
