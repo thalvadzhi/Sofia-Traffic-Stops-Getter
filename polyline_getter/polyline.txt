@@ -547,14 +547,14 @@
     },
     {
         "first_stop": "1333",
-        "geo": "_`ucGupimCdAyDfAkEv@uCN]PS^StYgGNAH@@BNZLNTNTBTARGPOR]FYB[AW\\uIHaE^qJ?q@Ai@uAoTEk@K{ACUGKIK_@Q]@ONGJERCP?V@@MZIHcGnA{B^MBOi@W[e@o@MMSESHQRKPqA|BqIsJOS^w@Z_AfAgE@EkC}Be@g@m@y@_@]uZiQo@m@o@}AgAv@{FtFQXqIyF_CwAgBmAiB{AkBkBmF{DwDyBqFwBiEgB[I[CkAFuGp@aDVQ@kGp@{E^uTzBqBNg@?wHw@wKwAmA_@wM}GwC}AuAcAo@y@sCeE]UgCeAc@YWe@eAyBi@_BQa@s@mA[W[SsUcFmEaA_qAsXcJeCmIuEoBwA_@_@aAuA}NsPaBaBcAo@eM_HkBkAsK{Iu@y@mAoBaD_Gu@yAk@oAe@{AYcBOwAuJ{}@s@sG{A{NyAqMu@wFoAuKMsS@}AFmAEo@Yk@{@w@aEyEgBuBW_@]w@gAkEuAcGm@wBoAwCoC{EMWoYnz@aCxGmBoCgUg^cMqRo@aAeBqBwCwC}A{@eAc@s@SmDq@_CsCuDuD{BuAs@ScB[mAOqEEaBD{El@u@IMW}FoA_DcDwBmBiFsDqD{C[_@OII?E@AVDFPDd@@pDzChFrDvBlB~CbD|FnALVt@HzEm@`BEpEDlANbBZr@RzBtAtDtD~BrCpAVzAXxBv@|Az@vCvCdBpBrNrTfUf^fA|Ad@p@`CyGvXyx@Vu@{@aB_G}Jq]cm@_@}@e@{Ak@eCaMgj@g@iBs@oB}@iBc@a@qIcDs@?_Dt@o@Hu@?eJuC}Aa@KAaB`@g@?",
+        "geo": null,
         "last_stop": "1516",
         "name": "21-22",
         "type": 1
     },
     {
         "first_stop": "1516",
-        "geo": "wcgdGaw}mCf@?`Ba@J@|A`@dJtCt@?n@I~Cu@r@?pIbDb@`@|@hBr@nBf@hB`Mfj@j@dCd@zA^|@p]bm@~F|Jz@`B|CrFnAvCRn@XfAtAbGfAjE\\v@V^`GbHf@j@z@v@Xj@Dn@GlAA|ALrSnAtKt@vFxApM^pDz@hIhLnfANvAXbBd@zAj@nAt@xA`D~FlAnBt@x@rKzIjBjAdM~GbAn@`B`B|NrP`AtA^^nBvAlItEbJdClmAnWpBb@`\\dHZRZVr@lAP`@h@~AdAxBVd@b@XfCdA\\TrCdEn@x@tAbAvC|AvM|GlA^vKvAvHv@dAArAMtT{BzE_@jGq@rDYtGq@jAGZBZHhEfBpFvBvDxBlFzDjBjBhBzAfBlA~BvAdDzBjD|BPYzFuFfAw@lAxCFHvZjQTPjAvAnAfAlAbAaAzD]n@}AzBkC`FvKfGZLLAFEtDyGJQTCL?LDFDdAvABFHNHHvB[zGsAJ?PLFF@BTbAT|Bt@vMF|BU~I{@dUgAtWQ|GAVsYuC[G_@MmDuB]U",
+        "geo": "wcgdGaw}mCf@?`Ba@J@|A`@dJtCt@?n@I~Cu@r@?pIbDb@`@|@hBr@nBf@hB`Mfj@j@dCd@zA^|@p]bm@~F|Jz@`B|CrFnAvCRn@XfAtAbGfAjE\\v@V^`GbHf@j@z@v@Xj@Dn@GlAA|ALrSnAtKt@vFxApM^pDz@hIhLnfANvAXbBd@zAj@nAt@xA`D~FlAnBt@x@rKzIjBjAdM~GbAn@`B`B|NrP`AtA^^nBvAlItEbJdClmAnWpBb@`\\dHZRZVr@lAP`@h@~AdAxBVd@b@XfCdA\\TrCdEn@x@tAbAvC|AvM|GlA^vKvAvHv@dAArAMtT{BzE_@jGq@rDYtGq@jAGZBZHhEfBpFvBvDxBlFzDjBjBhBzAfBlA~BvAdDzBjD|BPYzFuFfAw@lAxCFHvZjQTPjAvAnAfAlAbAaAzD]n@}AzBkC`FTLzCwFXk@~FxGJLbCeJcCdJtA~ApA}BJQTCL?LDFDdAvABFHNHHvB[zGsAJ?PLFF@BTbAT|Bt@vMF|BU~I{@dUgAtWQ|GAVsYuC[G_@MmDuB]U",
         "last_stop": "6220",
         "name": "21-22",
         "type": 1
