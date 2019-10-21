@@ -225,7 +225,7 @@
     },
     {
         "first_stop": "805",
-        "geo": "kr{cGycomCtB`Ax@r@jBzCt@dA|@p@`DdBtBbAbKfFXLj@ThCT`BNdCXbFn@mAvSKz@uDjOsHtZe@hAaCbDo@v@}IzLhBt@nBfAlCjBdInFzA`A~@_DlEwOJ@LAlDxBlDvBvErCb[rR`IzEgAbDcChHiBrF_@`C`Ah@~FpCpBbAxBlAtAz@hC`Bj@^FcCZiM@a@P}HPsBt@{IbAaMTiB|@wCz@yB|CaIfCcGdByDp@wAfAiChDkI`GgNdBeEbB_EPUdF}EVWfAs@hBwAjEgDfA{@nFyEnAkA`AsAj@cAh@{AJe@`AkFb@{B\\cCj@uEBk@HYFs@SqEAWrAGlAGlBKpBOhAEh@CbEUhDQ~CSTM`@_@v@}@xAsB`BoBl@m@d@g@lA{@p@o@[kAy@aDoEgQeCkKaNy\\wAcCo@yAc@qASkAQ}AIqBBeBTiCXoEBsAA{@FeAAwBYeGIuAUBi@FwA\\e@RUXIVG|@AtAKd@KTsC~AwCfB",
+        "geo": "kr{cGycomCtB`Ax@r@jBzCt@dA|@p@`DdBtBbAbKfFXLj@ThCT`BNdCXbFn@mAvSKz@uDjOsHtZe@hAaCbDo@v@}IzLhBt@nBfAlCjBdInFzA`A~@_DlEwOJ@LAlDxBlDvBvErCb[rR`IzEgAbDcChHiBrF_@`C`Ah@~FpCpBbAxBlAtAz@hC`Bj@^FcCZiM@a@P}HPsBt@{IbAaMTiB|@wCz@yB|CaIfCcGdByDp@wAfAiChDkI`GgNdBeEbB_EPUdF}EVWfAs@hBwAjEgDfA{@nFyEnAkA`AsAj@cAh@{AJe@`AkFb@{B\\cCj@uEBk@HYFs@SqEAWrAGlAGlBKpBOhAEh@CbEUhDQ~CSTM`@_@v@}@xAsB`BoBl@m@d@g@lA{@p@o@[kAy@aDoEgQeCkK??g@wBcByFgAsCgA_CoBgD_@y@mCuEiAsCS_ASwAM_BCkBFcB`@}EH}ABcAA{@FeAAo@?gAQcDQwD}@JeB`@_@XONIVG|@AtAKd@KTsC~AwCfB",
         "last_stop": "2483",
         "name": "100",
         "type": 1
@@ -403,20 +403,6 @@
         "geo": "{tscG_tvmCy@\\w@j@u@`A{DtJwBxFsDuCeAi@sDeB{E_AqBUfHooAP}BVmBXuAYMq@[Y[Mg@GsAKy@eAiFyAsH_H~AyGfB]iGBqEjFwND[JsEFmBUsAWwBwA{OKg@{B{DIU[kEOiFOaHHw@^_Cl@kBRw@TmBNqBdABp@L~E|C~Ab@pDd@|EJl@DYkAmBkMc@eDGuACcD?uFTmOjHwgCDeBf@eSFqCFW`@oDN}CD_EAcCGwFPgFJGFU?]CWGM`@gNlAke@?eACc@K_@Q]U[l@qBRsAN_BzBw{@n@uXFqD?qBCiBEuAPGLQHi@?o@XkJTiIDYl@{BZq@d@k@fD_A~FOtDNjDf@dCdBt@Lr@G^UfBsBjB}Bz@oBnBwFr@yBNKHU?WIYQKU@KHGNAN",
         "last_stop": "1525",
         "name": "12",
-        "type": 1
-    },
-    {
-        "first_stop": "58",
-        "geo": "}o}cGczimC[`C}@dGjEPvi@bBrKRnMb@vILh@BVi@rQpArf@hBp@P`@VTTPb@Ld@Dd@A`@y@pOEb@vW|DjQtB\\HjD\\zBd@fRnE~Cj@xBPhI\\dBPZ@t@Eh@YJI`A{@jAoA^{@TqAf@cFHk@\\_BhBwGpA_EnEuKfB}E\\_A|BvA",
-        "last_stop": "1328",
-        "name": "12-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "1328",
-        "geo": "w|tcGglimCz@X~[fDTBYpKq@nSAVwEeBmFaB}VeIgBy@iAq@S@YSSOy@`Ce@`B{C`LyAzFMf@m@nAe@p@WTq@ZWJ}@De@?iI]yBQ_Dk@gRoE{Be@kD]]IyOkBWEFo@@IwGy@cNkBSMOSIg@CKp@aM@a@Ee@Me@Qc@UUa@Wq@Qsf@iBsQqAWh@e@U]GgCG{BRy@?oMc@_DI}A?oPe@uHYeVw@mBG|@eG^H",
-        "last_stop": "2608",
-        "name": "12-ТМ",
         "type": 1
     },
     {
