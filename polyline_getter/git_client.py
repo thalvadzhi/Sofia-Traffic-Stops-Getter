@@ -1,5 +1,9 @@
 from git import Repo
 from config_parser import get_info_from_config
+rom ..definitions import ROOT_DIR
+import os
+
+os.environ['GIT_ASKPASS'] = os.path.join(ROOT_DIR, 'ask_pass.py')
 
 repo_path = get_info_from_config("configuration.config", "git-repo", "repo_path")
 repo = Repo(repo_path)
