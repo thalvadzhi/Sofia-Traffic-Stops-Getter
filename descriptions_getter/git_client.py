@@ -1,1 +1,0 @@
-../stops_getter/git_client.py

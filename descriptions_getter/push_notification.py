@@ -1,1 +1,0 @@
-../stops_getter/push_notification.py

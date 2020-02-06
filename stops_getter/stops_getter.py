@@ -5,23 +5,23 @@ import codecs
 from bs4 import BeautifulSoup
 import json
 from pyproj import Proj, transform
-from config_parser import get_info_from_config
-from git_client import *
+from utils.git_client import *
 import logging
 from optparse import OptionParser
-from push_notification import push_notification
 import workerpool
 import time
 import hashlib
 import os
+from definitions import ROOT_DIR
 
-log_file_name = get_info_from_config("configuration.config", "log", "log_file_name")
+log_file_name = os.path.join(ROOT_DIR,"stops_log.txt")
 
-logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
+logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', filename=log_file_name, level=logging.INFO)
 
-coord_file_name = get_info_from_config("configuration.config", "coord", "coord_file_name")
-hash_file_name = "hash.txt"
-hash_file_name_temp = "hash_new.txt"
+coord_file_name = os.path.join(ROOT_DIR, "stops_getter", "coordinates.json")
+hash_file_name = os.path.join(ROOT_DIR, "stops_getter" ,"hash.txt")
+hash_file_name_temp = os.path.join(ROOT_DIR,"stops_getter","hash_new.txt")
+
 class Stop:
     def __init__(self, stopCode, stopName, coordinates, lineTypes):
         self.stopCode = stopCode
@@ -140,8 +140,8 @@ def upload_coordinates():
         uploads the coordinates file to github
     '''
     logging.info("Uploading coordinates to remote server...")
-    add_file("stops_getter/" + coord_file_name)
-    add_file("stops_getter/" + hash_file_name)
+    add_file(coord_file_name)
+    add_file(hash_file_name)
     commit("latest update to coordinates")
     push()
     logging.info("Done uploading!")
@@ -185,7 +185,8 @@ def manage_new_coordinates_information(should_upload, should_push):
         if should_upload:
             upload_coordinates()
         if should_push:
-            push_notification("Stops info has changed!")
+            pass
+            # push_notification("Stops info has changed!")
     else:
         logging.info("No changes in the coordinates file.")
 
@@ -195,12 +196,17 @@ def prepare_commandline_parser():
     parser.add_option("-p", "--push", action="store_true", dest="should_push_notification", help="whether should push notification to phone", default=False)
     return parser
 
-if __name__ == '__main__':
+
+def run_stop_getter(should_upload:bool):
     start = time.time()
+    get_all_stops()
+    manage_new_coordinates_information(should_upload, False)
+    end = time.time()
+    logging.info("Finished execution in {0}s, downloaded {1} stops".format((end - start), len(code_to_stop.keys())))
+
+
+if __name__ == '__main__':
     parser = prepare_commandline_parser()
     (options, args) = parser.parse_args()
 
-    get_all_stops()
-    manage_new_coordinates_information(options.should_upload, options.should_push_notification)
-    end = time.time()
-    logging.info("Finished execution in {0}s, downloaded {1} stops".format((end - start), len(code_to_stop.keys())))
+    run_stop_getter(options.should_upload)

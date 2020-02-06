@@ -5,20 +5,19 @@ import requests
 import workerpool
 import time
 import logging
-from git_client import *
-from push_notification import *
+from utils.git_client import *
 import multiprocessing
 import hashlib
 import os
 import codecs
-
+from definitions import ROOT_DIR
 url_routes = "https://routes.sofiatraffic.bg/resources/routes.json"
 
-polyline_file = "polyline.txt"
-log_file_name = "polyline_log.txt"
-logging.basicConfig(format='%(asctime)s %(message)s', filename=log_file_name, level=logging.INFO)
-hash_file_name = "hash.txt"
-hash_file_name_temp = "new_hash.txt"
+polyline_file = os.path.join(ROOT_DIR, "polyline_getter","polyline.txt")
+log_file_name = os.path.join(ROOT_DIR, "stops_log.txt")
+logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', filename=log_file_name, level=logging.INFO)
+hash_file_name = os.path.join(ROOT_DIR, "polyline_getter", "hash.txt")
+hash_file_name_temp = os.path.join(ROOT_DIR,"polyline_getter" ,"new_hash.txt")
 symbol_to_type = {"bus" : 1, "trolley" : 2, "tram" : 0}
 
 
@@ -50,8 +49,8 @@ def calculate_hash(line_polys):
 
 def upload_polyline():
     logging.info("Uploading changes...")
-    add_file('polyline_getter/' + polyline_file)
-    add_file('polyline_getter/' + hash_file_name)
+    add_file(+ polyline_file)
+    add_file(hash_file_name)
     commit("Polyline update")
     push()
     logging.info("Done uploading!")
@@ -92,7 +91,7 @@ def get_all_polys():
                 line_polys.append(line_poly)
     return line_polys
 
-def main():
+def run_polyline_getter(should_upload=False):
     start = time.time()
     polys = get_all_polys()
     polys.sort(key=lambda s: s["name"])
@@ -104,12 +103,12 @@ def main():
     if polys_have_changed_hash():
         logging.info("Polys have changed!")
         write_to_file(polys_string)
-        upload_polyline()
-        push_notification("Polylines have changed")
+        if should_upload:
+            upload_polyline()
     else:
         logging.info("No changes in polylines")
     end = time.time()
     logging.info("Finished execution in {0}s, downloaded {1} lines".format((end - start), len(polys)))
 
 if __name__ == '__main__':
-    main()
+    run_polyline_getter()
