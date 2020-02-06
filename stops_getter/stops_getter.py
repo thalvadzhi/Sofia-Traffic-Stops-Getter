@@ -69,7 +69,7 @@ outProj = Proj(init='epsg:4326')
 
 
 def get_stops_by_line_id(lineId, lineType):
-    resp = requests.get(base_url_line_information.format(lineId))
+    resp = requests.get(base_url_line_information.format(lineId), verify=False)
     d = resp.json()
 
     if 'features' in d:

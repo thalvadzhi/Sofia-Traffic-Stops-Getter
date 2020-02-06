@@ -29,7 +29,7 @@ hash_file_name_temp = os.path.join(ROOT_DIR,"stops_getter","hash_new.txt")
 def get_routes_from_sumc():
     routes = None
     try:
-        routes = requests.get(url_routes).json()
+        routes = requests.get(url_routes, verify=False).json()
     except Exception:
         logging.info("Couldn't get routes from url '{0}'".format(url_routes))
         sys.exit(0)
@@ -38,7 +38,7 @@ def get_routes_from_sumc():
 def get_stops_from_sumc():
     stops = None
     try:
-        stops = requests.get(url_stops).json()
+        stops = requests.get(url_stops, verify=False).json()
     except Exception:
         logging.info("Couldn't get stops from url '{0}'".format(url_stops))
         sys.exit(0)
