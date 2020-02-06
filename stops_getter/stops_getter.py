@@ -116,8 +116,8 @@ def get_all_stops():
     pool = workerpool.WorkerPool(size=4)
     logging.info("Initialized getting stop info by line!")
     for transportation_type in transportation_types:
-        response = urllib.request.urlopen(base_url_line_ids.format(transportation_type))
-        html = response.read()
+        response = requests.get(base_url_line_ids.format(transportation_type), verify=False)
+        html = response.text
 
         soup = BeautifulSoup(html, "html.parser")
 
