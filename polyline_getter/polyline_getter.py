@@ -49,7 +49,7 @@ def calculate_hash(line_polys):
 
 def upload_polyline():
     logging.info("Uploading changes...")
-    add_file(+ polyline_file)
+    add_file(polyline_file)
     add_file(hash_file_name)
     commit("Polyline update")
     push()
