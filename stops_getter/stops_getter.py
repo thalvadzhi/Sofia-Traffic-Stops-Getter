@@ -4,7 +4,7 @@ import urllib.request
 import codecs
 from bs4 import BeautifulSoup
 import json
-from pyproj import Proj, transform
+from pyproj import transform, Transformer
 from utils.git_client import *
 import logging
 from optparse import OptionParser
@@ -63,17 +63,17 @@ transportation_types = [1, 2, 3]
 base_url_line_ids = "https://www.sofiatraffic.bg/interactivecard/lines/{0}"
 base_url_line_information = "https://www.sofiatraffic.bg/interactivecard/lines/stops/geo?line_id={0}"
 
-inProj = Proj(init='epsg:3857')
-outProj = Proj(init='epsg:4326')
+transformer = Transformer.from_proj(3857, 4326)
 
 
 
 def get_stops_by_line_id(lineId, lineType):
-    resp = requests.get(base_url_line_information.format(lineId), verify=False)
+    resp = requests.get(base_url_line_information.format(lineId))
     d = resp.json()
 
     if 'features' in d:
-        features = resp.json()['features']
+        features = d['features']
+        start=time.time()
         for stop in features:
             properties = stop['properties']
             code = properties['code']
@@ -81,8 +81,9 @@ def get_stops_by_line_id(lineId, lineType):
             geometry = stop['geometry']
             x, y = geometry['coordinates']
             x, y = float(x), float(y)
-            x_new, y_new = transform(inProj, outProj, x, y)
-            coordinates = [y_new, x_new]
+            x_new, y_new = transformer.transform(x, y)            
+
+            coordinates = [x_new, y_new]
             stop = None
             if code in code_to_stop:
                 stop = code_to_stop[code]
@@ -90,7 +91,6 @@ def get_stops_by_line_id(lineId, lineType):
                 stop = Stop(code, name, coordinates, set())
                 code_to_stop[code] = stop
             stop.lineTypes.add(lineType - 1)
-            # stops.add(stop)
 
 class DownloadJob(workerpool.Job):
     "Job for downloading a given URL."
@@ -98,7 +98,10 @@ class DownloadJob(workerpool.Job):
         self.lineId = lineId
         self.lineType = lineType
     def run(self):
+        print("Job started for line {}".format(self.lineId))
+        start = time.time()
         get_stops_by_line_id(self.lineId, self.lineType)
+        print("Job finished for line {} in: ".format(self.lineId) + str(time.time()-start) + " seconds")
 
 
 def calculate_hash():
@@ -116,7 +119,7 @@ def get_all_stops():
     pool = workerpool.WorkerPool(size=4)
     logging.info("Initialized getting stop info by line!")
     for transportation_type in transportation_types:
-        response = requests.get(base_url_line_ids.format(transportation_type), verify=False)
+        response = requests.get(base_url_line_ids.format(transportation_type))
         html = response.text
 
         soup = BeautifulSoup(html, "html.parser")
