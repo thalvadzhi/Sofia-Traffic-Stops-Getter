@@ -610,7 +610,7 @@
     },
     {
         "first_stop": "691",
-        "geo": "w{tcG_yqmCy@AAz@x@@V`@tDBrHCvB@E~IDd@BpHAzQYhFMdCPIpBRi@lICrAfBKZCKfJu@hTuFnLo@tAzC|GlA~BHj@@pAPnFb@tIA\\I`@aBdDxBtCh@x@zAbBnC`CHTFZAZCT?@MTGJERCf@VxA@BTbAT|Bt@vMF|BQbHMx@KbA]lIEh@GPMDYXQ`@Iv@WNgZ~Fq@XWVYf@_@hA{EtQyHzRy@`CaEbOyAzFMf@m@nAe@p@WTq@ZWJ}@DcEOs@CkJsBmCo@UMQSEKKUMMQGOAYBMHSXM\\G^CZJnAAd@EPQh@}@nCuApDeAtBcA~AgBhCqCfDQ\\\\bAHd@LhAD|@p@x[C~WIvAMt@]|@g@`AoGhL_I`NMTgA_Bm[kb@yA{BGMsNbPsBvBGHgD_HkDgHwBhBeCdBi@RyCv@SHMLSb@e@zA[nAOdAOnBK~C?p@BVT\\HHhAP`@L",
+        "geo": "w{tcG_yqmCy@AAz@x@@V`@tDBrHCvB@E~IDd@BpHAzQYhFMdCPIpBRi@lICrAfBKZCKfJu@hTuFnLo@tAzC|GlA~BHj@@pAPnFb@tIA\\I`@aBdDxBtCh@x@zAbBnC`CHTFZAZCT?@MTGJERCf@VxA@BTbAT|Bt@vMF|BQbHMx@KbA]lIEh@GPMDYXQ`@Iv@WNgZ~Fq@XWVYf@_@hA{EtQyHzRy@`CaEbOyAzFMf@m@nAe@p@WTq@ZWJ}@DcEOs@CkJsBmCo@UMQSEKKUMMQGOAYBMHSXM\\G^CZJnAAd@EPQh@}@nCuApDeAtBcA~AgBhCqCfDQ\\\\bAHd@LhAD|@p@x[C~WIvAMt@]|@g@`AoGhL_I`NMTgA_Bm[kb@yA{BGMsNbPsBvBGHgD_HkDgHwBhBeCdBi@RmD`AMLSb@e@zA[nAOdAKdAKfCCrBBVT\\HHhAP`@L",
         "last_stop": "594",
         "name": "285",
         "type": 1
@@ -907,20 +907,6 @@
         "geo": "_j~bGminnCo@|@}@nBe@dBWvB{FhOsCzGuAjCi@t@eB`Be@f@g@vAm@rB]xA?h@YxBIzDCb@Q\\u@f@_B`@mC`@oBDmB?c@He@^_@f@[j@}AjCv@tDVv@|DvIL`@TdAxAtIJp@FtBD~GPjGDdC?l@WrG@T\\nB@Pq@~GEdACfCGjAWbBy@lD_@tBmC~PUj@[l@cBvCsBvDgLxRi@v@kApAgHfHyA~A{@fA_~@jmAmO|RkWx[u@|@k@Zm@De@EyAk@wDgBiAc@s[uGuA[_As@OSQ[G]Ca@@[B]J[JUTSTIZCXDTHLNLRRn@F\\BfCM|AOrBeHndAcEbm@kAxQkAtSWdFStBEHOPKBHDFFDR@~@}AhXYtCSvA[rA_GnQaOvb@oHrTiBjFeA`CqAdCmApBaBxBeFbGeCtC}CdBgA|@iNjPgBtE{UfYgB~BeKvOgFrImc@hr@g@v@}@EQ@}FbJUh@[`AY|AaDpEwDfFi@Z_@Nq@Pc@Ja@Ba@E]I_@SkBsB}Sc[mEyGaAwAQIKGyAfO_@hDMdAi@pCYfA_@QiBs@k@jCITIDeAU_@A",
         "last_stop": "53",
         "name": "5",
-        "type": 1
-    },
-    {
-        "first_stop": "890",
-        "geo": "sflcGcd_mC_Ke@]CaUye@}@uBwSuc@_@_AcSwa@oO_]_IqQiMeZuGsOIQwSog@wJsUGcA?MFe@CYEOKSKIQEOSMQaKoVO]",
-        "last_stop": "1279",
-        "name": "5-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "1279",
-        "geo": "{vqcGguhmC@SHIDCn\\~ERES`@yKfOmApAQJWKS?SJMPGTAN?VFZRZj@Lj@b@vJrUhRtd@l@xAnArCnEpKSPIFzTdh@xTjf@vDfIv_@rx@vArCBFDGNUhR~`@pAnCfDRtFT",
-        "last_stop": "893",
-        "name": "5-ТМ",
         "type": 1
     },
     {
