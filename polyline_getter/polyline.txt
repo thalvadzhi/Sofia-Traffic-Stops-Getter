@@ -476,20 +476,6 @@
         "type": 1
     },
     {
-        "first_stop": "81",
-        "geo": "mzucGmsqmCANFZbEtGRb@VrBFz@Jn@t@nAtDvFnDvFr@|@b@Xf@Nn@rLp@tJ@XvNu@rLu@pACXENId@c@pF}Gv@y@zAuAJIzBjG",
-        "last_stop": "2108",
-        "name": "2-ТБ",
-        "type": 1
-    },
-    {
-        "first_stop": "2108",
-        "geo": "coscGwdpmCzBjGa@\\Ol@Ex@OrAQhAuLaAMAUOOHYDqABsLt@{Mp@M@s@_Le@_LCc@s@Ge@Y_AiAeC{Dc@UuDwFu@oAKo@G{@WsBSc@aC{DScCCIEG",
-        "last_stop": "81",
-        "name": "2-ТБ",
-        "type": 1
-    },
-    {
         "first_stop": "1275",
         "geo": "ozscGavjmCuAXu@mIq@cIbJaANAE_BoAgRG}@K{ACUQW_@QM?O@WZUrAIPcGnA{B^IBEWKScAuAGW?UHgACk@E_@IYYe@oNsL_@g@g@u@[YwZkQa@]y@cBnKqIfGsFJKuIiUMY{A{HsDgQUk@a@i@w@e@eAa@a@o@gF}ZOkASiDS}@kM{\\oCsHwAuDkA}CcSgi@gJoWsEqLsFkOqGyQyTwl@e@{@_DiDiCeC}@iAq@sAcA{B}DkJ{BiFip@sEaAFwMtBcBDoECwRg@qi@O_PQgEIgAQ_BcAoAcAmGyHoAwAc@e@sCeDeEgFDuAp@kCR_@ZWf@U|AqDbEeH`Rgx@zEqSbAqCf@kA~@y@h@]tMoEhEsHbAkB`@u@`Al@vB{I|@iDfBwHd@mBdHsYvB_AbDq@rDuBl@`@jBDdA|@z@zA{@{AeA}@kBEm@a@sDtBcDp@wB~@iEjQ{AfGe@lBgBvHkDfNI\\aAm@wF}D{BeDkF{IuCeEqDoFmDyE{@{@iDiC{MuKSi@Ck@Bk@jDcQf@iAAQiLbAaD`@{A`@gB|@iBOaf@sd@gAqAu@q@k@Wc@EsADuBJij@jBuDPwHl@_B?}GeA{QwCgB[QImCqIIe@RaA`@_A",
         "last_stop": "1546",
@@ -1401,14 +1387,14 @@
     },
     {
         "first_stop": "81",
-        "geo": "mzucGmsqmCANFZbEtGRb@VrBFz@Jn@t@nAtDvFnDvFr@|@b@Xf@Nt@?f@Ml@[|GuGrBkB|BkBnCoBfCwAzB}@nC_A~@YpKeCtCq@`M_Bv@Sn@c@Za@rBuD\\y@Ni@SqAy@cIw^coDkBsPyFyi@{@aJ{AiNsAgNsC{X_Gsj@W}CKiBK_COeEAiA?eFBmIp@yTf@mRzAmg@`Bql@j@kRBiAh@cSHqC^uDLaCFyC@wDIoGNsBBmB@MHQBYGw@?e@RyEHiFlAie@?yAKg@Oe@U[l@qBRsAN_BnCuhAZwKFqD?qBCiBGqB{@aHyAmL_DiUM{AK_CCyDBuBFeDjC}aAhBus@@sAGuAI_AQy@_@}@g@{@iAy@{VeLyJwE_Ao@o@k@e@k@eB_CoBqCaAiBw@aCc@}AeF}RWe@aDyLw@aC]s@_AqAcDgDyFkG_@e@iAkBo@wAC_@}CkJaAuDgDiQgCsK`@QT[LkAKiGGoBQ}AUmAm@iBaEmHiAkBe@mAo@iB_Iwb@Ia@uAEoJo@sFy@MFmDk@mCc@gBdW_@lF_r@iKktAuS_BwC_BaDwUsFi@Su@g@kHaH_KcKmCwCm@oA[}@G[[}As@uFUoBdAw@",
+        "geo": "mzucGmsqmCANFZbEtGRb@VrBFz@Jn@t@nAtDvFnDvFr@|@b@Xf@Nt@?f@Ml@[|GuGrBkB|BkBnCoBfCwAzB}@nC_A~@YpKeCtCq@`M_Bv@Sn@c@Za@rBuD\\y@Ni@SqAy@cIw^coDkBsPyFyi@{@aJ{AiNsAgNsC{X_Gsj@W}CKiBK_COeEAiA?eFBmIp@yTf@mRzAmg@`Bql@j@kRBiAh@cSHqC^uDLaCFyC@wDIoGNsBBmB@MHQBYGw@?e@RyEHiFlAie@?yAKg@Oe@U[l@qBRsAN_BnCuhAZwKFqD?qBCiBGqB{@aHyAmL_DiUM{AK_CCyDBuBFeDjC}aAhBus@@sAGuAI_AQy@_@}@g@{@iAy@{VeLyJwE_Ao@o@k@e@k@eB_CoBqCaAiBw@aCc@}AeF}RWe@aDyLw@aC]s@_AqAcDgDyFkG_@e@iAkBo@wAC_@}CkJaAuDgDiQgCsK`@QT[LkAKiGGoBQ}AUmAm@iBaEmHiAkBe@mAo@iB_Iwb@Ia@uAEoJo@sFy@MFmDk@mCc@gBdW_@lF_r@iKktAuS_BwC_BaDwUsFi@Su@g@kHaH_KcKmCwCm@oA[}@G[[}As@uFe@{C",
         "last_stop": "504",
         "name": "90",
         "type": 1
     },
     {
         "first_stop": "504",
-        "geo": "{l_dGoiznCq@qAe@\\s@TQD\\zE\\vCX|Al@tBd@dA~@|AdAnAxHrHnGtG`EtD\\Tz@XpLxC~IbD\\NZRlAvBP^~aCt^jDh@bBiVb@iGzHnAHPlF|@vJn@`BHpHfa@Ln@n@hBd@lAhAjB`ElHl@hBTlAP|AFnBJhGMjAUZa@PnBlLdDjPn@hCnCzId@nBjDrKXr@Zj@dDxFRb@R~@Hr@r@jHHj@~@jDd@jAd@^`A|AfD`FpEhGtBvCxAxB^l@|DhFrArAbAp@tBhAhSfJlH`Dp@\\bAt@v@~@DDZz@Nr@NfABfACjAYtJoA~g@gCz_AMlFCpED~AJ`C\\`Df@dDlFja@LtAF~@HjEIvF[vKU~KqB|w@MxCMzAYpA_@fAMXf@r@JVFj@QdIoAbe@GlECXCLMXSPiH_@XbG?z@C^SFIPAJ?HFRLJJ?HnBCvBAv@I@OFKV?T@JBHJLNBLENQBK|CIRDNNBJBf@DpB}@f^GnAEhBs@~Vw@l\\a@dOgAz]u@vWk@fRMxEGrDA`EJhGLfDPvCX`EtPn`B|AxNvHhu@h@|EvAtKxAhNzEfe@dBbPdCjV`Htp@hBvQR|BTzBBXqBpDm@|@i@b@s@X}H`AcCXyOrDQDmErAcCbAyBnAuCtB{BhBsKbKm@Rc@Ju@C]EWMMK_AiAeC{Dc@UuDwFu@oAKo@G{@WsBSc@aC{DScCCIEG",
+        "geo": "ym_dGcjznCAPCLGFKDI?ICIIG_@USWHQD\\zE\\vCX|Al@tBd@dA~@|AdAnAxHrHnGtG`EtD\\Tz@XpLxC~IbD\\NZRlAvBP^~aCt^jDh@bBiVb@iGzHnAHPlF|@vJn@`BHpHfa@Ln@n@hBd@lAhAjB`ElHl@hBTlAP|AFnBJhGMjAUZa@PnBlLdDjPn@hCnCzId@nBjDrKXr@Zj@dDxFRb@R~@Hr@r@jHHj@~@jDd@jAd@^`A|AfD`FpEhGtBvCxAxB^l@|DhFrArAbAp@tBhAhSfJlH`Dp@\\bAt@v@~@DDZz@Nr@NfABfACjAYtJoA~g@gCz_AMlFCpED~AJ`C\\`Df@dDlFja@LtAF~@HjEIvF[vKU~KqB|w@MxCMzAYpA_@fAMXf@r@JVFj@QdIoAbe@GlECXCLMXSPiH_@XbG?z@C^SFIPAJ?HFRLJJ?HnBCvBAv@I@OFKV?T@JBHJLNBLENQBK|CIRDNNBJBf@DpB}@f^GnAEhBs@~Vw@l\\a@dOgAz]u@vWk@fRMxEGrDA`EJhGLfDPvCX`EtPn`B|AxNvHhu@h@|EvAtKxAhNzEfe@dBbPdCjV`Htp@hBvQR|BTzBBXqBpDm@|@i@b@s@X}H`AcCXyOrDQDmErAcCbAyBnAuCtB{BhBsKbKm@Rc@Ju@C]EWMMK_AiAeC{Dc@UuDwFu@oAKo@G{@WsBSc@aC{DScCCIEG",
         "last_stop": "81",
         "name": "90",
         "type": 1
