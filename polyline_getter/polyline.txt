@@ -343,8 +343,8 @@
         "type": 1
     },
     {
-        "first_stop": "2395",
-        "geo": "}mdcGo{umC?O?kCIoAM_ASeAyH~DqItEcAx@aErFy@h@kAb@qAH}UBoBCcAMi@SkAg@eCuAiBw@_B_@mAOkACeABgAH_ANWDoB`A}GzEsHtFcInGw@fAe@dAe@hBcAm@sDgB{HcESMOPqBbDmAfBaUj^o@bAATD`@p@z@@REVq@fAg@v@n@dDl@dBt@|@p@h@|@Xf@FbA@r@C~EOh@l@DDD@BBB@DBD@LH",
+        "first_stop": "670",
+        "geo": "kidcGyevmCJODQBiACy@QJuObIqHbEeAx@u@~@wCdE_@V_@Ra@NiBH{KBmLAiAQUG}Aq@eCuAiBw@_B_@mAOkACeABgAH_ANWDs@X{@f@uIjGuBdBo@\\uA`AaGvE_Az@y@bAe@dA[lAI\\mKqFeDiBSMoE|GaUj^o@bABv@p@z@@REVq@fAg@v@p@dDTr@Xn@Xb@b@d@RLp@Zv@PdCB~EGdB`A^FJCPMFW?MGQKI",
         "last_stop": "662",
         "name": "113",
         "type": 1
@@ -995,30 +995,16 @@
     },
     {
         "first_stop": "1063",
-        "geo": "awwcG}_~lCDO@WCM}AyAIEUHS?gDsDQOaMfXyHfPwKxS{CxGGBOVa@`Aa@xA[r@kAtCgGlN}@`B}ArCaBdDgWzk@mPr^mBrDkAlB}CjEaBlBaB|AcA`AeBv@gAXcALaA?gBGy@@OBYNKLUb@Gr@?b@DTjCdLb@`CH`@B^A~@Qz@eDfHy@bB",
-        "last_stop": "1758",
-        "name": "54",
-        "type": 1
-    },
-    {
-        "first_stop": "1757",
-        "geo": "on|cGimvlC`MsW|G{N~EwKTs@Hc@^q@R[|A{C`C_F`BmD~GmOzWem@zAgCr@sAfCgGbDsHbByDfBiEf@u@l@yADY?MzCyGvKySxHgPnKkUBIZOJAN?XHvGzG",
-        "last_stop": "1061",
+        "geo": "qxwcGgc~lCKKECIEQKOCSJEGIImBoBmAmA_FfLsO|[sK~SaCfF]t@SHi@hAMt@q@~AkAvCuCzGcBnDu@jAmBnEgCtFqKtVwNv[uBnEuCjG_CpEoBpDkCfEwApBcEpEk@h@o@\\mAf@gA^_AJ{EMe@L]XINIRCRC`@@`@bB|HpAtFJn@@~@Cb@Qz@uRla@gRb`@gq@nrAyA`CmAdAeEbCaD|A_EzBk@d@iXjh@uD~GoXxi@EFGB}@N",
+        "last_stop": "2506",
         "name": "54",
         "type": 1
     },
     {
         "first_stop": "2603",
-        "geo": "esadGkonlCnXwi@tD_HzI}PhC{ELYzH_O^_@hEcCzFqCpBmAbA}@x@qA^o@tPm\\tB{DjDeHnKsSpLwUnAcC",
-        "last_stop": "705",
-        "name": "54-А",
-        "type": 1
-    },
-    {
-        "first_stop": "704",
-        "geo": "_n}cGwvtlCqLvUoKrSkDdHuBzDuPl\\_@n@y@pAcA|@qBlA{FpCiEbC_@^gHbNSZMXeNxWuD~GoXvi@_@v@Ud@i@dA",
-        "last_stop": "2506",
-        "name": "54-А",
+        "geo": "aradGaqnlCjWah@tD_HhXkh@j@e@~D{B`D}AdEcClAeAxAaCfq@orAfRc`@xKkU|CyGR[jCyF~EuJdGmMdBsE|@_BbCkFFg@|A{C|@mB`AaCpFmLrHmP|EwKpKuVz@kBlCoEx@eBFO^_B\\u@dAyBtC{G|BwF\\Yl@qA?]~C}GrK_TrO}[vDoI`@}@t@t@FH",
+        "last_stop": "1061",
+        "name": "54",
         "type": 1
     },
     {
