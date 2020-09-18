@@ -98,6 +98,20 @@
         "type": 0
     },
     {
+        "first_stop": "2582",
+        "geo": "{skcGss{mCrAb@`CfA`h@vShFzBzi@jWhAh@",
+        "last_stop": "6213",
+        "name": "23",
+        "type": 0
+    },
+    {
+        "first_stop": "6213",
+        "geo": "kphcGu~ymCkk@eXgF{ByEiBqVaKwAi@eMcF[M",
+        "last_stop": "2582",
+        "name": "23",
+        "type": 0
+    },
+    {
         "first_stop": "621",
         "geo": "waucG_tcmCbAOLDhJfIJBR@RCRML]nQof@pCg[@G`@HbStDlDr@p@IPMRWHShCc[NkBJgA~Gey@RiC@YI]g@m@IMEe@h@mGI[IIIKqBe@sf@yJKA{S{B{C[eCSeA[kBeAc@WMKKUG]@YpDmNf@i@n@g@hA[\\GlMkCVGJGN]?YAM{Egh@Ak@HiAPaAx@aC@SAe@Og@aAqACOCWFyAAi@Ki@Sa@wNcMeAsA[Wk^sS_@ESL}EtEe@l@Yr@IPg@fA",
         "last_stop": "885",
