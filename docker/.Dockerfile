@@ -1,4 +1,4 @@
-FROM yummygooey/raspbian-buster:latest
+FROM arm32v7/ubuntu:latest
 
 ARG path_to_repo=/home/sumc
 ARG path_to_crontab_file=/home/cron
