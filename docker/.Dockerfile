@@ -1,5 +1,6 @@
 FROM yummygooey/raspbian-buster:latest
 
+ARG RASPBERRY_GETTER_TOKEN
 ARG path_to_repo=/home/sumc
 ARG path_to_crontab_file=/home/cron
 
@@ -7,9 +8,12 @@ RUN apt update && apt install -y git python3 python3-pip python3-distutils
 RUN mkdir ${path_to_repo}
 RUN mkdir ${path_to_crontab_file}
 
+RUN python3 -m pip install --upgrade pip
+
 # this line is added so it invalidates the cache of the clone everytime the code in the repo changes
 ADD https://api.github.com/repos/thalvadzhi/Sofia-Traffic-Stops-Getter/git/refs/heads/master delete.json
 RUN git clone https://github.com/thalvadzhi/Sofia-Traffic-Stops-Getter.git ${path_to_repo}
+
 
 RUN python3 -m pip install -r $path_to_repo/requirements.txt
 # RUN apt remove -y --purge python3-pip && apt autoremove -y
@@ -19,7 +23,7 @@ RUN crontab ${path_to_crontab_file}/crontab_config
 RUN chmod +x ${path_to_repo}/utils/ask_pass.py
 ENV GIT_ASKPASS ${path_to_repo}/utils/ask_pass.py
 ENV GIT_USERNAME raspberry-getter
-ENV GIT_PASSWORD ${RASPBERRY-GETTER-TOKEN}
+ENV GIT_PASSWORD ${RASPBERRY_GETTER_TOKEN}
 
 COPY entry_script.sh /home/sumc
 RUN chmod +x ${path_to_repo}/entry_script.sh

@@ -1,1 +1,1 @@
-0 0 * * * cd /home/sumc && python3 /home/sumc/get_everything.py >> /home/sumc/cron_log.txt 2>&1
+0 0 * * * cd /home/sumc && git pull origin master && python3 /home/sumc/get_everything.py >> /home/sumc/cron_log.txt 2>&1
