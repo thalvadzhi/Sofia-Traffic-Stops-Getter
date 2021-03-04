@@ -1,4 +1,4 @@
-FROM yummygooey/raspbian-buster:latest
+FROM arm32v7/ubuntu:latest
 
 ARG RASPBERRY_GETTER_TOKEN
 ARG path_to_repo=/home/sumc
