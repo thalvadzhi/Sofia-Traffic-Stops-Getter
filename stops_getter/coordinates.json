@@ -1138,6 +1138,7 @@
             23.242539
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 108,
@@ -3402,6 +3403,7 @@
             23.244432
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 322,
@@ -6761,6 +6763,7 @@
             23.238711
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 655,
@@ -6772,6 +6775,7 @@
             23.23797
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 656,
@@ -17646,6 +17650,24 @@
     },
     {
         "coordinates": [
+            42.695982,
+            23.318691
+        ],
+        "lineTypes": [],
+        "stopCode": 1720,
+        "stopName": "СЪДЕБНА ПАЛАТА"
+    },
+    {
+        "coordinates": [
+            42.69522,
+            23.318378
+        ],
+        "lineTypes": [],
+        "stopCode": 1721,
+        "stopName": "СЪДЕБНА ПАЛАТА"
+    },
+    {
+        "coordinates": [
             42.727925,
             23.322775
         ],
@@ -24763,6 +24785,7 @@
             23.241639
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 2398,
@@ -27049,6 +27072,17 @@
         ],
         "stopCode": 2664,
         "stopName": "БУЛ. РОЖЕН"
+    },
+    {
+        "coordinates": [
+            42.70949,
+            23.322036
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2665,
+        "stopName": "ЦЕНТРАЛНА АВТОГАРА"
     },
     {
         "coordinates": [
@@ -29591,6 +29625,61 @@
         ],
         "stopCode": 6136,
         "stopName": "УЛ. НИШАВА"
+    },
+    {
+        "coordinates": [
+            42.713947,
+            23.265018
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6156,
+        "stopName": "УЛ. ЛУИ ПАСТЬОР"
+    },
+    {
+        "coordinates": [
+            42.705593,
+            23.282822
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6157,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.705737,
+            23.283755
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6158,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.714025,
+            23.265082
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6159,
+        "stopName": "УЛ. ЛУИ ПАСТЬОР"
+    },
+    {
+        "coordinates": [
+            42.716305,
+            23.251202
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6160,
+        "stopName": "ОБЩИНА ЛЮЛИН"
     },
     {
         "coordinates": [
