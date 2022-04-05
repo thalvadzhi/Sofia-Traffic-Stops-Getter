@@ -12979,17 +12979,20 @@
             23.314875
         ],
         "lineTypes": [
-            0
+            0,
+            1
         ],
         "stopCode": 1269,
         "stopName": "ПЛ. ВЪЗРАЖДАНЕ"
     },
     {
         "coordinates": [
-            42.697436,
-            23.314272
+            42.697427,
+            23.314304
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 1270,
         "stopName": "ПЛ. ВЪЗРАЖДАНЕ"
     },
@@ -28461,6 +28464,28 @@
         ],
         "stopCode": 2824,
         "stopName": "В.З. МАЛИНОВА ДОЛИНА - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.695014,
+            23.32001
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2825,
+        "stopName": "БУЛ. ВИТОША"
+    },
+    {
+        "coordinates": [
+            42.694966,
+            23.320098
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2826,
+        "stopName": "БУЛ. ВИТОША"
     },
     {
         "coordinates": [
