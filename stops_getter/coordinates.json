@@ -26260,15 +26260,6 @@
     },
     {
         "coordinates": [
-            42.735043,
-            23.286304
-        ],
-        "lineTypes": [],
-        "stopCode": 2579,
-        "stopName": "Ж.К. ВРЪБНИЦА-1"
-    },
-    {
-        "coordinates": [
             42.662754,
             23.411791
         ],
@@ -29736,24 +29727,6 @@
         ],
         "stopCode": 6220,
         "stopName": "ПЛ. ЦЕНТРАЛНА ГАРА"
-    },
-    {
-        "coordinates": [
-            42.743185,
-            23.318827
-        ],
-        "lineTypes": [],
-        "stopCode": 6238,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
-    },
-    {
-        "coordinates": [
-            42.743488,
-            23.319265
-        ],
-        "lineTypes": [],
-        "stopCode": 6239,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
     },
     {
         "coordinates": [
