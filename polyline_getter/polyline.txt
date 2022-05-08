@@ -29,14 +29,14 @@
     },
     {
         "first_stop": "848",
-        "geo": "yj}cGuwimCZa@JETAbB^jAJzITfIZNDxGrGTPXN\\DxL`@lJTnNf@rQpAtf@hBVDh@Rd@b@Pb@Nt@@r@q@zLBh@FVR\\JHnZdExIhAp@FlDNtF|@hAAv@ItE}@P?`@NxClDTd@F\\JxEDXHTNVLJ^N^@nAErEW`Jq@x@CV@VJlAhAj@`AbA|CD`@?tA@p@BRrNzd@N^VTp@VnOpDzGtAhXdFrIbBxCf@|P`DtE`AnA\\~Ap@tG`DTRZl@HZB\\@j@C^oAzH_DhPg@nCMhAOhBEv@QlH?t@Fr@FV^x@~Zng@r@bAv@`AfAdAnTnNdD~BtB~AxKpKn@t@l@|@JTFf@F\\P\\jDfFh@n@~@l@bXzGR@jAOzJwBh@Sh@]Z_@tMeTXKPBHFzA|Cl]vt@Z|@zZ~hAnDfNLp@XbC`FhTd@|Ed@tGLb@DJJBbAC",
+        "geo": "yj}cGuwimCZa@JETAbB^jAJzITfIZNDxGrGTPXN\\DxL`@lJTnNf@rQpAtf@hBVDh@Rd@b@Pb@Nt@@r@q@zLBh@FVR\\JHnZdExIhAp@FlDNtF|@hAAv@ItE}@P?`@NxClDTd@F\\JxEDXHTNVLJ^N^@nAErEW`Jq@x@CV@`@MNIRUNYJc@XcHDe@fC{JjBwGvG_Q^o@rAkDHKPI\\AHBxA|@fAh@r@L|\\lD~f@|JlBd@LJJZ@Je@nFCT@XJZh@n@DJBX?LuHj}@kDhb@@PFPRNxNlCtE`AnA\\~Ap@tG`DTRZl@HZB\\@j@C^oAzH_DhPg@nCMhAOhBWdJ?t@Fr@FV^x@~Zng@r@bAv@`AfAdAnTnNdD~BtB~AxKpKn@t@l@|@JTFf@F\\P\\jDfFh@n@~@l@bXzGR@jAOzJwBh@Sh@]Z_@tMeTXKPBHFzA|Cl]vt@Z|@zZ~hAnDfNLp@XbC`FhTd@|Ed@tGLb@DJJBbAC",
         "last_stop": "851",
         "name": "11",
         "type": 0
     },
     {
         "first_stop": "852",
-        "geo": "eyjcG}lzlCMAKKIQ[}Dc@aFaFgTKw@I}@Q_AoAcFcAyDw[gkA[aAi`@wy@KIUC[LoLnRq@dAONi@Zg@R{JtBoAPQCaRsE}DeA[Oa@[g@o@kDeFUe@Ky@KYo@}@o@u@yKsKsDsCwW{PiAcAgAwAkAoBaLsQsL}R]u@EWGo@Aq@JcFJaC\\qDpE_V|@wFJcA?_@Ei@Qk@Ua@UQuGcDaBq@kA]yEaAal@uK_RqDsP{DwBo@KIQUGMyNae@AOAe@?oAAc@eAsDYg@W[kAgAYQYAoRpAoAB_@C[IMKOWKk@MwEAOI_@S[yCmD_@Qi@?cEz@u@JkA@sF}@aFUge@mGWUEMI[?Qr@kM?c@Gg@Uy@S][YQIs@Qsf@gBqQsA{g@{AYGYKWQwGsGSIkUs@a@E_D{@s@O",
+        "geo": "eyjcG}lzlCMAKKIQ[}Dc@aFaFgTKw@I}@Q_AoAcFcAyDw[gkA[aAi`@wy@KIUC[LaNtTONi@Zg@R{JtBoAPQCaRsE}DeA[Oa@[g@o@kDeFUe@Ky@KYo@}@o@u@yKsKsDsCwW{PiAcAgAwAkAoBaLsQsL}R]u@EWGo@Aq@JcFJaCNiBLgApE_V|@wFJcA?_@Ei@Qk@Ua@UQuGcDaBq@kA]yEaAyNmCQQG[VeDfMo{A@[I[g@m@IMEY@a@f@oFAKGWSUuA[{g@iK{\\kDgAWuCcBUCO@WLSZsInTk@~Ak@pB_AdD_BnG_@nAGZGn@WxGERUh@[V_@LYAy@DuPjAoAB_@C[IMKOWKk@MwEAOI_@S[yCmD_@Qi@?cEz@u@JkA@sF}@aFUge@mGWUEMI[?Qr@kM?c@Gg@Uy@S][YQIs@Qsf@gBqQsA{g@{AYGYKWQwGsGSIkUs@a@E_D{@s@O",
         "last_stop": "847",
         "name": "11",
         "type": 0
@@ -238,20 +238,6 @@
         "type": 1
     },
     {
-        "first_stop": "910",
-        "geo": "ebkcGm`imCq]qD}AUg@OkCmAg[_OiAe@Hu@@CeCcAQKo@s@_@_Ak@oCoHi`@mIa\\u@gDEUMm@_CIsQbHuA`@mCl@wAl@IDPbB@NiW|Dc@De@CMAMc@o@gBS_@iBcD",
-        "last_stop": "1913",
-        "name": "10-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "1913",
-        "geo": "ogpcG_almC_EeH}A{BSYo@vAKPjFhJbDdG@BxNcRrCsDl@jAb@pA^nA^rB`AvGFf@?FvDm@fJoAlCg@~BmAdGyDR@JLtAcABAp@zClI`\\nHh`@j@nC^~@n@r@PJvBx@LHEd@ER~ExB~FrCpNvGjClAf@N|ATr^vDzAP",
-        "last_stop": "911",
-        "name": "10-ТМ",
-        "type": 1
-    },
-    {
         "first_stop": "805",
         "geo": "_s{cGcdomCxBz@j@^rCdEn@x@tAbAlO`I`Bx@|Ad@zJlAJBy@`Gw@tCUl@xEtHPZaBxGyBxIeGnVa@dAuNpRMj@jAb@`CtAfCjBpGbEFJx@d@J?NJv@d@nGyTjk@x]bKfGmHjTIh@WrBrBdA~KnFxBhAnMrJvKnIxDnCjEnDt@~Af@b@`@VNALMDOAMCM_Ao@z@yQ@UZcAJ[x@iBdXu`Aj@{CjAeDd@mAlD}HhGmMtDcHRc@FUP_@`@sAr@qC@EkC}Be@g@m@y@_@]uZiQo@m@o@}AvFqErB{AhIsH^c@n@cAXk@`@cATs@XiAxAyHr@qGPuATcBU_ECWn^oBXENIJEjG{HpCmCz@q@FGq@cCgIm\\GSo@PMFeCwJw@eCaA_CmIyOg@oAa@uA`@tAf@nAlIxO`A~Bv@dCdCvJDRn@SNEpKeCtCq@wCoXWyAW}@g@qAsDwIWs@gFqPy@cC]sA{@h@]Z_@Ty@iEuBRmAPSwCUqBMcBsAZwCn@~AzIl@vBBn@@r@]f@iE~@o@PMgAY{@[mCWcAtBoANYOXuFfDwAz@",
         "last_stop": "2483",
@@ -259,8 +245,8 @@
         "type": 1
     },
     {
-        "first_stop": "2483",
-        "geo": "obucGynsmC~@rGNpAHNLDpA[nEmAbCm@ZFPF_@dECjCBhBD~@F|@L~@Pz@`@tAf@nAlIxO`A~Bv@dCfOxl@FVgB~Aw@x@kGzHKDOHYDo^nBM@VjD@^GlBiAtJuAjHYhAUr@a@bAYj@o@bA_@b@iIrHsBzAwFpElAxCFHvZjQTPjAvAnAfAlAbAm@dCa@rAQ^OJQPy@nAoCjFaEjIwDdIsAbDuAxD{@lCcEzNqGvUgKv^w@hCu@x@o@d@cDhBc@PaCM_AAwKoIoMsJyBiA_LoFsBeAX}BF_@fEeMdBeFqRkL}c@uXoGxTgAq@GI{@g@I?qGcEgCkBaCuAkAc@Lk@tNqR`@eAdFoS^_BxByI_@Qs@]zB}HqD}F}@}ARcGAa@DeByEm@}Ae@oR{JuAcAo@y@sCeEk@_@yB{@c@YWe@",
+        "first_stop": "2482",
+        "geo": "sptcGegsmC_@dECjCBhBD~@F|@L~@Pz@`@tAf@nAlIxO`A~Bv@dCfOxl@FVgB~Aw@x@kGzHKDOHYDo^nBM@VjD@^GlBiAtJuAjHYhAUr@a@bAYj@o@bA_@b@iIrHsBzAwFpElAxCFHvZjQTPjAvAnAfAlAbAm@dCa@rAQ^OJQPy@nAoCjFaEjIwDdIsAbDuAxD{@lCcEzNqGvUgKv^w@hCu@x@o@d@cDhBc@PaCM_AAwKoIoMsJyBiA_LoFsBeAX}BF_@fEeMdBeFqRkL}c@uXoGxTgAq@GI{@g@I?qGcEgCkBaCuAkAc@Lk@tNqR`@eAdFoS^_BxByI_@Qs@]zB}HqD}F}@}ARcGAa@DeByEm@}Ae@oR{JuAcAo@y@sCeEk@_@yB{@c@YWe@",
         "last_stop": "806",
         "name": "100",
         "type": 1
