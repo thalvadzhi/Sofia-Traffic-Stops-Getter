@@ -8979,6 +8979,17 @@
     },
     {
         "coordinates": [
+            42.7185,
+            23.337266
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 883,
+        "stopName": "КВ. ОРЛАНДОВЦИ"
+    },
+    {
+        "coordinates": [
             42.717903,
             23.338938
         ],
@@ -22498,6 +22509,17 @@
     },
     {
         "coordinates": [
+            42.721479,
+            23.331683
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2176,
+        "stopName": "УЛ. СНЕЖНИК"
+    },
+    {
+        "coordinates": [
             42.707514,
             23.383303
         ],
@@ -26412,6 +26434,17 @@
         ],
         "stopCode": 2597,
         "stopName": "Ж.К. ВОДОЛЕЙ"
+    },
+    {
+        "coordinates": [
+            42.720002,
+            23.334452
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2600,
+        "stopName": "УЛ. КОМ"
     },
     {
         "coordinates": [
