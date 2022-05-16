@@ -231,8 +231,8 @@
         "type": 1
     },
     {
-        "first_stop": "2482",
-        "geo": "sptcGegsmC_@dECjCBhBD~@F|@L~@Pz@`@tAf@nAlIxO`A~Bv@dCfOxl@FVgB~Aw@x@kGzHKDOHYDo^nBM@VjD@^GlBeAfJa@vBw@`EYhAUr@a@bAYj@o@bA_@b@iIrHsBzAcF~DSPlAxCFHvZjQTPjAvAnAfAlAbAm@dCa@rAQ^OJQPy@nAoCjFaEjIwDdIsAbDuAxD{@lCcEzNqGvUkK`_@s@~Bu@x@o@d@cDhBc@PaCM_AAwKoIoMsJyBiA_LoFsBeAX}BF_@fEeMdBeFqRkL}c@uXoGxTgAq@GI{@g@I?qGcEgCkBaCuAkAc@Lk@tNqR`@eAdFoS^_BxByI_@Qs@]zB}HqD}F}@}ARcGAa@DeByEm@}Ae@oR{JuAcAo@y@sCeEk@_@yB{@c@YWe@",
+        "first_stop": "2483",
+        "geo": "obucGynsmC~@rGNpAHNLDpA[nEmAbCm@ZFPF_@dECjCBhBD~@F|@L~@Pz@`@tAf@nAlIxO`A~Bv@dCfOxl@FVgB~Aw@x@kGzHKDOHYDo^nBM@VjD@^GlBeAfJa@vBw@`EYhAUr@a@bAYj@o@bA_@b@iIrHsBzAcF~DSPlAxCFHvZjQTPjAvAnAfAlAbAm@dCa@rAQ^OJQPy@nAoCjFaEjIwDdIsAbDuAxD{@lCcEzNqGvUkK`_@s@~Bu@x@o@d@cDhBc@PaCM_AAwKoIoMsJyBiA_LoFsBeAX}BF_@fEeMdBeFqRkL}c@uXoGxTgAq@GI{@g@I?qGcEgCkBaCuAkAc@Lk@tNqR`@eAdFoS^_BxByI_@Qs@]zB}HqD}F}@}ARcGAa@DeByEm@}Ae@oR{JuAcAo@y@sCeEk@_@yB{@c@YWe@",
         "last_stop": "806",
         "name": "100",
         "type": 1
@@ -823,20 +823,6 @@
         "geo": "q}{bGe_~mCoG`EcAz@sDzEWVgA|@s@d@kK|FiFbC_JvDmHdDe@^y@hAaBhCo@v@o@^qFxBi@b@o@t@qBbDUn@St@Ih@El@EfARtGA~CMlBU|Ag@bCaCzIYn@qGjJsA~Ak@h@m@\\mDhAwFvBeBd@mFxBuVhJyHpCsCf@}BN_CDoBIuAMmB_@}CaAiu@o\\sAg@qHkDeEgBsAc@gAWcCa@oA]qBaAyGmD{BeA_Dg@aLsAqDOq@@_BPiATiA^gAh@y@d@sBnAjC~I`BfFDZ?\\EVKXuDxEIRCX@TZnCDd@@lAB^H\\hAtCLT`BpAj@p@T^FXBZElBGXKJQBMCUOwBg@iBYMEUUk@aA][m@]s@OMfCUrIEHIDoG[a@n@WrKSrP_@~Ns@jMa@tFgA]}BS}BRuAXj@pEH`BHbJj@rJ`Dff@Db@ULgA|@w@hA_ApBW`AOh@IZsDb]u@`HwDRq@AYEeCoAcHsESMyA?g@D_@F}CbAWBu@@qFYwCQsCBoAB",
         "last_stop": "661",
         "name": "4",
-        "type": 1
-    },
-    {
-        "first_stop": "853",
-        "geo": "exjcG{bzlCWqAWyBcAcMSoBkGgXeZmgAESgFyQea@g{@}@uBeSub@",
-        "last_stop": "6094",
-        "name": "4-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "6094",
-        "geo": "w_ncGssamCdStb@|@tBda@f{@dDhLHdAb@`BFRFT`AnDX\\rWp`AjGfXRnBbAbMVxB^hB^bBf@UZ]Rg@FWCWGKUE_@@w@VMF",
-        "last_stop": "2622",
-        "name": "4-ТМ",
         "type": 1
     },
     {
