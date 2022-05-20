@@ -14991,7 +14991,9 @@
             42.713371,
             23.159444
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1468,
         "stopName": "РЕМОНТНА БАЗА"
     },
@@ -16499,28 +16501,6 @@
         ],
         "stopCode": 1616,
         "stopName": "НАЧАЛО С. ДОБРОСЛАВЦИ"
-    },
-    {
-        "coordinates": [
-            42.712155,
-            23.159054
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1617,
-        "stopName": "СТАДИОНА БАНКЯ"
-    },
-    {
-        "coordinates": [
-            42.71163,
-            23.158258
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1618,
-        "stopName": "СТАДИОНА БАНКЯ"
     },
     {
         "coordinates": [
@@ -29777,7 +29757,9 @@
             42.713277,
             23.160144
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 6246,
         "stopName": "РЕМОНТНА БАЗА"
     },
