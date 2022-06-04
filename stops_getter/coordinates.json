@@ -26134,6 +26134,61 @@
     },
     {
         "coordinates": [
+            42.737574,
+            23.261241
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2562,
+        "stopName": "УЛ. АНДРЕЙ ГЕРМАНОВ"
+    },
+    {
+        "coordinates": [
+            42.73642,
+            23.258799
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2563,
+        "stopName": "МЕТРОДЕПО"
+    },
+    {
+        "coordinates": [
+            42.738132,
+            23.255731
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2564,
+        "stopName": "УЛ. ГЕОРГИ КАРАСЛАВОВ"
+    },
+    {
+        "coordinates": [
+            42.73839,
+            23.258345
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2565,
+        "stopName": "СЕВЕРНА ПРОМИШЛЕНА ЗОНА"
+    },
+    {
+        "coordinates": [
+            42.737872,
+            23.261649
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2566,
+        "stopName": "УЛ. АНДРЕЙ ГЕРМАНОВ"
+    },
+    {
+        "coordinates": [
             42.701336,
             23.278113
         ],
