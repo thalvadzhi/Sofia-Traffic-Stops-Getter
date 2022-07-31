@@ -1233,14 +1233,14 @@
     },
     {
         "first_stop": "620",
-        "geo": "ebscGofamCNhC@PVCkEau@I{B?eA?s@o@LPED~C\\fF?Ja@ZyJxAm@D{Db@G@UkEOe@Nd@J`BHhBbEe@XFxALtFy@l@i@NQn@c@FEQwCI{B?eA?s@mATsIjA}H~A]B[rAcAvFwDtVqBfLmAjGaDjH{@tBsKhV{_@vz@}O`_@o@`BO^nW`Wzd@nd@FHg@l@sQja@_CrFa@v@QZ",
+        "geo": "ebscGofamCNhC@PVCkEau@I{B?eA?s@o@LPED~C\\fF?Ja@ZyJxAm@D{Db@G@UkEOe@Nd@J`BHhBbEe@XFxALtFy@l@i@NQn@c@FEQwCI{B?eA?s@mATsIjA}H~A]B[rAmA`HmDjUqBfLmAjGaDjH{@tBsKhV{_@vz@}O`_@o@`BO^nW`Wzd@nd@FHg@l@sQja@_CrFa@v@QZ",
         "last_stop": "656",
         "name": "8-ТМ",
         "type": 1
     },
     {
         "first_stop": "655",
-        "geo": "wqucG{mylCfHePzN_\\f@kAPm@LY_f@me@sPoP}CmCQSrBeFtMc[hb@{~@HQGSEMxHaQz@uB`DkHlAkGpBgLvDuVbAwFNo@Jc@hAOtA]zDu@pJsAPED~CnE|u@Bb@",
+        "geo": "wqucG{mylCfHePzN_\\f@kAPm@LY_f@me@sPoP}CmCQSrBeFtMc[``@{z@hB{DpGsN@eAz@uB`DkHlAkGpBgLlDkUXa@Nu@Ta@|@_FH_@|H_BpJsAPED~CnE|u@Bb@",
         "last_stop": "620",
         "name": "8-ТМ",
         "type": 1
@@ -1513,14 +1513,14 @@
     },
     {
         "first_stop": "580",
-        "geo": "u{lcGg~amC\\jCHPJHNBJCHIFO?QG]yA}AaQ}XmGuJKQ}XiWcB_Bs@u@UYj@oEbDgTBc@B_A?g@ImAo@{DWy@OYaAaB[a@MKSIu@g@mF{CGOKk@}@cHAOrBe@jCg@XGVGLEK{@UFQB{NvCk@NuEr@uEf@OBKSiLar@_@wAYu@Q[uBqD}IqNWe@xB_DrOcTNe@Lk@ZkCRuG?Q[uCw@gFCQU?yYoCIOqC_HyIsN}EqFoKwGaAK[?oGv@yb@jEgVhCC?eAgLCw@@]Ho@VgAj@aBFi@?KvB[`Do@n@K",
+        "geo": "u{lcGg~amC\\jCHPRLF?JCHIBO?ICe@yA}AaQ}XmGuJKQ}XiWcB_Bs@u@UYj@oEbDgTBc@B_A?g@ImAo@{DWy@OYaAaB[a@MKSIu@g@mF{CGOKk@}@cHAOrBe@jCg@XGVGLEK{@UFQB{NvCk@NuEr@uEf@OBKSiLar@_@wAYu@Q[uBqD}IqNWe@xB_DrOcTNe@Lk@ZkCRuG?Q[uCw@gFCQU?yYoCIOqC_HyIsN}EqFoKwGaAK[?oGv@yb@jEgVhCC?eAgLCw@@]Ho@VgAj@aBFi@?KvB[`Do@n@K",
         "last_stop": "1318",
         "name": "9",
         "type": 2
     },
     {
         "first_stop": "1318",
-        "geo": "q~scGiclmCfAS`@NFDVhARvBt@vMDpA@Nph@mFnGw@Z?`AJnKvG|EpFxIrNpC~GHNbK`APBgAvX_Bd^ADtJvOhB|CJRj@pA^vA~DdVfFjZB~@Dr@@RtJ_Bz@[tGuAPETjBFf@FAG@`@~CJj@FNlFzCt@f@h@x@R^rAhFXtAJn@FxAC`AOjAwDvWETdBjBbB~AnXzVLLxGfK~OlW`@n@\\jCHPJHNBJCHIFO?QG]",
+        "geo": "q~scGiclmCfAS`@NFDVhARvBt@vMDpA@Nph@mFnGw@Z?`AJnKvG|EpFxIrNpC~GHNbK`APBgAvX_Bd^ADtJvOhB|CJRj@pA^vA~DdVfFjZB~@Dr@@RtJ_Bz@[tGuAPETjBFf@FAG@`@~CJj@FNlFzCt@f@h@x@R^rAhFXtAJn@FxAC`AOjAwDvWETdBjBbB~AnXzVLLxGfK~OlW`@n@\\jCHPRLF?JCHIBO?ICe@",
         "last_stop": "2767",
         "name": "9",
         "type": 2
