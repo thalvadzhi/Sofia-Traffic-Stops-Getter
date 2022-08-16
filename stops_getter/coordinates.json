@@ -9473,7 +9473,9 @@
             42.533716,
             23.366098
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 937,
         "stopName": "КМЕТСТВО ЖЕЛЕЗНИЦА"
     },
@@ -15480,17 +15482,6 @@
     },
     {
         "coordinates": [
-            42.535213,
-            23.365382
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1531,
-        "stopName": "СЕЛО ЖЕЛЕЗНИЦА"
-    },
-    {
-        "coordinates": [
             42.818815,
             23.250863
         ],
@@ -19978,17 +19969,6 @@
         ],
         "stopCode": 1955,
         "stopName": "УЛ. ИВАН ЩЕРЕВ"
-    },
-    {
-        "coordinates": [
-            42.532737,
-            23.364888
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1956,
-        "stopName": "УЛ. ВИТОША"
     },
     {
         "coordinates": [
