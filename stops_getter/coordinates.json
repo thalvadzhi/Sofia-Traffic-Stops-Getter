@@ -2838,17 +2838,6 @@
     },
     {
         "coordinates": [
-            42.646342,
-            23.267253
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 266,
-        "stopName": "БОЯНСКО ХАНЧЕ"
-    },
-    {
-        "coordinates": [
             42.646571,
             23.267121
         ],
@@ -16056,17 +16045,6 @@
     },
     {
         "coordinates": [
-            42.649003,
-            23.261944
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1590,
-        "stopName": "СКИОРКАТА"
-    },
-    {
-        "coordinates": [
             42.649712,
             23.261389
         ],
@@ -18670,28 +18648,6 @@
         ],
         "stopCode": 1834,
         "stopName": "УЛ. БАЕВИЦА"
-    },
-    {
-        "coordinates": [
-            42.648292,
-            23.264256
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1835,
-        "stopName": "УЛ. БАЙКАЛ"
-    },
-    {
-        "coordinates": [
-            42.647982,
-            23.264764
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1836,
-        "stopName": "УЛ. БАЙКАЛ"
     },
     {
         "coordinates": [
