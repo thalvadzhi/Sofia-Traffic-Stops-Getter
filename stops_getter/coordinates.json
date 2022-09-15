@@ -19842,9 +19842,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -25686,6 +25684,17 @@
         ],
         "stopCode": 2523,
         "stopName": "ПО ЖЕЛАНИЕ - НОВА МАХАЛА"
+    },
+    {
+        "coordinates": [
+            42.711684,
+            23.140709
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2524,
+        "stopName": "78-МО СОУ БАНКЯ"
     },
     {
         "coordinates": [
