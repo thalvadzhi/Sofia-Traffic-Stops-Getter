@@ -3674,7 +3674,6 @@
             23.31444
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 356,
@@ -29678,39 +29677,6 @@
         ],
         "stopCode": 6220,
         "stopName": "ПЛ. ЦЕНТРАЛНА ГАРА"
-    },
-    {
-        "coordinates": [
-            42.668898,
-            23.291727
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6226,
-        "stopName": "Ж.К. МОТОПИСТА-ВРЕМЕННА"
-    },
-    {
-        "coordinates": [
-            42.682829,
-            23.315252
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6229,
-        "stopName": "БУЛ. П. СЛАВЕЙКОВ-ВРЕМЕННА"
-    },
-    {
-        "coordinates": [
-            42.669098,
-            23.291483
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6233,
-        "stopName": "Ж.К. МОТОПИСТА-ВРЕМЕННА"
     },
     {
         "coordinates": [
