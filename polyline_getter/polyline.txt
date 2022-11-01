@@ -883,7 +883,7 @@
     },
     {
         "first_stop": "850",
-        "geo": "_rvcG}o{kC|AcCNq@B{@Ms@oCcHYoAIcAVwQd@kFF}B?{@Ik@OWg@Uk@Kc@USYgAwBgCwDO]EYFYJK`AO^OV[Ly@D_BPeBi@kIIaASuAU}@g@kAiBcCaAo@sFgC[YUm@a@kC[eAc@_Ak@y@cAmAm@g@aAe@wFmBsCsAo@IcAEa@GWUGi@WmGFaCpBoRHsACmAm@cGsAgMOgCB}APaATw@tGkPtJgUJg@@w@Mu@eA{DGq@Ey@HaEAcEHo@Ve@VQn@FzDvE^T\\C`@_@Zs@V_AZuBX{Ap@uAhAiAhFkEv@s@TMr@Sh@U\\YXc@\\q@~CaIjKcYz@eCfAaC|DmHh@sAr@aClCxA\\Nz@Tf@Fb@@n@GTGdJgBpAsAlBiCJPn@sBvHaPpBsDx@aBXo@NWDEDSCSSa@[kA_CoKuAkFcAcD[eAVOWNcDiJqCuHsKcVm@wBc@}DHeEE_AS_AYs@uBiCcCkDo@sAaBiJMUuD_Dg@s@_@cAmHqW_@cDQ_CUoB]}AmEoN]{AkAoJ]}DaAsVKmAsC}P{@kHiAqImBiPa@qEOoCEoCKs]GkFK_CW}BuCkRo@oDeQgt@kKqb@aGgVaI{Yo^aqA}@oDWaAxCkF^y@h@oAT_AXo@lBkEbGkNf@u@h@qADO?SBKzCyGvKySxHgPnKkUBIZOLCL@XHvGzG",
+        "geo": "_rvcG}o{kC|AcCNq@B{@Ms@oCcHYoAIcAVwQd@kFF}B?{@Ik@OWg@Uk@Kc@USYgAwBgCwDO]EYFYJK`AO^OV[Ly@D_BPeBi@kIIaASuAU}@g@kAiBcCaAo@sFgC[YUm@a@kC[eAc@_Ak@y@cAmAm@g@aAe@wFmBsCsAo@IcAEa@GWUGi@WmGFaCpBoRHsACmAm@cGsAgMOgCB}APaATw@tGkPtJgUJg@@w@Mu@eA{DGq@Ey@HaEAcEHo@Ve@VQn@FzDvE^T\\C`@_@Zs@V_AZuBX{Ap@uAhAiAhFkEv@s@TMr@Sh@U\\YXc@\\q@~CaIhFmN`DuIz@eCfAaC|DmHh@sA`CgIzCeKp@JdNcCfAM`F_AfF}@pBsDx@aBXo@NWDEDSCSSa@[kA_CoKuAkFcAcD[eAVOWNcDiJqCuHsKcVm@wBc@}DHeEE_AS_AYs@uBiCcCkDo@sAaBiJMUuD_Dg@s@_@cAmHqW_@cDQ_CUoB]}AmEoN]{AkAoJ]}DaAsVKmAsC}P{@kHiAqImBiPa@qEOoCEoCKs]GkFK_CW}BuCkRo@oDeQgt@kKqb@aGgVaI{Yo^aqA}@oDWaAxCkF^y@h@oAT_AXo@lBkEbGkNf@u@h@qADO?SBKzCyGvKySxHgPnKkUBIZOLCL@XHvGzG",
         "last_stop": "1061",
         "name": "49",
         "type": 1
@@ -921,20 +921,6 @@
         "geo": "{ircGophmCZ}DBStH?dBEz@D\\DHx@DRrKtWL^F^@f@L^JNj@Lj@b@vJrUpS`g@DL~GdPfLdX~IjSnO`]tR`a@fUnf@|@tB~Tve@@@fAHv@D",
         "last_stop": "893",
         "name": "5-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "1287",
-        "geo": "mxpcG{jmmCPYb\\eh@dDsFzDcGtF_JhTq\\bd@es@bGcJzCcFl}AocChBiCfZc^rBy@|LuNpAaDxDoEbH_JdBkCrAeCdAcCxIuVtLi^hDcJhFePZyATwA\\yCn@iLvCek@l@mJfF}u@xDqj@`@}ExAaSNoCFwAd@_CZk@b@Yb@E\\BTLRVPf@Bf@?h@If@Q\\YX[Lo@Bm@F{D{@_As@_@s@Qy@Dy@Jg@Xa@t@Yh@Bd@d@Tn@Nr@@lCMzAUdCeB|VsBxZ{[sJcBdHI^",
-        "last_stop": "6546",
-        "name": "505",
-        "type": 1
-    },
-    {
-        "first_stop": "6546",
-        "geo": "u`gcGs~`nCnBiIz[rJmAxPwGzbA_D~j@q@hLYtCSvA[rAoFhPgKnZiClHoHrTiBjFeA`CqAfC_BfCeHnI_DvDyAf@aAn@_A~@oNnPaBpE{UfYgB~BuBdDoGpJgFrI}l@t_Aw@lAyAfBaDpEwDfF]TkA\\{@Ti@Re@b@[r@Mn@Er@Mn@Cr@Il@Qd@qCrFq@hAcAdCkc@lq@}Sl\\}KlQgF`IuLzReZpe@o@dAq@hAEFTr@bAzBj@bA~@|A",
-        "last_stop": "1289",
-        "name": "505",
         "type": 1
     },
     {
