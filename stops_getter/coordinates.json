@@ -26089,50 +26089,6 @@
     },
     {
         "coordinates": [
-            42.662749,
-            23.411789
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2582,
-        "stopName": "УЛ. ИСКЪРСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
-            42.66026,
-            23.410535
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2584,
-        "stopName": "УЛ. МЮНХЕН"
-    },
-    {
-        "coordinates": [
-            42.655341,
-            23.407989
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2586,
-        "stopName": "УЛ. АМСТЕРДАМ"
-    },
-    {
-        "coordinates": [
-            42.651092,
-            23.405634
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2588,
-        "stopName": "БУЛ. ПРОФ. ЦВ. ЛАЗАРОВ"
-    },
-    {
-        "coordinates": [
             42.636792,
             23.399565
         ],
@@ -29600,17 +29556,6 @@
         ],
         "stopCode": 6178,
         "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.648476,
-            23.404153
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 6213,
-        "stopName": "УЛ. ОБИКОЛНА"
     },
     {
         "coordinates": [
