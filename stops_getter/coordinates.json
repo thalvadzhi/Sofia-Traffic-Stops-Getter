@@ -30123,5 +30123,49 @@
         ],
         "stopCode": 6639,
         "stopName": "Ж.К. ЛОЗЕНЕЦ"
+    },
+    {
+        "coordinates": [
+            42.662532,
+            23.464622
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6640,
+        "stopName": "СЕЛО КАЗИЧЕНЕ"
+    },
+    {
+        "coordinates": [
+            42.659976,
+            23.464888
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6641,
+        "stopName": "КМЕТСТВО КАЗИЧЕНЕ"
+    },
+    {
+        "coordinates": [
+            42.659555,
+            23.464821
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6642,
+        "stopName": "КМЕТСТВО КАЗИЧЕНЕ"
+    },
+    {
+        "coordinates": [
+            42.662113,
+            23.464556
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6643,
+        "stopName": "СЕЛО КАЗИЧЕНЕ"
     }
 ]
