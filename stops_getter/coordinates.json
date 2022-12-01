@@ -2061,6 +2061,26 @@
     },
     {
         "coordinates": [
+            42.716897,
+            23.286743
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 195,
+        "stopName": "БЛ. 35 Ж.К. ЗАХАРНА ФАБРИКА"
+    },
+    {
+        "coordinates": [
+            42.717113,
+            23.287516
+        ],
+        "lineTypes": [],
+        "stopCode": 196,
+        "stopName": "БЛ. 35 Ж.К. ЗАХАРНА ФАБРИКА"
+    },
+    {
+        "coordinates": [
             42.725869,
             23.244595
         ],
@@ -11050,8 +11070,8 @@
     },
     {
         "coordinates": [
-            42.665215,
-            23.422059
+            42.665211,
+            23.422023
         ],
         "lineTypes": [
             0
@@ -15234,6 +15254,24 @@
         ],
         "stopCode": 1504,
         "stopName": "СБА - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.724473,
+            23.324518
+        ],
+        "lineTypes": [],
+        "stopCode": 1505,
+        "stopName": "МОСТА НА СУХОДОЛСКА РЕКА"
+    },
+    {
+        "coordinates": [
+            42.724219,
+            23.325437
+        ],
+        "lineTypes": [],
+        "stopCode": 1506,
+        "stopName": "МОСТА НА СУХОДОЛСКА РЕКА"
     },
     {
         "coordinates": [
@@ -21981,6 +22019,15 @@
     },
     {
         "coordinates": [
+            42.725057,
+            23.317662
+        ],
+        "lineTypes": [],
+        "stopCode": 2142,
+        "stopName": "УЛ. ПРОСВЕТА"
+    },
+    {
+        "coordinates": [
             42.724526,
             23.316018
         ],
@@ -22033,6 +22080,24 @@
         ],
         "stopCode": 2147,
         "stopName": "УЛ. ПРОФ. ИВ. ШИШМАНОВ"
+    },
+    {
+        "coordinates": [
+            42.725101,
+            23.318795
+        ],
+        "lineTypes": [],
+        "stopCode": 2148,
+        "stopName": "УЛ. ПРОФ. И. ГЕОРГОВ"
+    },
+    {
+        "coordinates": [
+            42.724718,
+            23.322211
+        ],
+        "lineTypes": [],
+        "stopCode": 2149,
+        "stopName": "УЛ. ПРОФ. И. ГЕОРГОВ"
     },
     {
         "coordinates": [
@@ -22325,6 +22390,15 @@
             0
         ],
         "stopCode": 2176,
+        "stopName": "УЛ. СНЕЖНИК"
+    },
+    {
+        "coordinates": [
+            42.721903,
+            23.331125
+        ],
+        "lineTypes": [],
+        "stopCode": 2177,
         "stopName": "УЛ. СНЕЖНИК"
     },
     {
@@ -24802,7 +24876,6 @@
             23.299669
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 2420,
@@ -26250,6 +26323,15 @@
         ],
         "stopCode": 2597,
         "stopName": "Ж.К. ВОДОЛЕЙ"
+    },
+    {
+        "coordinates": [
+            42.720369,
+            23.33399
+        ],
+        "lineTypes": [],
+        "stopCode": 2599,
+        "stopName": "УЛ. КОМ"
     },
     {
         "coordinates": [
