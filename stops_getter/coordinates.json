@@ -2917,6 +2917,28 @@
     },
     {
         "coordinates": [
+            42.687098,
+            23.30063
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 273,
+        "stopName": "БУЛ. АКАД. ИВ. ГЕШОВ"
+    },
+    {
+        "coordinates": [
+            42.686525,
+            23.299647
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 274,
+        "stopName": "БУЛ. АКАД. ИВ. ГЕШОВ"
+    },
+    {
+        "coordinates": [
             42.679251,
             23.301181
         ],
@@ -6099,6 +6121,28 @@
     },
     {
         "coordinates": [
+            42.675177,
+            23.278711
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 589,
+        "stopName": "Ж.К. БЪКСТОН"
+    },
+    {
+        "coordinates": [
+            42.675339,
+            23.279078
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 590,
+        "stopName": "Ж.К. БЪКСТОН"
+    },
+    {
+        "coordinates": [
             42.659129,
             23.272698
         ],
@@ -6560,6 +6604,28 @@
     },
     {
         "coordinates": [
+            42.678782,
+            23.2851
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 639,
+        "stopName": "Ж.К. КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
+            42.678567,
+            23.284808
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 640,
+        "stopName": "Ж.К. КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
             42.679431,
             23.283889
         ],
@@ -6568,6 +6634,28 @@
         ],
         "stopCode": 641,
         "stopName": "Ж.К. КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
+            42.685144,
+            23.296961
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 644,
+        "stopName": "Ж.К. ЛАГЕРА"
+    },
+    {
+        "coordinates": [
+            42.685028,
+            23.296625
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 645,
+        "stopName": "Ж.К. ЛАГЕРА"
     },
     {
         "coordinates": [
@@ -7070,6 +7158,28 @@
         ],
         "stopCode": 692,
         "stopName": "Ж.К. ХАДЖИ ДИМИТЪР"
+    },
+    {
+        "coordinates": [
+            42.682791,
+            23.292492
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 693,
+        "stopName": "Ж.К. ХИПОДРУМА"
+    },
+    {
+        "coordinates": [
+            42.682961,
+            23.292708
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 694,
+        "stopName": "Ж.К. ХИПОДРУМА"
     },
     {
         "coordinates": [
@@ -7646,6 +7756,28 @@
         ],
         "stopCode": 757,
         "stopName": "ИНЖСТРОЙ СОФИЯ АД"
+    },
+    {
+        "coordinates": [
+            42.690188,
+            23.306606
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 758,
+        "stopName": "УМБАЛСМ ПИРОГОВ"
+    },
+    {
+        "coordinates": [
+            42.690022,
+            23.306396
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 759,
+        "stopName": "УМБАЛСМ ПИРОГОВ"
     },
     {
         "coordinates": [
@@ -8580,28 +8712,6 @@
     },
     {
         "coordinates": [
-            42.658588,
-            23.241354
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 851,
-        "stopName": "КВ. КНЯЖЕВО"
-    },
-    {
-        "coordinates": [
-            42.658946,
-            23.241922
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 852,
-        "stopName": "КВ. КНЯЖЕВО"
-    },
-    {
-        "coordinates": [
             42.658623,
             23.240369
         ],
@@ -8877,6 +8987,17 @@
             1
         ],
         "stopCode": 879,
+        "stopName": "КВ. ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.671857,
+            23.272892
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 880,
         "stopName": "КВ. ОВЧА КУПЕЛ"
     },
     {
@@ -12854,7 +12975,6 @@
             23.314875
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 1269,
@@ -12958,6 +13078,28 @@
         ],
         "stopCode": 1278,
         "stopName": "ПЛ. ЛЪВОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.694454,
+            23.314817
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1279,
+        "stopName": "ПЛ. МАКЕДОНИЯ"
+    },
+    {
+        "coordinates": [
+            42.694159,
+            23.314034
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1280,
+        "stopName": "ПЛ. МАКЕДОНИЯ"
     },
     {
         "coordinates": [
@@ -13148,11 +13290,32 @@
     },
     {
         "coordinates": [
+            42.692687,
+            23.311191
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1298,
+        "stopName": "ПЛ. РУСКИ ПАМЕТНИК"
+    },
+    {
+        "coordinates": [
+            42.69178,
+            23.309779
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1299,
+        "stopName": "ПЛ. РУСКИ ПАМЕТНИК"
+    },
+    {
+        "coordinates": [
             42.693094,
             23.310031
         ],
         "lineTypes": [
-            0,
             2
         ],
         "stopCode": 1300,
@@ -19879,7 +20042,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -21617,28 +21782,6 @@
     },
     {
         "coordinates": [
-            42.662706,
-            23.25365
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2103,
-        "stopName": "УЛ. ПЛАНИНЕЦ"
-    },
-    {
-        "coordinates": [
-            42.662531,
-            23.253284
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2104,
-        "stopName": "УЛ. ПЛАНИНЕЦ"
-    },
-    {
-        "coordinates": [
             42.708749,
             23.313171
         ],
@@ -21683,6 +21826,28 @@
         ],
         "stopCode": 2108,
         "stopName": "МЕТРОСТАНЦИЯ ХАДЖИ ДИМИТЪР"
+    },
+    {
+        "coordinates": [
+            42.681282,
+            23.289723
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2109,
+        "stopName": "УЛ. НИШАВА"
+    },
+    {
+        "coordinates": [
+            42.681461,
+            23.289942
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2110,
+        "stopName": "УЛ. НИШАВА"
     },
     {
         "coordinates": [
@@ -22966,8 +23131,8 @@
     },
     {
         "coordinates": [
-            42.728308,
-            23.28909
+            42.728306,
+            23.289083
         ],
         "lineTypes": [
             0
@@ -23174,28 +23339,6 @@
         ],
         "stopCode": 2259,
         "stopName": "УЛ. ЧЕРКОВНА"
-    },
-    {
-        "coordinates": [
-            42.660956,
-            23.249033
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2260,
-        "stopName": "УЛ. РАЙСКА ГРАДИНА"
-    },
-    {
-        "coordinates": [
-            42.660828,
-            23.248514
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2261,
-        "stopName": "УЛ. РАЙСКА ГРАДИНА"
     },
     {
         "coordinates": [
@@ -29497,6 +29640,7 @@
             23.276326
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 6088,
@@ -29512,39 +29656,6 @@
         ],
         "stopCode": 6089,
         "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ"
-    },
-    {
-        "coordinates": [
-            42.697435,
-            23.313689
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6091,
-        "stopName": "ПЛ. ВЪЗРАЖДАНЕ"
-    },
-    {
-        "coordinates": [
-            42.694412,
-            23.314197
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6092,
-        "stopName": "ПЛ. МАКЕДОНИЯ"
-    },
-    {
-        "coordinates": [
-            42.692816,
-            23.311094
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6093,
-        "stopName": "ПЛ. РУСКИ ПАМЕТНИК"
     },
     {
         "coordinates": [
@@ -29603,14 +29714,58 @@
     },
     {
         "coordinates": [
-            42.690014,
-            23.3059
+            42.66141,
+            23.2501
         ],
         "lineTypes": [
             0
         ],
-        "stopCode": 6132,
-        "stopName": "УМБАЛСМ ПИРОГОВ"
+        "stopCode": 6125,
+        "stopName": "УЛ. ПЛАНИНЕЦ"
+    },
+    {
+        "coordinates": [
+            42.664822,
+            23.25899
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6126,
+        "stopName": "БУЛ. ЦАР БОРИС ІІІ-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.661473,
+            23.250077
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6127,
+        "stopName": "УЛ. ПЛАНИНЕЦ-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659852,
+            23.24543
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6128,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659787,
+            23.24545
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6129,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА"
     },
     {
         "coordinates": [
@@ -29935,17 +30090,6 @@
         ],
         "stopCode": 6382,
         "stopName": "УЛ. ПЪРВА БЪЛГАРСКА АРМИЯ"
-    },
-    {
-        "coordinates": [
-            42.698383,
-            23.31028
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6409,
-        "stopName": "БУЛ. АЛЕКСАНДЪР СТАМБОЛИЙСКИ"
     },
     {
         "coordinates": [
