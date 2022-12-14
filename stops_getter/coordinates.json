@@ -2544,7 +2544,9 @@
             42.7387,
             23.294657
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 239,
         "stopName": "БЛ. 603 Ж.К. ВРЪБНИЦА-2"
     },
@@ -19016,8 +19018,8 @@
     },
     {
         "coordinates": [
-            42.669088,
-            23.244113
+            42.669089,
+            23.244112
         ],
         "lineTypes": [
             0
@@ -30034,6 +30036,17 @@
     },
     {
         "coordinates": [
+            42.693337,
+            23.228169
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6534,
+        "stopName": "УЛ. КИРИЛ ХРИСТОВ"
+    },
+    {
+        "coordinates": [
             42.665754,
             23.286731
         ],
@@ -30211,6 +30224,116 @@
     },
     {
         "coordinates": [
+            42.669464,
+            23.244729
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6621,
+        "stopName": "УЛ. БУРЯ"
+    },
+    {
+        "coordinates": [
+            42.67017,
+            23.242444
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6622,
+        "stopName": "УЛ. КНЯЖЕВСКА"
+    },
+    {
+        "coordinates": [
+            42.670106,
+            23.242206
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6623,
+        "stopName": "УЛ. КНЯЖЕВСКА"
+    },
+    {
+        "coordinates": [
+            42.680045,
+            23.240747
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6624,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
+    },
+    {
+        "coordinates": [
+            42.680114,
+            23.24062
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6625,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
+    },
+    {
+        "coordinates": [
+            42.684294,
+            23.236018
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6626,
+        "stopName": "УЛ. 759"
+    },
+    {
+        "coordinates": [
+            42.684092,
+            23.236087
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6627,
+        "stopName": "УЛ. 759"
+    },
+    {
+        "coordinates": [
+            42.695634,
+            23.227319
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6628,
+        "stopName": "ЧИТАЛИЩЕ ПРОСВЕТА"
+    },
+    {
+        "coordinates": [
+            42.677244,
+            23.240792
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6629,
+        "stopName": "УЛ. УРАЛ"
+    },
+    {
+        "coordinates": [
+            42.691497,
+            23.229982
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6630,
+        "stopName": "ОКОЛОВРЪСТЕН ПЪТ"
+    },
+    {
+        "coordinates": [
             42.516775,
             23.34712
         ],
@@ -30285,5 +30408,16 @@
         ],
         "stopCode": 6643,
         "stopName": "СЕЛО КАЗИЧЕНЕ"
+    },
+    {
+        "coordinates": [
+            42.668186,
+            23.241507
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6644,
+        "stopName": "КВ. КАРПУЗИЦА"
     }
 ]
