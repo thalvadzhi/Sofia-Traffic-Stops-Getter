@@ -16613,7 +16613,7 @@
     },
     {
         "coordinates": [
-            42.818085,
+            42.818091,
             23.280677
         ],
         "lineTypes": [
@@ -20042,7 +20042,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -29532,6 +29534,78 @@
         "lineTypes": [],
         "stopCode": 3328,
         "stopName": "МЕТРОСТАНЦИЯ ЦАР БОРИС III / КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
+            42.682777,
+            23.270943
+        ],
+        "lineTypes": [],
+        "stopCode": 3329,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.682777,
+            23.270943
+        ],
+        "lineTypes": [],
+        "stopCode": 3330,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.683968,
+            23.257033
+        ],
+        "lineTypes": [],
+        "stopCode": 3331,
+        "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ / НБУ"
+    },
+    {
+        "coordinates": [
+            42.683968,
+            23.257033
+        ],
+        "lineTypes": [],
+        "stopCode": 3332,
+        "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ / НБУ"
+    },
+    {
+        "coordinates": [
+            42.684747,
+            23.247822
+        ],
+        "lineTypes": [],
+        "stopCode": 3333,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ II"
+    },
+    {
+        "coordinates": [
+            42.684747,
+            23.247822
+        ],
+        "lineTypes": [],
+        "stopCode": 3334,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ II"
+    },
+    {
+        "coordinates": [
+            42.684117,
+            23.242672
+        ],
+        "lineTypes": [],
+        "stopCode": 3335,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
+    },
+    {
+        "coordinates": [
+            42.684117,
+            23.242672
+        ],
+        "lineTypes": [],
+        "stopCode": 3336,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
     },
     {
         "coordinates": [
