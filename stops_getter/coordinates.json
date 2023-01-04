@@ -24861,6 +24861,39 @@
     },
     {
         "coordinates": [
+            42.597552,
+            23.50229
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2403,
+        "stopName": "МОСТА НА Р.БЛАЗНА БАРА"
+    },
+    {
+        "coordinates": [
+            42.597526,
+            23.502185
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2404,
+        "stopName": "МОСТА НА Р.БЛАЗНА БАРА"
+    },
+    {
+        "coordinates": [
+            42.595096,
+            23.507709
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2405,
+        "stopName": "ШКОЛА БЧК"
+    },
+    {
+        "coordinates": [
             42.706677,
             23.407362
         ],
@@ -27337,9 +27370,7 @@
             42.59956,
             23.499913
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2693,
         "stopName": "СЕЛО ДОЛНИ ЛОЗЕН"
     },
@@ -28362,6 +28393,28 @@
         ],
         "stopCode": 2799,
         "stopName": "МАНАСТИР СВ. АПОСТОЛИ ПЕТЪР И ПАВЕЛ"
+    },
+    {
+        "coordinates": [
+            42.59933,
+            23.499608
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2800,
+        "stopName": "СЕЛО ДОЛНИ ЛОЗЕН"
+    },
+    {
+        "coordinates": [
+            42.599576,
+            23.49918
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2801,
+        "stopName": "СЕЛО ДОЛНИ ЛОЗЕН"
     },
     {
         "coordinates": [
