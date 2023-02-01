@@ -15720,6 +15720,15 @@
     },
     {
         "coordinates": [
+            42.576833,
+            23.414271
+        ],
+        "lineTypes": [],
+        "stopCode": 1540,
+        "stopName": "СЕЛО КОКАЛЯНЕ"
+    },
+    {
+        "coordinates": [
             42.68194,
             23.462712
         ],
@@ -25773,17 +25782,6 @@
         ],
         "stopCode": 2523,
         "stopName": "ПО ЖЕЛАНИЕ - НОВА МАХАЛА"
-    },
-    {
-        "coordinates": [
-            42.711701,
-            23.140756
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2524,
-        "stopName": "78-МО СОУ БАНКЯ"
     },
     {
         "coordinates": [
