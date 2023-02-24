@@ -20947,7 +20947,9 @@
             42.706499,
             23.350179
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 2042,
         "stopName": "УЛ. МАКГАХАН"
     },
@@ -22892,7 +22894,9 @@
             42.707094,
             23.345014
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 2223,
         "stopName": "УЛ. УОШБЪРН"
     },
@@ -29922,17 +29926,6 @@
         ],
         "stopCode": 6298,
         "stopName": "ЦЕНТЪР БАНКЯ"
-    },
-    {
-        "coordinates": [
-            42.708342,
-            23.350915
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6307,
-        "stopName": "УЛ. МАКГАХАН"
     },
     {
         "coordinates": [
