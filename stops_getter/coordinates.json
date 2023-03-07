@@ -1141,7 +1141,7 @@
             23.24253
         ],
         "lineTypes": [
-            0
+            1
         ],
         "stopCode": 108,
         "stopName": "БЛ. 539 Ж.К.ЛЮЛИН-5"
@@ -3387,6 +3387,50 @@
     },
     {
         "coordinates": [
+            42.715462,
+            23.261428
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 319,
+        "stopName": "БУЛ. ДЖАВАХАРЛАЛ НЕРУ"
+    },
+    {
+        "coordinates": [
+            42.715627,
+            23.261226
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 320,
+        "stopName": "БУЛ. ДЖАВАХАРЛАЛ НЕРУ"
+    },
+    {
+        "coordinates": [
+            42.710168,
+            23.245466
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 321,
+        "stopName": "БУЛ. ПЕТЪР ДЕРТЛИЕВ"
+    },
+    {
+        "coordinates": [
+            42.710035,
+            23.244424
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 322,
+        "stopName": "БУЛ. ПЕТЪР ДЕРТЛИЕВ"
+    },
+    {
+        "coordinates": [
             42.712183,
             23.314926
         ],
@@ -3520,6 +3564,28 @@
         ],
         "stopCode": 334,
         "stopName": "БУЛ. ЛОМСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.713011,
+            23.265877
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 335,
+        "stopName": "УЛ. ЛУИ ПАСТЬОР"
+    },
+    {
+        "coordinates": [
+            42.713228,
+            23.265577
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 336,
+        "stopName": "УЛ. ЛУИ ПАСТЬОР"
     },
     {
         "coordinates": [
@@ -6191,7 +6257,6 @@
             23.29723
         ],
         "lineTypes": [
-            0,
             2
         ],
         "stopCode": 599,
@@ -6722,7 +6787,7 @@
             23.238701
         ],
         "lineTypes": [
-            0
+            1
         ],
         "stopCode": 655,
         "stopName": "Ж.К. ЛЮЛИН-5"
@@ -6733,7 +6798,7 @@
             23.237962
         ],
         "lineTypes": [
-            0
+            1
         ],
         "stopCode": 656,
         "stopName": "Ж.К. ЛЮЛИН-5"
@@ -10660,6 +10725,28 @@
     },
     {
         "coordinates": [
+            42.706011,
+            23.283804
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1045,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.705584,
+            23.284053
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1046,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
             42.706737,
             23.284645
         ],
@@ -10668,6 +10755,28 @@
         ],
         "stopCode": 1047,
         "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.711288,
+            23.269096
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1048,
+        "stopName": "МЕТРОСТАНЦИЯ ЗАПАДЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.711153,
+            23.269252
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1049,
+        "stopName": "МЕТРОСТАНЦИЯ ЗАПАДЕН ПАРК"
     },
     {
         "coordinates": [
@@ -10702,6 +10811,28 @@
             0
         ],
         "stopCode": 1054,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.717964,
+            23.256408
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1055,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.71799,
+            23.256268
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1056,
         "stopName": "МЕТРОСТАНЦИЯ ЛЮЛИН"
     },
     {
@@ -12700,17 +12831,6 @@
             2
         ],
         "stopCode": 1251,
-        "stopName": "ЗАПАДЕН ПАРК"
-    },
-    {
-        "coordinates": [
-            42.716216,
-            23.285115
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1252,
         "stopName": "ЗАПАДЕН ПАРК"
     },
     {
@@ -17503,6 +17623,28 @@
     },
     {
         "coordinates": [
+            42.713155,
+            23.248407
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1711,
+        "stopName": "МАГАЗИН ВИТОША"
+    },
+    {
+        "coordinates": [
+            42.712214,
+            23.247425
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1712,
+        "stopName": "МАГАЗИН ВИТОША"
+    },
+    {
+        "coordinates": [
             42.629296,
             23.333367
         ],
@@ -17544,6 +17686,28 @@
             2
         ],
         "stopCode": 1716,
+        "stopName": "ОБЩИНА ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.715459,
+            23.25061
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1717,
+        "stopName": "ОБЩИНА ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.716397,
+            23.251597
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1718,
         "stopName": "ОБЩИНА ЛЮЛИН"
     },
     {
@@ -24642,21 +24806,10 @@
             23.241631
         ],
         "lineTypes": [
-            0
+            1
         ],
         "stopCode": 2398,
         "stopName": "БЛ. 539 Ж.К.ЛЮЛИН-5"
-    },
-    {
-        "coordinates": [
-            42.715808,
-            23.283829
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2399,
-        "stopName": "ЗАПАДЕН ПАРК"
     },
     {
         "coordinates": [
@@ -26077,6 +26230,28 @@
         ],
         "stopCode": 2570,
         "stopName": "БЛ. 13 Ж.К. ЗАПАДЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.703579,
+            23.283388
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2571,
+        "stopName": "БЛ. 38 Ж.К. ЗАПАДЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.706023,
+            23.282861
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2572,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
     },
     {
         "coordinates": [
@@ -28648,6 +28823,17 @@
     },
     {
         "coordinates": [
+            42.660431,
+            23.297206
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2845,
+        "stopName": "Ж.К. ГОЦЕ ДЕЛЧЕВ"
+    },
+    {
+        "coordinates": [
             42.658421,
             23.316413
         ],
@@ -29668,50 +29854,6 @@
         ],
         "stopCode": 6129,
         "stopName": "УЛ. РАЙСКА ГРАДИНА"
-    },
-    {
-        "coordinates": [
-            42.713947,
-            23.265018
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6156,
-        "stopName": "УЛ. ЛУИ ПАСТЬОР"
-    },
-    {
-        "coordinates": [
-            42.705737,
-            23.283755
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6158,
-        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
-    },
-    {
-        "coordinates": [
-            42.714025,
-            23.265082
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6159,
-        "stopName": "УЛ. ЛУИ ПАСТЬОР"
-    },
-    {
-        "coordinates": [
-            42.716305,
-            23.251202
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6160,
-        "stopName": "ОБЩИНА ЛЮЛИН"
     },
     {
         "coordinates": [
