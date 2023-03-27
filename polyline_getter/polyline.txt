@@ -350,20 +350,6 @@
         "type": 1
     },
     {
-        "first_stop": "620",
-        "geo": "ebscGofamCNhC@P`J_AX?NFJJb@xB`CkAzCw@JIFMb@oBrD}SDUj@Sf@_@~C}C\\]jAdCpArCr@o@dDgENSRn@xJ~OhA|Ar@r@hChBvBtAdCfB~A`Ap@^xFtDvDnCPLPLZJb@\\xElElAlAjArAxBlCpEvG\\^`@Zd@RjBd@jSzEVBhL_CpBe@^Qf@s@`@S~HoMvAsBNUxTle@@@vBLF@",
-        "last_stop": "893",
-        "name": "11-ТМ",
-        "type": 1
-    },
-    {
-        "first_stop": "890",
-        "geo": "sflcGcd_mC_Ke@]CaU{e@CGwLxRo@z@_@PqBd@iL~BWCkS{EkBe@e@Sa@[]_@qEwGyBmCyCaDyEmEc@]UWOOkDiCmWuPa@[{@{@i@q@qKeQ]a@eJ_OsAyBc@y@GQGWKWOR[v@]lAGl@{@bRm@~DeDlRQ|ACp@EPSV{Cv@aCjAc@yBEQGMIEo@AqI`AQFYHU[EKIyABUJMJETFNF",
-        "last_stop": "620",
-        "name": "11-ТМ",
-        "type": 1
-    },
-    {
         "first_stop": "591",
         "geo": "ywjcGol`mCiDc@cB[cZiK}RuGoJ_B]Gb@}Al@gBbBmD`AiCb@uAb@cBbNoj@d@uAFShB~AvA~@fAl@bCx@he@|IdB^nA`@v@VlCzAdFvDt@l@z@zATv@Fb@BbAEl@Ov@Yx@g@~@c@d@SFYAMIGKOe@G}@xBoIna@stAfr@s{BjQ_l@tQ}l@`HuUdM}a@xM}b@jAmEhGgSdDcLj@_CtAkERoAj@}DrAmLH{@AcADSLY?WEOCe@@c@v@kOFa@Ds@PaOAkFDaAPsBx@_HHiB?}ACgADsDBQHIHGRFHCFKBMAOEI_@UIQOg@PuNTuNH[DKFEHO@MCYEIMGS@MPAFiFfGaAx@{AbAwBbAu@VcAV{BXqBDgD@a@FiA^ir@\\wWBy@CIZgFpe@CXoEV]AUEWIqK_HUISEk@CW?c@Fu@RcCz@[D{AAy@CkHc@wB?sBDaAB",
         "last_stop": "662",
@@ -540,8 +526,8 @@
     },
     {
         "first_stop": "611",
-        "geo": "}agcGkn|mCNe@@[AQGMMIO@GBKLCVAdBM\\m@DDrSA`@kAUk@GiAEc@?mAF{Kv@_DZwAAaCO}@W{Ay@OKu[ji@qOtWmB|D{AnDwIzUk@lBwC|Hg@~@{AvBiCrBuFhCwDtAsF~B{AfAaAbAEh@BXDRlBn@rBb@`Dh@bAVhAh@bAt@r@t@hAbA|@`Ap@z@jAjB\\z@Tv@Jf@f@fDX`C@xAEt@G`@I\\Wl@w@dBajAthB_c@bq@eNpTgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdCrIxOjFhJfDlGRf@fPzs@dApEJ`@b@fBnAnEdA`Ez@hEXbBb@bETdFFvCDzMHrHTbD^~Cj@hDp@xCzEjRPx@X`BVhBbAtJZpBV`AZbAf@dA\\l@h@r@f@h@p@f@tCbB|VtMtBxAl@f@^ZgWja@OXfLjKLLxGfK`Q|XxA|AbC|BVTNe@v@sCbNoj@l@iBf@c@rV_n@lCgHn@cB",
-        "last_stop": "2845",
+        "geo": "}agcGkn|mCNe@@[AQGMMIO@GBKLCVAdBM\\m@DDrSA`@kAUk@GiAEc@?mAF{Kv@_DZwAAaCO}@W{Ay@OKu[ji@qOtWmB|D{AnDwIzUk@lBwC|Hg@~@{AvBiCrBuFhCwDtAsF~B{AfAaAbAEh@BXDRlBn@rBb@`Dh@bAVhAh@bAt@r@t@hAbA|@`Ap@z@jAjB\\z@Tv@Jf@f@fDX`C@xAEt@G`@I\\Wl@w@dBajAthB_c@bq@eNpTgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdCrIxOjFhJfDlGRf@fPzs@dApEJ`@b@fBnAnEdA`Ez@hEXbBb@bETdFFvCDzMHrHTbD^~Cj@hDp@xCzEjRPx@X`BVhBbAtJZpBV`AZbAf@dA\\l@h@r@f@h@p@f@tCbB|VtMtBxAl@f@^ZgWja@OXfLjKLLxGfK`Q|XxA|AbC|BVTNe@v@sCbNoj@l@iBf@c@nUyk@N_@z@d@h@XFWb@yAu@k@t@j@Z_BJoARqA^g@JSx@LXH^PJJl@bA\\`@nAbAp@d@",
+        "last_stop": "599",
         "name": "204",
         "type": 1
     },
@@ -939,7 +925,7 @@
     },
     {
         "first_stop": "850",
-        "geo": "_rvcG}o{kC|AcCNq@B{@Ms@oCcHYoAIcAVwQd@kFF}B?{@Ik@OWg@Uk@Kc@USYgAwBgCwDO]EYFYJK`AO^OV[Ly@D_BPeBi@kIIaASuAU}@g@kAiBcCaAo@sFgC[YUm@a@kC[eAc@_Ak@y@cAmAm@g@aAe@wFmBsCsAo@IcAEa@GWUGi@WmGFaCpBoRHsACmAm@cGsAgMOgCB}APaATw@tGkPtJgUJg@@w@Mu@eA{DGq@Ey@HaEAcEHo@Ve@VQn@FzDvE^T\\C`@_@Zs@V_AZuBX{Ap@uAhAiAhFkEv@s@TMr@Sh@U\\YXc@\\q@~CaIhFmN`DuIz@eCfAaC|DmHh@sA`CgIzCeKp@JdNcCfAM`F_AfF}@pBsDx@aBXo@NWDEDSCSSa@[kA_CoKuAkFcAcD[eAZQ[PcDiJqCuHsKcVm@wBc@}DHeEE_AS_AYs@uBiCcCkDo@sAaBiJMUuD_Dg@s@_@cAmHqW_@cDQ_CUoB]}AmEoN]{AkAoJ]}DaAsVKmAsC}P{@kHiAqImBiPa@qEOoCEoCKs]GkFK_CW}BuCkRo@oDeQgt@kKqb@aGgVaI{Yo^aqA}@oDWaAxCkF^y@FO`@_AT_AXo@lBkEbGkNf@u@h@qADO?SBKzCyGvKySxHgPnKkUBIZOLCL@XHvGzG",
+        "geo": "_rvcG}o{kC|AcCNq@B{@Ms@oCcHYoAIcAVwQd@kFF}B?{@Ik@OWg@Uk@Kc@USYgAwBgCwDO]EYFYJK`AO^OV[Ly@D_BPeBi@kIIaASuAU}@g@kAiBcCaAo@sFgC[YUm@a@kC[eAc@_Ak@y@cAmAm@g@aAe@wFmBsCsAo@IcAEa@GWUGi@WmGFaCpBoRHsACmAm@cGsAgMOgCB}APaATw@tGkPtJgUJg@@w@Mu@eA{DGq@Ey@HaEAcEHo@Ve@VQn@FzDvE^T\\C`@_@Zs@V_AZuBX{Ap@uAhAiAhFkEv@s@TMr@Sh@U\\YXc@\\q@~CaIjKcYz@eCfAaC|DmHh@sAr@aClCxA\\Nz@Tf@Fb@@n@GTGdJgBpAsAlBiCJPn@sBvHaPpBsDx@aBXo@NWDEDSCSSa@[kA_CoKuAkFcAcD[eAZQ[PcDiJqCuHsKcVm@wBc@}DHeEE_AS_AYs@uBiCcCkDo@sAaBiJMUuD_Dg@s@_@cAmHqW_@cDQ_CUoB]}AmEoN]{AkAoJ]}DaAsVKmAsC}P{@kHiAqImBiPa@qEOoCEoCKs]GkFK_CW}BuCkRo@oDeQgt@kKqb@aGgVaI{Yo^aqA}@oDWaAxCkF^y@FO`@_AT_AXo@lBkEbGkNf@u@h@qADO?SBKzCyGvKySxHgPnKkUBIZOLCL@XHvGzG",
         "last_stop": "1061",
         "name": "49",
         "type": 1
@@ -1450,7 +1436,7 @@
     },
     {
         "first_stop": "1198",
-        "geo": "kakcGkftmCg@t@_@n@aKyNKQ_At@e@n@uD|FaJdOgJ`OQXc@b@]HoA?Q@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDDRFTg@~@gL|NQVaQaD}@]WUEKQQUEQDGFUf@QJmB`@}@XeCf@QBy@kQGy@OoACi@iAaVA_@K_DGuA?{@CWOs@eDoHqAuDo@yBkA{F{@_HGe@_@gBiA_FsCwHq@cCgIm\\GSo@PMFeCwJw@eCaA_CqCoFYe@h@c@LMeEsH]w@Yy@_@oBIgAEeACcCj@wHFwBC_Ae@e@GgAo@aGP{AeEo`@kBkPYwCIgAKsC?mABkAHwB~A_YBm@_F}@W?YFqBpAUN",
+        "geo": "kakcGkftmCg@t@_@n@aKyNKQ_At@e@n@uD|FaJdOyJzOc@b@]HG@gAAQ@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDDRFTg@~@gL|NQVaQaD}@]WUEKQQUEQDGFUf@QJmB`@}@XeCf@QBy@kQGy@OoACi@iAaVA_@K_DGuA?{@CWOs@eDoHqAuDo@yBkA{F{@_HGe@_@gBiA_FsCwHq@cCgIm\\GSo@PMFeCwJw@eCaA_CqCoFYe@h@c@LMeEsH]w@Yy@_@oBIgAEeACcCj@wHFwBC_Ae@e@GgAo@aGP{AeEo`@kBkPYwCIgAKsC?mABkAHwB~A_YBm@_F}@W?YFqBpAUN",
         "last_stop": "646",
         "name": "3",
         "type": 2
@@ -1471,7 +1457,7 @@
     },
     {
         "first_stop": "664",
-        "geo": "mdhcGo~rmC}ByAUISEk@CW?c@Fu@RcCz@[D{AAy@CkG_@{@C{A?uDHqGJ}@AmAQs@[QOg@i@W_@[q@Ss@o@gDs@_BjEaHTa@mFwHa@{@eAoEMYYe@cFaHw@cAyBgBWYeIkLQ[yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HoA?Q@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDDRFTg@~@gL|NQVhCj@NH\\\\lXd^@B@l@i@|MaCnl@_Bd^ADYj@sKzNmApAQJOIKCO@SJMPGTAN?VQRwBfA{DnCe@Vg@Pi@Lq@Ds@?g@GeQgDUGIAEA_HuAyBG}NsCwHsAqCyA_CgAeE{AyEyASGoAdJI`@GJURg@\\uMtI{GrE}@j@",
+        "geo": "mdhcGo~rmC}ByAUISEk@CW?c@Fu@RcCz@[D{AAy@CkG_@{@C{A?uDHqGJ}@AmAQs@[QOg@i@W_@[q@Ss@o@gDs@_BjEaHTa@mFwHa@{@eAoEMYYe@cFaHw@cAyBgBWYeIkLQ[yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HG@gAAQ@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDDRFTg@~@gL|NQVhCj@NH\\\\lXd^@B@l@i@|MaCnl@_Bd^ADYj@sKzNmApAQJOIKCO@SJMPGTAN?VQRwBfA{DnCe@Vg@Pi@Lq@Ds@?g@GeQgDUGIAEA_HuAyBG}NsCwHsAqCyA_CgAeE{AyEyASGoAdJI`@GJURg@\\uMtI{GrE}@j@",
         "last_stop": "1881",
         "name": "5",
         "type": 2
@@ -1555,7 +1541,7 @@
     },
     {
         "first_stop": "1006",
-        "geo": "}spcG_{ymCmAxI?PFRJHzA`@J@JOTkBJk@BMNUTA~IhCZJV}@Z{AxCeSdHcc@BQgGaEo@o@g@y@eFcJaDcGSYQQUI}AKUHIJAJCVEzA@`@DZLb@dExHZ^f@\\lFjCzHdFpAv@wGpa@mBlMCRvQnFhLjDdLdD|An@h@f@n@z@FNCP@FFFJ?dB|ERZtEvA|B`AjAj@`DrBhInGlBvAtB`AlInDbJzCpJvC~HhDv@`@fEbBrA`@dB^nDl@bAVhAh@bAt@r@t@hAbA|@`AtEzF~@xAt@rAv@xB`@jAJ\\NbA@XCb@O\\aEhH]v@_BhCcAdA{@tAw@pAU\\yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HoA?Q@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdC`IzNP\\mE|ICD",
+        "geo": "}spcG_{ymCmAxI?PFRJHzA`@J@JOTkBJk@BMNUTA~IhCZJV}@Z{AxCeSdHcc@BQgGaEo@o@g@y@eFcJaDcGSYQQUI}AKUHIJAJCVEzA@`@DZLb@dExHZ^f@\\lFjCzHdFpAv@wGpa@mBlMCRvQnFhLjDdLdD|An@h@f@n@z@FNCP@FFFJ?dB|ERZtEvA|B`AjAj@`DrBhInGlBvAtB`AlInDbJzCpJvC~HhDv@`@fEbBrA`@dB^nDl@bAVhAh@bAt@r@t@hAbA|@`AtEzF~@xAt@rAv@xB`@jAJ\\NbA@XCb@O\\aEhH]v@_BhCcAdA{@tAw@pAU\\yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HG@gAAQ@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdC`IzNP\\mE|ICD",
         "last_stop": "2601",
         "name": "Е184",
         "type": 2
@@ -1597,7 +1583,7 @@
     },
     {
         "first_stop": "576",
-        "geo": "e{kcGcetmCyGzKgJ`OQXc@b@]HoA?Q@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@oEjIcAzBGVq]pi@eNpT}BhDiF`Iy@z@cDbFmArBSh@Sx@S`AGbAIhIBr@Jl@Tn@\\h@n@h@pExChAhARNfB`BdE`FpGjIfEhFxLvNjDjEhHfJxG~Hb@v@RT`@l@v@bBt@bC|CbOvC~MJ`@nCuAv@YbAKh@@XNj@J~@\\j@^fIpHR`@HXTtBZtAn@fBz@pCr@`Bt@vApCxE~@dBl@nAbH`QPd@dAvCX^PLbAlC~CfJXpAh@zDLjAJ`CCrBG|@QhBW|A]xAUp@i@|Ae@z@]f@_ApAo@p@gA~@qA~@iBhAkM`JeDbCULy@ZmAJy@Aq@C}AS[CqCvEw@jA{AnBIJlRrXf@b@dAn@xEbCVNDr@e@bBJFJF}Snh@K|@m@hBcNnj@c@bBc@tAaAhCcBlDUl@{@vCiBnHe@bBOTeAtBoEtGINwLxRo@z@_@Pe@L}MnCWFFd@XrAhAfFRn@fGzGBDtFtw@~AfT@R{K}C{KwCuWkHcFiA}C}@y@OuBEk@?}JfBaWdE]FbCz]lDdi@HfAPfALh@\\`Ah@hAb@j@dFzEPPrAz@VHp@Lh@B`@Ev@St@a@h@m@Ze@Zo@pHaRjAuC",
+        "geo": "e{kcGcetmCyGzKyJzOc@b@]HG@gAAQ@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@oEjIcAzBGVq]pi@eNpT}BhDiF`Iy@z@cDbFmArBSh@Sx@S`AGbAIhIBr@Jl@Tn@\\h@n@h@pExChAhARNfB`BdE`FpGjIfEhFxLvNjDjEhHfJxG~Hb@v@RT`@l@v@bBt@bC|CbOvC~MJ`@nCuAv@YbAKh@@XNj@J~@\\j@^fIpHR`@HXTtBZtAn@fBz@pCr@`Bt@vApCxE~@dBl@nAbH`QPd@dAvCX^PLbAlC~CfJXpAh@zDLjAJ`CCrBG|@QhBW|A]xAUp@i@|Ae@z@]f@_ApAo@p@gA~@qA~@iBhAkM`JeDbCULy@ZmAJy@Aq@C}AS[CqCvEw@jA{AnBIJlRrXf@b@dAn@xEbCVNDr@e@bBJFJF}Snh@K|@m@hBcNnj@c@bBc@tAaAhCcBlDUl@{@vCiBnHe@bBOTeAtBoEtGINwLxRo@z@_@Pe@L}MnCWFFd@XrAhAfFRn@fGzGBDtFtw@~AfT@R{K}C{KwCuWkHcFiA}C}@y@OuBEk@?}JfBaWdE]FbCz]lDdi@HfAPfALh@\\`Ah@hAb@j@dFzEPPrAz@VHp@Lh@B`@Ev@St@a@h@m@Ze@Zo@pHaRjAuC",
         "last_stop": "682",
         "name": "Е73",
         "type": 2
@@ -1632,7 +1618,7 @@
     },
     {
         "first_stop": "2455",
-        "geo": "oopcGya|mCjC`Fh@r@f@\\lFjCzHdFpAv@wGpa@yCdS_@fBGR}JwCQOGOAQ@Gf@}D?UMOyAc@K?EDILI^}AfL?PBLHJ`Bd@J@JOTkBJk@BMNUTA~IhCZJV}@Z{A^eCF]vQnFhLjDdLdD|An@h@f@n@z@FNCP@FFFJ?dB|ERZtEvA|B`AjAj@`DrBhInGlBvAtB`AlInDbJzCpJvC~HhDv@`@fEbBrA`@dB^nDl@bAVhAh@bAt@r@t@hAbA|@`AtEzF~@xAt@rAv@xB`@jAJ\\NbA@XCb@O\\aEhH]v@_BhCcAdA{@tAw@pAU\\yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HoA?Q@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdC`IzNP\\mE|ICD",
+        "geo": "oopcGya|mCjC`Fh@r@f@\\lFjCzHdFpAv@wGpa@yCdS_@fBGR}JwCQOGOAQ@Gf@}D?UMOyAc@K?EDILI^}AfL?PBLHJ`Bd@J@JOTkBJk@BMNUTA~IhCZJV}@Z{A^eCF]vQnFhLjDdLdD|An@h@f@n@z@FNCP@FFFJ?dB|ERZtEvA|B`AjAj@`DrBhInGlBvAtB`AlInDbJzCpJvC~HhDv@`@fEbBrA`@dB^nDl@bAVhAh@bAt@r@t@hAbA|@`AtEzF~@xAt@rAv@xB`@jAJ\\NbA@XCb@O\\aEhH]v@_BhCcAdA{@tAw@pAU\\yLlRY^oDxCe@n@uD|FaJdOgJ`OQXc@b@]HG@gAAQ@m@a@m@IU?YFc@T]^OZM\\Kr@A^U~BKj@wDbHWf@i@`@MPQf@q@nA_CpDcCxD]|@y@rAiAxBcTn\\}HbMgJjNeKjP_GbJcCfEo_@bm@qArBYPw@pASJM?GAk@fACDV`AbAdC`IzNP\\mE|ICD",
         "last_stop": "2601",
         "name": "Е84",
         "type": 2
