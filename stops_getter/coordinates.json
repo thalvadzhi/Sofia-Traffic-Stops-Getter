@@ -19970,7 +19970,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -28722,6 +28724,17 @@
         ],
         "stopCode": 2844,
         "stopName": "УЛ. ПЕРУНИКА"
+    },
+    {
+        "coordinates": [
+            42.660431,
+            23.297206
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2845,
+        "stopName": "Ж.К. ГОЦЕ ДЕЛЧЕВ"
     },
     {
         "coordinates": [
