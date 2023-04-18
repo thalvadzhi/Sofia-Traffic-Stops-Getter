@@ -7548,24 +7548,6 @@
     },
     {
         "coordinates": [
-            42.684918,
-            23.365095
-        ],
-        "lineTypes": [],
-        "stopCode": 729,
-        "stopName": "ЗАЛА ФЕСТИВАЛНА"
-    },
-    {
-        "coordinates": [
-            42.684581,
-            23.364457
-        ],
-        "lineTypes": [],
-        "stopCode": 730,
-        "stopName": "ЗАЛА ФЕСТИВАЛНА"
-    },
-    {
-        "coordinates": [
             42.558225,
             23.450203
         ],
@@ -20055,7 +20037,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -20368,24 +20352,6 @@
             0
         ],
         "stopCode": 1972,
-        "stopName": "УЛ. КАЛИМАНЦИ"
-    },
-    {
-        "coordinates": [
-            42.687225,
-            23.365789
-        ],
-        "lineTypes": [],
-        "stopCode": 1973,
-        "stopName": "УЛ. КАЛИМАНЦИ"
-    },
-    {
-        "coordinates": [
-            42.687263,
-            23.365927
-        ],
-        "lineTypes": [],
-        "stopCode": 1974,
         "stopName": "УЛ. КАЛИМАНЦИ"
     },
     {
