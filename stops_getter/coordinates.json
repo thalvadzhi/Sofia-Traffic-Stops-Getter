@@ -8599,6 +8599,28 @@
     },
     {
         "coordinates": [
+            42.715387,
+            23.172579
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 844,
+        "stopName": "КВ. ИЗГРЕВ"
+    },
+    {
+        "coordinates": [
+            42.715623,
+            23.172058
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 845,
+        "stopName": "КВ. ИЗГРЕВ - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
             42.819962,
             23.372805
         ],
@@ -14960,6 +14982,17 @@
         ],
         "stopCode": 1467,
         "stopName": "РЕЗИДЕНЦИЯ ВРАНА"
+    },
+    {
+        "coordinates": [
+            42.713371,
+            23.159444
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1468,
+        "stopName": "РЕМОНТНА БАЗА"
     },
     {
         "coordinates": [
@@ -29949,6 +29982,17 @@
     },
     {
         "coordinates": [
+            42.713277,
+            23.160144
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6246,
+        "stopName": "РЕМОНТНА БАЗА"
+    },
+    {
+        "coordinates": [
             42.616536,
             23.365037
         ],
@@ -30057,7 +30101,9 @@
             42.712444,
             23.151724
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 6347,
         "stopName": "УЛ. УЧЕНИЧЕСКА"
     },
