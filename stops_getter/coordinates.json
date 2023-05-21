@@ -2064,28 +2064,6 @@
     },
     {
         "coordinates": [
-            42.716897,
-            23.286743
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 195,
-        "stopName": "БЛ. 35 Ж.К. ЗАХАРНА ФАБРИКА"
-    },
-    {
-        "coordinates": [
-            42.717113,
-            23.287516
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 196,
-        "stopName": "БЛ. 35 Ж.К. ЗАХАРНА ФАБРИКА"
-    },
-    {
-        "coordinates": [
             42.725869,
             23.244595
         ],
@@ -7703,28 +7681,6 @@
     },
     {
         "coordinates": [
-            42.716508,
-            23.296064
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 752,
-        "stopName": "М-ТЕЛ"
-    },
-    {
-        "coordinates": [
-            42.715835,
-            23.29715
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 753,
-        "stopName": "М-ТЕЛ"
-    },
-    {
-        "coordinates": [
             42.738863,
             23.31783
         ],
@@ -7746,28 +7702,6 @@
         ],
         "stopCode": 755,
         "stopName": "СТОКОВ БАЗАР ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
-            42.71788,
-            23.291784
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 756,
-        "stopName": "ИНЖСТРОЙ СОФИЯ АД"
-    },
-    {
-        "coordinates": [
-            42.718225,
-            23.291657
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 757,
-        "stopName": "ИНЖСТРОЙ СОФИЯ АД"
     },
     {
         "coordinates": [
@@ -25101,6 +25035,7 @@
             23.299669
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 2420,
@@ -25112,6 +25047,7 @@
             23.299798
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 2421,
