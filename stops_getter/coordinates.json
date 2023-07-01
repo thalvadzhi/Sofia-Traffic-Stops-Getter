@@ -4142,8 +4142,7 @@
             23.320968
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 396,
         "stopName": "ХОТЕЛ ХИЛТЪН"
@@ -4165,7 +4164,8 @@
             23.322126
         ],
         "lineTypes": [
-            0
+            0,
+            2
         ],
         "stopCode": 398,
         "stopName": "БУЛ. ЧЕРНИ ВРЪХ"
@@ -4186,9 +4186,7 @@
             42.682514,
             23.320856
         ],
-        "lineTypes": [
-            2
-        ],
+        "lineTypes": [],
         "stopCode": 400,
         "stopName": "ХОТЕЛ ХИЛТЪН"
     },
@@ -7527,6 +7525,24 @@
         ],
         "stopCode": 728,
         "stopName": "ЗАГ ДИНАМИК АД"
+    },
+    {
+        "coordinates": [
+            42.684892,
+            23.365055
+        ],
+        "lineTypes": [],
+        "stopCode": 729,
+        "stopName": "ЗАЛА ФЕСТИВАЛНА"
+    },
+    {
+        "coordinates": [
+            42.684577,
+            23.364506
+        ],
+        "lineTypes": [],
+        "stopCode": 730,
+        "stopName": "ЗАЛА ФЕСТИВАЛНА"
     },
     {
         "coordinates": [
@@ -15697,6 +15713,15 @@
     },
     {
         "coordinates": [
+            42.576833,
+            23.414271
+        ],
+        "lineTypes": [],
+        "stopCode": 1540,
+        "stopName": "СЕЛО КОКАЛЯНЕ"
+    },
+    {
+        "coordinates": [
             42.681884,
             23.462709
         ],
@@ -18568,7 +18593,8 @@
             23.325919
         ],
         "lineTypes": [
-            0
+            0,
+            2
         ],
         "stopCode": 1807,
         "stopName": "УЛ. 6-ТИ СЕПТЕМВРИ"
@@ -19699,7 +19725,8 @@
             23.332008
         ],
         "lineTypes": [
-            0
+            0,
+            2
         ],
         "stopCode": 1913,
         "stopName": "УЛ. ГРАФ ИГНАТИЕВ"
@@ -20000,7 +20027,9 @@
             42.711815,
             23.144307
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -20010,8 +20039,7 @@
             23.144506
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 1943,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
@@ -20318,6 +20346,24 @@
             2
         ],
         "stopCode": 1972,
+        "stopName": "УЛ. КАЛИМАНЦИ"
+    },
+    {
+        "coordinates": [
+            42.687341,
+            23.365771
+        ],
+        "lineTypes": [],
+        "stopCode": 1973,
+        "stopName": "УЛ. КАЛИМАНЦИ"
+    },
+    {
+        "coordinates": [
+            42.687416,
+            23.365841
+        ],
+        "lineTypes": [],
+        "stopCode": 1974,
         "stopName": "УЛ. КАЛИМАНЦИ"
     },
     {
@@ -24029,7 +24075,8 @@
             23.321851
         ],
         "lineTypes": [
-            0
+            0,
+            2
         ],
         "stopCode": 2330,
         "stopName": "ХОТЕЛ ХЕМУС"
@@ -25891,10 +25938,7 @@
             42.711684,
             23.140709
         ],
-        "lineTypes": [
-            0,
-            2
-        ],
+        "lineTypes": [],
         "stopCode": 2524,
         "stopName": "78-МО СОУ БАНКЯ"
     },
@@ -28320,6 +28364,852 @@
         ],
         "stopCode": 2794,
         "stopName": "БЛ. 648 Ж.К.ЛЮЛИН-6"
+    },
+    {
+        "coordinates": [
+            42.658421,
+            23.316413
+        ],
+        "lineTypes": [],
+        "stopCode": 2975,
+        "stopName": "МЕТРОСТАНЦИЯ ВИТОША"
+    },
+    {
+        "coordinates": [
+            42.658421,
+            23.316413
+        ],
+        "lineTypes": [],
+        "stopCode": 2976,
+        "stopName": "МЕТРОСТАНЦИЯ ВИТОША"
+    },
+    {
+        "coordinates": [
+            42.670625,
+            23.320388
+        ],
+        "lineTypes": [],
+        "stopCode": 2977,
+        "stopName": "МЕТРОСТАНЦИЯ ДЖЕЙМС БАУЧЕР"
+    },
+    {
+        "coordinates": [
+            42.670625,
+            23.320388
+        ],
+        "lineTypes": [],
+        "stopCode": 2978,
+        "stopName": "МЕТРОСТАНЦИЯ ДЖЕЙМС БАУЧЕР"
+    },
+    {
+        "coordinates": [
+            42.678773,
+            23.321614
+        ],
+        "lineTypes": [],
+        "stopCode": 2979,
+        "stopName": "МЕТРОСТАНЦИЯ ЕВРОПЕЙСКИ СЪЮЗ"
+    },
+    {
+        "coordinates": [
+            42.678773,
+            23.321614
+        ],
+        "lineTypes": [],
+        "stopCode": 2980,
+        "stopName": "МЕТРОСТАНЦИЯ ЕВРОПЕЙСКИ СЪЮЗ"
+    },
+    {
+        "coordinates": [
+            42.688204,
+            23.31906
+        ],
+        "lineTypes": [],
+        "stopCode": 2981,
+        "stopName": "МЕТРОСТАНЦИЯ НДК"
+    },
+    {
+        "coordinates": [
+            42.688204,
+            23.31906
+        ],
+        "lineTypes": [],
+        "stopCode": 2982,
+        "stopName": "МЕТРОСТАНЦИЯ НДК"
+    },
+    {
+        "coordinates": [
+            42.698365,
+            23.321933
+        ],
+        "lineTypes": [],
+        "stopCode": 2983,
+        "stopName": "МЕТРОСТАНЦИЯ СЕРДИКА 2"
+    },
+    {
+        "coordinates": [
+            42.698365,
+            23.321933
+        ],
+        "lineTypes": [],
+        "stopCode": 2984,
+        "stopName": "МЕТРОСТАНЦИЯ СЕРДИКА 2"
+    },
+    {
+        "coordinates": [
+            42.705751,
+            23.323846
+        ],
+        "lineTypes": [],
+        "stopCode": 2985,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЪВОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.705751,
+            23.323846
+        ],
+        "lineTypes": [],
+        "stopCode": 2986,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЪВОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.71076,
+            23.320605
+        ],
+        "lineTypes": [],
+        "stopCode": 2987,
+        "stopName": "МЕТРОСТАНЦИЯ ЦЕНТРАЛНА ГАРА"
+    },
+    {
+        "coordinates": [
+            42.71076,
+            23.320605
+        ],
+        "lineTypes": [],
+        "stopCode": 2988,
+        "stopName": "МЕТРОСТАНЦИЯ ЦЕНТРАЛНА ГАРА"
+    },
+    {
+        "coordinates": [
+            42.714447,
+            23.312111
+        ],
+        "lineTypes": [],
+        "stopCode": 2989,
+        "stopName": "МЕТРОСТАНЦИЯ КНЯГИНЯ МАРИЯ ЛУИЗА"
+    },
+    {
+        "coordinates": [
+            42.714447,
+            23.312111
+        ],
+        "lineTypes": [],
+        "stopCode": 2990,
+        "stopName": "МЕТРОСТАНЦИЯ КНЯГИНЯ МАРИЯ ЛУИЗА"
+    },
+    {
+        "coordinates": [
+            42.722371,
+            23.307208
+        ],
+        "lineTypes": [],
+        "stopCode": 2991,
+        "stopName": "МЕТРОСТАНЦИЯ ХАН КУБРАТ"
+    },
+    {
+        "coordinates": [
+            42.722371,
+            23.307208
+        ],
+        "lineTypes": [],
+        "stopCode": 2992,
+        "stopName": "МЕТРОСТАНЦИЯ ХАН КУБРАТ"
+    },
+    {
+        "coordinates": [
+            42.72802,
+            23.300879
+        ],
+        "lineTypes": [],
+        "stopCode": 2993,
+        "stopName": "МЕТРОСТАНЦИЯ НАДЕЖДА"
+    },
+    {
+        "coordinates": [
+            42.72802,
+            23.300879
+        ],
+        "lineTypes": [],
+        "stopCode": 2994,
+        "stopName": "МЕТРОСТАНЦИЯ НАДЕЖДА"
+    },
+    {
+        "coordinates": [
+            42.73593,
+            23.292264
+        ],
+        "lineTypes": [],
+        "stopCode": 2995,
+        "stopName": "МЕТРОСТАНЦИЯ БЕЛИ ДУНАВ"
+    },
+    {
+        "coordinates": [
+            42.73593,
+            23.292264
+        ],
+        "lineTypes": [],
+        "stopCode": 2996,
+        "stopName": "МЕТРОСТАНЦИЯ БЕЛИ ДУНАВ"
+    },
+    {
+        "coordinates": [
+            42.740487,
+            23.287296
+        ],
+        "lineTypes": [],
+        "stopCode": 2997,
+        "stopName": "МЕТРОСТАНЦИЯ ЛОМСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.740487,
+            23.287296
+        ],
+        "lineTypes": [],
+        "stopCode": 2998,
+        "stopName": "МЕТРОСТАНЦИЯ ЛОМСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.74106,
+            23.276543
+        ],
+        "lineTypes": [],
+        "stopCode": 2999,
+        "stopName": "МЕТРОСТАНЦИЯ ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.74106,
+            23.276543
+        ],
+        "lineTypes": [],
+        "stopCode": 3000,
+        "stopName": "МЕТРОСТАНЦИЯ ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.726886,
+            23.261794
+        ],
+        "lineTypes": [],
+        "stopCode": 3001,
+        "stopName": "МЕТРОСТАНЦИЯ СЛИВНИЦА"
+    },
+    {
+        "coordinates": [
+            42.726886,
+            23.261794
+        ],
+        "lineTypes": [],
+        "stopCode": 3002,
+        "stopName": "МЕТРОСТАНЦИЯ СЛИВНИЦА"
+    },
+    {
+        "coordinates": [
+            42.717909,
+            23.258129
+        ],
+        "lineTypes": [],
+        "stopCode": 3003,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.717909,
+            23.258129
+        ],
+        "lineTypes": [],
+        "stopCode": 3004,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЮЛИН"
+    },
+    {
+        "coordinates": [
+            42.71117,
+            23.270531
+        ],
+        "lineTypes": [],
+        "stopCode": 3005,
+        "stopName": "МЕТРОСТАНЦИЯ ЗАПАДЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.71117,
+            23.270531
+        ],
+        "lineTypes": [],
+        "stopCode": 3006,
+        "stopName": "МЕТРОСТАНЦИЯ ЗАПАДЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.705941,
+            23.28484
+        ],
+        "lineTypes": [],
+        "stopCode": 3007,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.705941,
+            23.28484
+        ],
+        "lineTypes": [],
+        "stopCode": 3008,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.701789,
+            23.298797
+        ],
+        "lineTypes": [],
+        "stopCode": 3009,
+        "stopName": "МЕТРОСТАНЦИЯ К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
+            42.701789,
+            23.298797
+        ],
+        "lineTypes": [],
+        "stopCode": 3010,
+        "stopName": "МЕТРОСТАНЦИЯ К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
+            42.699915,
+            23.310063
+        ],
+        "lineTypes": [],
+        "stopCode": 3011,
+        "stopName": "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА"
+    },
+    {
+        "coordinates": [
+            42.699915,
+            23.310063
+        ],
+        "lineTypes": [],
+        "stopCode": 3012,
+        "stopName": "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА"
+    },
+    {
+        "coordinates": [
+            42.697845,
+            23.321161
+        ],
+        "lineTypes": [],
+        "stopCode": 3013,
+        "stopName": "МЕТРОСТАНЦИЯ СЕРДИКА"
+    },
+    {
+        "coordinates": [
+            42.697845,
+            23.321161
+        ],
+        "lineTypes": [],
+        "stopCode": 3014,
+        "stopName": "МЕТРОСТАНЦИЯ СЕРДИКА"
+    },
+    {
+        "coordinates": [
+            42.692483,
+            23.334608
+        ],
+        "lineTypes": [],
+        "stopCode": 3015,
+        "stopName": "МЕТРОСТАНЦИЯ СУ СВ. КЛИМЕНТ ОХРИДСКИ"
+    },
+    {
+        "coordinates": [
+            42.692483,
+            23.334608
+        ],
+        "lineTypes": [],
+        "stopCode": 3016,
+        "stopName": "МЕТРОСТАНЦИЯ СУ СВ. КЛИМЕНТ ОХРИДСКИ"
+    },
+    {
+        "coordinates": [
+            42.685938,
+            23.332409
+        ],
+        "lineTypes": [],
+        "stopCode": 3017,
+        "stopName": "МЕТРОСТАНЦИЯ СТ.ВАСИЛ ЛЕВСКИ"
+    },
+    {
+        "coordinates": [
+            42.685938,
+            23.332409
+        ],
+        "lineTypes": [],
+        "stopCode": 3018,
+        "stopName": "МЕТРОСТАНЦИЯ СТ.ВАСИЛ ЛЕВСКИ"
+    },
+    {
+        "coordinates": [
+            42.671506,
+            23.350671
+        ],
+        "lineTypes": [],
+        "stopCode": 3019,
+        "stopName": "МЕТРОСТАНЦИЯ Ф. ЖОЛИО-КЮРИ"
+    },
+    {
+        "coordinates": [
+            42.671506,
+            23.350671
+        ],
+        "lineTypes": [],
+        "stopCode": 3020,
+        "stopName": "МЕТРОСТАНЦИЯ Ф. ЖОЛИО-КЮРИ"
+    },
+    {
+        "coordinates": [
+            42.662675,
+            23.357841
+        ],
+        "lineTypes": [],
+        "stopCode": 3021,
+        "stopName": "МЕТРОСТАНЦИЯ Г. М. ДИМИТРОВ"
+    },
+    {
+        "coordinates": [
+            42.662675,
+            23.357841
+        ],
+        "lineTypes": [],
+        "stopCode": 3022,
+        "stopName": "МЕТРОСТАНЦИЯ Г. М. ДИМИТРОВ"
+    },
+    {
+        "coordinates": [
+            42.658571,
+            23.364492
+        ],
+        "lineTypes": [],
+        "stopCode": 3023,
+        "stopName": "МЕТРОСТАНЦИЯ МУСАГЕНИЦА"
+    },
+    {
+        "coordinates": [
+            42.658571,
+            23.364492
+        ],
+        "lineTypes": [],
+        "stopCode": 3024,
+        "stopName": "МЕТРОСТАНЦИЯ МУСАГЕНИЦА"
+    },
+    {
+        "coordinates": [
+            42.652947,
+            23.373399
+        ],
+        "lineTypes": [],
+        "stopCode": 3025,
+        "stopName": "МЕТРОСТАНЦИЯ МЛАДОСТ-1"
+    },
+    {
+        "coordinates": [
+            42.652947,
+            23.373399
+        ],
+        "lineTypes": [],
+        "stopCode": 3026,
+        "stopName": "МЕТРОСТАНЦИЯ МЛАДОСТ-1"
+    },
+    {
+        "coordinates": [
+            42.646302,
+            23.384784
+        ],
+        "lineTypes": [],
+        "stopCode": 3027,
+        "stopName": "МЕТРОСТАНЦИЯ МЛАДОСТ-3"
+    },
+    {
+        "coordinates": [
+            42.646302,
+            23.384784
+        ],
+        "lineTypes": [],
+        "stopCode": 3028,
+        "stopName": "МЕТРОСТАНЦИЯ МЛАДОСТ-3"
+    },
+    {
+        "coordinates": [
+            42.649556,
+            23.393573
+        ],
+        "lineTypes": [],
+        "stopCode": 3029,
+        "stopName": "МЕТРОСТАНЦИЯ ЦАРИГРАДСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.649556,
+            23.393573
+        ],
+        "lineTypes": [],
+        "stopCode": 3030,
+        "stopName": "МЕТРОСТАНЦИЯ ЦАРИГРАДСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.659258,
+            23.394587
+        ],
+        "lineTypes": [],
+        "stopCode": 3031,
+        "stopName": "МЕТРОСТАНЦИЯ ДРУЖБА"
+    },
+    {
+        "coordinates": [
+            42.659258,
+            23.394587
+        ],
+        "lineTypes": [],
+        "stopCode": 3032,
+        "stopName": "МЕТРОСТАНЦИЯ ДРУЖБА"
+    },
+    {
+        "coordinates": [
+            42.668058,
+            23.40212
+        ],
+        "lineTypes": [],
+        "stopCode": 3033,
+        "stopName": "МЕТРОСТАНЦИЯ ИСКЪРСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.668058,
+            23.40212
+        ],
+        "lineTypes": [],
+        "stopCode": 3034,
+        "stopName": "МЕТРОСТАНЦИЯ ИСКЪРСКО ШОСЕ"
+    },
+    {
+        "coordinates": [
+            42.676417,
+            23.41017
+        ],
+        "lineTypes": [],
+        "stopCode": 3035,
+        "stopName": "МЕТРОСТАНЦИЯ СОФИЙСКА СВЕТА ГОРА"
+    },
+    {
+        "coordinates": [
+            42.676417,
+            23.41017
+        ],
+        "lineTypes": [],
+        "stopCode": 3036,
+        "stopName": "МЕТРОСТАНЦИЯ СОФИЙСКА СВЕТА ГОРА"
+    },
+    {
+        "coordinates": [
+            42.688507,
+            23.416153
+        ],
+        "lineTypes": [],
+        "stopCode": 3037,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЕТИЩЕ СОФИЯ"
+    },
+    {
+        "coordinates": [
+            42.688507,
+            23.416153
+        ],
+        "lineTypes": [],
+        "stopCode": 3038,
+        "stopName": "МЕТРОСТАНЦИЯ ЛЕТИЩЕ СОФИЯ"
+    },
+    {
+        "coordinates": [
+            42.647456,
+            23.376574
+        ],
+        "lineTypes": [],
+        "stopCode": 3039,
+        "stopName": "МЕТРОСТАНЦИЯ АЛЕКСАНДЪР МАЛИНОВ"
+    },
+    {
+        "coordinates": [
+            42.647456,
+            23.376574
+        ],
+        "lineTypes": [],
+        "stopCode": 3040,
+        "stopName": "МЕТРОСТАНЦИЯ АЛЕКСАНДЪР МАЛИНОВ"
+    },
+    {
+        "coordinates": [
+            42.640711,
+            23.372965
+        ],
+        "lineTypes": [],
+        "stopCode": 3041,
+        "stopName": "МЕТРОСТАНЦИЯ АКАД. АЛ. ТЕОДОРОВ-БАЛАН"
+    },
+    {
+        "coordinates": [
+            42.640711,
+            23.372965
+        ],
+        "lineTypes": [],
+        "stopCode": 3042,
+        "stopName": "МЕТРОСТАНЦИЯ АКАД. АЛ. ТЕОДОРОВ-БАЛАН"
+    },
+    {
+        "coordinates": [
+            42.628704,
+            23.373207
+        ],
+        "lineTypes": [],
+        "stopCode": 3043,
+        "stopName": "МЕТРОСТАНЦИЯ БИЗНЕС ПАРК"
+    },
+    {
+        "coordinates": [
+            42.628704,
+            23.373207
+        ],
+        "lineTypes": [],
+        "stopCode": 3044,
+        "stopName": "МЕТРОСТАНЦИЯ БИЗНЕС ПАРК"
+    },
+    {
+        "coordinates": [
+            42.70209,
+            23.351575
+        ],
+        "lineTypes": [],
+        "stopCode": 3309,
+        "stopName": "МЕТРОСТАНЦИЯ ХАДЖИ ДИМИТЪР"
+    },
+    {
+        "coordinates": [
+            42.70209,
+            23.351575
+        ],
+        "lineTypes": [],
+        "stopCode": 3310,
+        "stopName": "МЕТРОСТАНЦИЯ ХАДЖИ ДИМИТЪР"
+    },
+    {
+        "coordinates": [
+            42.697181,
+            23.346866
+        ],
+        "lineTypes": [],
+        "stopCode": 3311,
+        "stopName": "МЕТРОСТАНЦИЯ ТЕАТРАЛНА"
+    },
+    {
+        "coordinates": [
+            42.697181,
+            23.346866
+        ],
+        "lineTypes": [],
+        "stopCode": 3312,
+        "stopName": "МЕТРОСТАНЦИЯ ТЕАТРАЛНА"
+    },
+    {
+        "coordinates": [
+            42.69055,
+            23.33622
+        ],
+        "lineTypes": [],
+        "stopCode": 3315,
+        "stopName": "МЕТРОСТАНЦИЯ ОРЛОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.69055,
+            23.33622
+        ],
+        "lineTypes": [],
+        "stopCode": 3316,
+        "stopName": "МЕТРОСТАНЦИЯ ОРЛОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.688237,
+            23.327664
+        ],
+        "lineTypes": [],
+        "stopCode": 3317,
+        "stopName": "МЕТРОСТАНЦИЯ СВ. ПАТРИАРХ ЕВТИМИЙ"
+    },
+    {
+        "coordinates": [
+            42.688237,
+            23.327664
+        ],
+        "lineTypes": [],
+        "stopCode": 3318,
+        "stopName": "МЕТРОСТАНЦИЯ СВ. ПАТРИАРХ ЕВТИМИЙ"
+    },
+    {
+        "coordinates": [
+            42.689121,
+            23.318026
+        ],
+        "lineTypes": [],
+        "stopCode": 3319,
+        "stopName": "МЕТРОСТАНЦИЯ НДК 2"
+    },
+    {
+        "coordinates": [
+            42.689121,
+            23.318026
+        ],
+        "lineTypes": [],
+        "stopCode": 3320,
+        "stopName": "МЕТРОСТАНЦИЯ НДК 2"
+    },
+    {
+        "coordinates": [
+            42.686537,
+            23.30932
+        ],
+        "lineTypes": [],
+        "stopCode": 3321,
+        "stopName": "МЕТРОСТАНЦИЯ МЕДИЦИНСКИ УНИВЕРСИТЕТ"
+    },
+    {
+        "coordinates": [
+            42.686537,
+            23.30932
+        ],
+        "lineTypes": [],
+        "stopCode": 3322,
+        "stopName": "МЕТРОСТАНЦИЯ МЕДИЦИНСКИ УНИВЕРСИТЕТ"
+    },
+    {
+        "coordinates": [
+            42.679241,
+            23.300988
+        ],
+        "lineTypes": [],
+        "stopCode": 3323,
+        "stopName": "МЕТРОСТАНЦИЯ БУЛ. БЪЛГАРИЯ"
+    },
+    {
+        "coordinates": [
+            42.679241,
+            23.300988
+        ],
+        "lineTypes": [],
+        "stopCode": 3324,
+        "stopName": "МЕТРОСТАНЦИЯ БУЛ. БЪЛГАРИЯ"
+    },
+    {
+        "coordinates": [
+            42.679228,
+            23.284366
+        ],
+        "lineTypes": [],
+        "stopCode": 3327,
+        "stopName": "МЕТРОСТАНЦИЯ ЦАР БОРИС III / КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
+            42.679228,
+            23.284366
+        ],
+        "lineTypes": [],
+        "stopCode": 3328,
+        "stopName": "МЕТРОСТАНЦИЯ ЦАР БОРИС III / КРАСНО СЕЛО"
+    },
+    {
+        "coordinates": [
+            42.682777,
+            23.270943
+        ],
+        "lineTypes": [],
+        "stopCode": 3329,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.682777,
+            23.270943
+        ],
+        "lineTypes": [],
+        "stopCode": 3330,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.683968,
+            23.257033
+        ],
+        "lineTypes": [],
+        "stopCode": 3331,
+        "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ / НБУ"
+    },
+    {
+        "coordinates": [
+            42.683968,
+            23.257033
+        ],
+        "lineTypes": [],
+        "stopCode": 3332,
+        "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ / НБУ"
+    },
+    {
+        "coordinates": [
+            42.684747,
+            23.247822
+        ],
+        "lineTypes": [],
+        "stopCode": 3333,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ II"
+    },
+    {
+        "coordinates": [
+            42.684747,
+            23.247822
+        ],
+        "lineTypes": [],
+        "stopCode": 3334,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ II"
+    },
+    {
+        "coordinates": [
+            42.684117,
+            23.242672
+        ],
+        "lineTypes": [],
+        "stopCode": 3335,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
+    },
+    {
+        "coordinates": [
+            42.684117,
+            23.242672
+        ],
+        "lineTypes": [],
+        "stopCode": 3336,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
     },
     {
         "coordinates": [
