@@ -655,7 +655,6 @@
             23.342054
         ],
         "lineTypes": [
-            0,
             2
         ],
         "stopCode": 62,
@@ -5808,6 +5807,28 @@
     },
     {
         "coordinates": [
+            42.762556,
+            23.399502
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 560,
+        "stopName": "ЕЛ. КАНТОН"
+    },
+    {
+        "coordinates": [
+            42.762381,
+            23.399569
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 561,
+        "stopName": "ЕЛ. КАНТОН"
+    },
+    {
+        "coordinates": [
             42.501235,
             23.37219
         ],
@@ -7562,6 +7583,28 @@
     },
     {
         "coordinates": [
+            42.750634,
+            23.399147
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 736,
+        "stopName": "ЗЕЛЕНЧУКОВА ГРАДИНА"
+    },
+    {
+        "coordinates": [
+            42.750278,
+            23.399214
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 737,
+        "stopName": "ЗЕЛЕНЧУКОВА ГРАДИНА"
+    },
+    {
+        "coordinates": [
             42.744275,
             23.409128
         ],
@@ -9269,28 +9312,6 @@
         ],
         "stopCode": 919,
         "stopName": "КВ. КРЪСТОВА ВАДА"
-    },
-    {
-        "coordinates": [
-            42.723541,
-            23.36971
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 920,
-        "stopName": "УЛ. ЧЕПИНСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
-            42.723341,
-            23.369133
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 921,
-        "stopName": "УЛ. ЧЕПИНСКО ШОСЕ"
     },
     {
         "coordinates": [
@@ -11140,28 +11161,6 @@
     },
     {
         "coordinates": [
-            42.736744,
-            23.395389
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1099,
-        "stopName": "МОСТА НА Р. ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.736815,
-            23.39572
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1100,
-        "stopName": "МОСТА НА Р. ИСКЪР"
-    },
-    {
-        "coordinates": [
             42.665419,
             23.422115
         ],
@@ -12210,6 +12209,28 @@
     },
     {
         "coordinates": [
+            42.745009,
+            23.399584
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1203,
+        "stopName": "ОПИТНА СТАНЦИЯ"
+    },
+    {
+        "coordinates": [
+            42.744835,
+            23.399626
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1204,
+        "stopName": "ОПИТНА СТАНЦИЯ"
+    },
+    {
+        "coordinates": [
             42.741441,
             23.404567
         ],
@@ -12790,28 +12811,6 @@
         ],
         "stopCode": 1260,
         "stopName": "ПЛОЩАД НА АВИАЦИЯТА"
-    },
-    {
-        "coordinates": [
-            42.733153,
-            23.390132
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1262,
-        "stopName": "ПЕТТЕ МОГИЛИ"
-    },
-    {
-        "coordinates": [
-            42.733005,
-            23.389658
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1263,
-        "stopName": "ПЕТТЕ МОГИЛИ"
     },
     {
         "coordinates": [
@@ -14422,28 +14421,6 @@
         ],
         "stopCode": 1419,
         "stopName": "ПРОСТОР"
-    },
-    {
-        "coordinates": [
-            42.725635,
-            23.374198
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1420,
-        "stopName": "ПТИЦЕФЕРМАТА"
-    },
-    {
-        "coordinates": [
-            42.725492,
-            23.373716
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1421,
-        "stopName": "ПТИЦЕФЕРМАТА"
     },
     {
         "coordinates": [
@@ -16908,28 +16885,6 @@
         ],
         "stopCode": 1653,
         "stopName": "ПРОМИШЛЕНА ЗОНА ГОРНИ ЛОЗЕН"
-    },
-    {
-        "coordinates": [
-            42.729499,
-            23.382431
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1654,
-        "stopName": "ПРОМИШЛЕНА ЗОНА"
-    },
-    {
-        "coordinates": [
-            42.729498,
-            23.382264
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 1655,
-        "stopName": "ПРОМИШЛЕНА ЗОНА"
     },
     {
         "coordinates": [
@@ -20363,6 +20318,7 @@
             23.341033
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 1978,
@@ -22360,6 +22316,7 @@
             23.34281
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 2164,
@@ -27819,28 +27776,6 @@
     },
     {
         "coordinates": [
-            42.7314,
-            23.386267
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2745,
-        "stopName": "СКЛАДОВА БАЗА ЧЕПИНСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
-            42.731423,
-            23.386487
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2746,
-        "stopName": "СКЛАДОВА БАЗА ЧЕПИНСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
             42.805637,
             23.378502
         ],
@@ -30137,7 +30072,9 @@
             42.7128,
             23.34389
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 6575,
         "stopName": "УЛ. ПЪРВА БЪЛГАРСКА АРМИЯ"
     },
