@@ -3946,6 +3946,24 @@
     },
     {
         "coordinates": [
+            42.726776,
+            23.313185
+        ],
+        "lineTypes": [],
+        "stopCode": 374,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
+            42.726861,
+            23.312939
+        ],
+        "lineTypes": [],
+        "stopCode": 375,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
             42.704969,
             23.317552
         ],
@@ -4945,6 +4963,24 @@
         ],
         "stopCode": 475,
         "stopName": "ГАРА РУДНИЧНА - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.726745,
+            23.315081
+        ],
+        "lineTypes": [],
+        "stopCode": 476,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
+    },
+    {
+        "coordinates": [
+            42.726458,
+            23.315311
+        ],
+        "lineTypes": [],
+        "stopCode": 477,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
     {
         "coordinates": [
@@ -7720,6 +7756,7 @@
             23.317664
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 755,
@@ -27140,6 +27177,50 @@
         ],
         "stopCode": 2667,
         "stopName": "УЛ. ДЖЕРМАН - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.726927,
+            23.313091
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2670,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
+            42.727079,
+            23.312881
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2671,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
+            42.726763,
+            23.316084
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2672,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
+    },
+    {
+        "coordinates": [
+            42.726239,
+            23.316038
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2673,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
     {
         "coordinates": [
