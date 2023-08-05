@@ -3949,7 +3949,9 @@
             42.726776,
             23.313185
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 374,
         "stopName": "МОДНА КЪЩА АГРЕСИЯ"
     },
@@ -3958,7 +3960,9 @@
             42.726861,
             23.312939
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 375,
         "stopName": "МОДНА КЪЩА АГРЕСИЯ"
     },
@@ -4834,6 +4838,24 @@
     },
     {
         "coordinates": [
+            42.739049,
+            23.264547
+        ],
+        "lineTypes": [],
+        "stopCode": 460,
+        "stopName": "ГАРА ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.738871,
+            23.2644
+        ],
+        "lineTypes": [],
+        "stopCode": 461,
+        "stopName": "ГАРА ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
             42.666594,
             23.338594
         ],
@@ -4969,7 +4991,9 @@
             42.726745,
             23.315081
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 476,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
@@ -4978,7 +5002,9 @@
             42.726458,
             23.315311
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 477,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
@@ -5710,17 +5736,6 @@
         ],
         "stopCode": 545,
         "stopName": "ПРОМИШЛЕНА ЗОНА КРИВИНА"
-    },
-    {
-        "coordinates": [
-            42.731135,
-            23.314032
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 546,
-        "stopName": "БУЛ. РОЖЕН"
     },
     {
         "coordinates": [
@@ -7543,8 +7558,7 @@
             23.31722
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 727,
         "stopName": "ЗАГ ДИНАМИК АД"
@@ -7555,8 +7569,7 @@
             23.317134
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 728,
         "stopName": "ЗАГ ДИНАМИК АД"
@@ -7699,8 +7712,7 @@
             23.317485
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 744,
         "stopName": "СОФАРМА АД"
@@ -7711,8 +7723,7 @@
             23.317513
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 745,
         "stopName": "СОФАРМА АД"
@@ -7741,23 +7752,11 @@
     },
     {
         "coordinates": [
-            42.738863,
-            23.31783
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 754,
-        "stopName": "СТОКОВ БАЗАР ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
             42.738119,
             23.317664
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 755,
         "stopName": "СТОКОВ БАЗАР ИЛИЯНЦИ"
@@ -8659,28 +8658,6 @@
     },
     {
         "coordinates": [
-            42.754036,
-            23.320869
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 847,
-        "stopName": "КВ. ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
-            42.753851,
-            23.320535
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 848,
-        "stopName": "КВ. ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
             42.668167,
             23.240958
         ],
@@ -8903,6 +8880,17 @@
     },
     {
         "coordinates": [
+            42.742703,
+            23.265679
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 871,
+        "stopName": "КВ. ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
             42.743146,
             23.274839
         ],
@@ -8921,6 +8909,17 @@
             1
         ],
         "stopCode": 873,
+        "stopName": "КВ. ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.742465,
+            23.266069
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 874,
         "stopName": "КВ. ОБЕЛЯ"
     },
     {
@@ -16703,28 +16702,6 @@
     },
     {
         "coordinates": [
-            42.743769,
-            23.318289
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1635,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
-    },
-    {
-        "coordinates": [
-            42.744068,
-            23.318359
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1636,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
-    },
-    {
-        "coordinates": [
             42.743968,
             23.31789
         ],
@@ -18380,6 +18357,28 @@
     },
     {
         "coordinates": [
+            42.742971,
+            23.272973
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1792,
+        "stopName": "УЛ. 2"
+    },
+    {
+        "coordinates": [
+            42.742889,
+            23.27301
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1793,
+        "stopName": "УЛ. 2"
+    },
+    {
+        "coordinates": [
             42.713077,
             23.402926
         ],
@@ -18616,6 +18615,17 @@
     },
     {
         "coordinates": [
+            42.742891,
+            23.26898
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1815,
+        "stopName": "УЛ. 9"
+    },
+    {
+        "coordinates": [
             42.634675,
             23.353929
         ],
@@ -18625,6 +18635,17 @@
         ],
         "stopCode": 1816,
         "stopName": "УЛ. 9 - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.742962,
+            23.269981
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1817,
+        "stopName": "УЛ. 9"
     },
     {
         "coordinates": [
@@ -19682,28 +19703,6 @@
     },
     {
         "coordinates": [
-            42.748569,
-            23.319547
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1915,
-        "stopName": "УЛ. ГРОЗДЕН"
-    },
-    {
-        "coordinates": [
-            42.748334,
-            23.319244
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1916,
-        "stopName": "УЛ. ГРОЗДЕН"
-    },
-    {
-        "coordinates": [
             42.641923,
             23.3734
         ],
@@ -20454,28 +20453,6 @@
         ],
         "stopCode": 1986,
         "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.750877,
-            23.32035
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1987,
-        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
-    },
-    {
-        "coordinates": [
-            42.751077,
-            23.320318
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1988,
-        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
     },
     {
         "coordinates": [
@@ -27221,17 +27198,6 @@
         ],
         "stopCode": 2673,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
-    },
-    {
-        "coordinates": [
-            42.731018,
-            23.314332
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2674,
-        "stopName": "БУЛ. РОЖЕН"
     },
     {
         "coordinates": [
