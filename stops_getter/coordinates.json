@@ -7561,9 +7561,7 @@
             42.732082,
             23.31722
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 727,
         "stopName": "ЗАГ ДИНАМИК АД"
     },
@@ -7726,9 +7724,7 @@
             42.735496,
             23.317513
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 745,
         "stopName": "СОФАРМА АД"
     },
@@ -8635,6 +8631,28 @@
             0
         ],
         "stopCode": 843,
+        "stopName": "КВ. ИЗГРЕВ - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.715387,
+            23.172579
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 844,
+        "stopName": "КВ. ИЗГРЕВ"
+    },
+    {
+        "coordinates": [
+            42.715623,
+            23.172058
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 845,
         "stopName": "КВ. ИЗГРЕВ - ПО ЖЕЛАНИЕ"
     },
     {
@@ -14943,6 +14961,17 @@
         ],
         "stopCode": 1467,
         "stopName": "РЕЗИДЕНЦИЯ ВРАНА"
+    },
+    {
+        "coordinates": [
+            42.713371,
+            23.159444
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 1468,
+        "stopName": "РЕМОНТНА БАЗА"
     },
     {
         "coordinates": [
@@ -28740,9 +28769,7 @@
             42.710955,
             23.177083
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2841,
         "stopName": "УЛ. МИЛЕНИУМ"
     },
@@ -28751,9 +28778,7 @@
             42.710837,
             23.177203
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2842,
         "stopName": "УЛ. МИЛЕНИУМ"
     },
@@ -28762,9 +28787,7 @@
             42.714266,
             23.17387
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2843,
         "stopName": "УЛ. ПЕРУНИКА"
     },
@@ -28773,9 +28796,7 @@
             42.714095,
             23.174123
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2844,
         "stopName": "УЛ. ПЕРУНИКА"
     },
@@ -29890,6 +29911,17 @@
         ],
         "stopCode": 6241,
         "stopName": "МЕТРОСТАНЦИЯ ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.713277,
+            23.160144
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6246,
+        "stopName": "РЕМОНТНА БАЗА"
     },
     {
         "coordinates": [
