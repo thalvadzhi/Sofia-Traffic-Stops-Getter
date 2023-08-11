@@ -7561,7 +7561,9 @@
             42.732082,
             23.31722
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 727,
         "stopName": "ЗАГ ДИНАМИК АД"
     },
@@ -7724,7 +7726,9 @@
             42.735496,
             23.317513
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 745,
         "stopName": "СОФАРМА АД"
     },
@@ -28763,42 +28767,6 @@
         ],
         "stopCode": 2840,
         "stopName": "ЗЛАТНИ МОСТОВЕ"
-    },
-    {
-        "coordinates": [
-            42.710955,
-            23.177083
-        ],
-        "lineTypes": [],
-        "stopCode": 2841,
-        "stopName": "УЛ. МИЛЕНИУМ"
-    },
-    {
-        "coordinates": [
-            42.710837,
-            23.177203
-        ],
-        "lineTypes": [],
-        "stopCode": 2842,
-        "stopName": "УЛ. МИЛЕНИУМ"
-    },
-    {
-        "coordinates": [
-            42.714266,
-            23.17387
-        ],
-        "lineTypes": [],
-        "stopCode": 2843,
-        "stopName": "УЛ. ПЕРУНИКА"
-    },
-    {
-        "coordinates": [
-            42.714095,
-            23.174123
-        ],
-        "lineTypes": [],
-        "stopCode": 2844,
-        "stopName": "УЛ. ПЕРУНИКА"
     },
     {
         "coordinates": [
