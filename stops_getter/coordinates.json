@@ -3949,9 +3949,7 @@
             42.726776,
             23.313185
         ],
-        "lineTypes": [
-            1
-        ],
+        "lineTypes": [],
         "stopCode": 374,
         "stopName": "МОДНА КЪЩА АГРЕСИЯ"
     },
@@ -3960,9 +3958,7 @@
             42.726861,
             23.312939
         ],
-        "lineTypes": [
-            1
-        ],
+        "lineTypes": [],
         "stopCode": 375,
         "stopName": "МОДНА КЪЩА АГРЕСИЯ"
     },
@@ -4172,7 +4168,10 @@
             42.685203,
             23.321214
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0,
+            2
+        ],
         "stopCode": 396,
         "stopName": "ХОТЕЛ ХИЛТЪН"
     },
@@ -4193,8 +4192,7 @@
             23.322147
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 398,
         "stopName": "БУЛ. ЧЕРНИ ВРЪХ"
@@ -4215,7 +4213,9 @@
             42.682382,
             23.320893
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            2
+        ],
         "stopCode": 400,
         "stopName": "ХОТЕЛ ХИЛТЪН"
     },
@@ -5013,9 +5013,7 @@
             42.726745,
             23.315081
         ],
-        "lineTypes": [
-            1
-        ],
+        "lineTypes": [],
         "stopCode": 476,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
@@ -5024,9 +5022,7 @@
             42.726458,
             23.315311
         ],
-        "lineTypes": [
-            1
-        ],
+        "lineTypes": [],
         "stopCode": 477,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
@@ -5758,6 +5754,17 @@
         ],
         "stopCode": 545,
         "stopName": "ПРОМИШЛЕНА ЗОНА КРИВИНА"
+    },
+    {
+        "coordinates": [
+            42.731135,
+            23.314032
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 546,
+        "stopName": "БУЛ. РОЖЕН"
     },
     {
         "coordinates": [
@@ -6759,7 +6766,9 @@
             42.675546,
             23.31501
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            2
+        ],
         "stopCode": 647,
         "stopName": "ПК СПАРТАК"
     },
@@ -7585,11 +7594,24 @@
     },
     {
         "coordinates": [
+            42.732082,
+            23.31722
+        ],
+        "lineTypes": [
+            0,
+            1
+        ],
+        "stopCode": 727,
+        "stopName": "ЗАГ ДИНАМИК АД"
+    },
+    {
+        "coordinates": [
             42.73165,
             23.317134
         ],
         "lineTypes": [
-            0
+            0,
+            1
         ],
         "stopCode": 728,
         "stopName": "ЗАГ ДИНАМИК АД"
@@ -7732,9 +7754,22 @@
             23.317485
         ],
         "lineTypes": [
-            0
+            0,
+            1
         ],
         "stopCode": 744,
+        "stopName": "СОФАРМА АД"
+    },
+    {
+        "coordinates": [
+            42.735496,
+            23.317513
+        ],
+        "lineTypes": [
+            0,
+            1
+        ],
+        "stopCode": 745,
         "stopName": "СОФАРМА АД"
     },
     {
@@ -7758,6 +7793,28 @@
         ],
         "stopCode": 751,
         "stopName": "ЗСК КРЕМИКОВЦИ АД"
+    },
+    {
+        "coordinates": [
+            42.738863,
+            23.31783
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 754,
+        "stopName": "СТОКОВ БАЗАР ИЛИЯНЦИ"
+    },
+    {
+        "coordinates": [
+            42.738119,
+            23.317664
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 755,
+        "stopName": "СТОКОВ БАЗАР ИЛИЯНЦИ"
     },
     {
         "coordinates": [
@@ -8678,6 +8735,28 @@
     },
     {
         "coordinates": [
+            42.754036,
+            23.320869
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 847,
+        "stopName": "КВ. ИЛИЯНЦИ"
+    },
+    {
+        "coordinates": [
+            42.753851,
+            23.320535
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 848,
+        "stopName": "КВ. ИЛИЯНЦИ"
+    },
+    {
+        "coordinates": [
             42.668167,
             23.240958
         ],
@@ -9430,6 +9509,7 @@
             23.329631
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 927,
@@ -13512,7 +13592,9 @@
             42.678472,
             23.321204
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            2
+        ],
         "stopCode": 1324,
         "stopName": "ХОТЕЛ ХЕМУС"
     },
@@ -13735,8 +13817,7 @@
             23.315404
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 1345,
         "stopName": "ПК СПАРТАК"
@@ -16742,6 +16823,28 @@
     },
     {
         "coordinates": [
+            42.743769,
+            23.318289
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1635,
+        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
+    },
+    {
+        "coordinates": [
+            42.744068,
+            23.318359
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1636,
+        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
+    },
+    {
+        "coordinates": [
             42.743968,
             23.31789
         ],
@@ -18559,6 +18662,7 @@
             23.324264
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 1806,
@@ -18570,8 +18674,7 @@
             23.325929
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 1807,
         "stopName": "УЛ. 6-ТИ СЕПТЕМВРИ"
@@ -19724,8 +19827,7 @@
             23.332017
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 1913,
         "stopName": "УЛ. ГРАФ ИГНАТИЕВ"
@@ -19740,6 +19842,28 @@
         ],
         "stopCode": 1914,
         "stopName": "УЛ. ГРАФ ИГНАТИЕВ"
+    },
+    {
+        "coordinates": [
+            42.748569,
+            23.319547
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1915,
+        "stopName": "УЛ. ГРОЗДЕН"
+    },
+    {
+        "coordinates": [
+            42.748334,
+            23.319244
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1916,
+        "stopName": "УЛ. ГРОЗДЕН"
     },
     {
         "coordinates": [
@@ -20493,6 +20617,28 @@
         ],
         "stopCode": 1986,
         "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
+    },
+    {
+        "coordinates": [
+            42.750877,
+            23.32035
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1987,
+        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
+    },
+    {
+        "coordinates": [
+            42.751077,
+            23.320318
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1988,
+        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
     },
     {
         "coordinates": [
@@ -24056,8 +24202,7 @@
             23.321839
         ],
         "lineTypes": [
-            0,
-            2
+            0
         ],
         "stopCode": 2330,
         "stopName": "ХОТЕЛ ХЕМУС"
@@ -27229,6 +27374,17 @@
         ],
         "stopCode": 2673,
         "stopName": "ГАРА СОФИЯ СЕВЕР"
+    },
+    {
+        "coordinates": [
+            42.731018,
+            23.314332
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2674,
+        "stopName": "БУЛ. РОЖЕН"
     },
     {
         "coordinates": [
