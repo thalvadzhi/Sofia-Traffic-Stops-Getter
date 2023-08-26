@@ -9312,8 +9312,8 @@
     },
     {
         "coordinates": [
-            42.659663,
-            23.317373
+            42.659808,
+            23.317681
         ],
         "lineTypes": [
             0,
@@ -12903,28 +12903,6 @@
     },
     {
         "coordinates": [
-            42.696527,
-            23.330223
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1264,
-        "stopName": "ПЛ. АЛ.НЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.696365,
-            23.330065
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1265,
-        "stopName": "ПЛ. АЛ.НЕВСКИ"
-    },
-    {
-        "coordinates": [
             42.737982,
             23.343333
         ],
@@ -14516,28 +14494,6 @@
     },
     {
         "coordinates": [
-            42.688918,
-            23.323128
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1422,
-        "stopName": "ПЪРВА ГРАДСКА БОЛНИЦА"
-    },
-    {
-        "coordinates": [
-            42.689545,
-            23.323334
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1423,
-        "stopName": "ПЪРВА ГРАДСКА БОЛНИЦА"
-    },
-    {
-        "coordinates": [
             42.704037,
             23.127492
         ],
@@ -15356,28 +15312,6 @@
         ],
         "stopCode": 1500,
         "stopName": "НАЧАЛО С. ВЛАДАЯ - ПО ЖЕЛАНИЕ"
-    },
-    {
-        "coordinates": [
-            42.69227,
-            23.326323
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1501,
-        "stopName": "САТИРИЧЕН ТЕАТЪР"
-    },
-    {
-        "coordinates": [
-            42.691868,
-            23.325532
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1502,
-        "stopName": "САТИРИЧЕН ТЕАТЪР"
     },
     {
         "coordinates": [
@@ -19487,17 +19421,6 @@
     },
     {
         "coordinates": [
-            42.686731,
-            23.322861
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1886,
-        "stopName": "УЛ. ГЕОРГИ РАКОВСКИ"
-    },
-    {
-        "coordinates": [
             42.722484,
             23.531035
         ],
@@ -20070,8 +19993,7 @@
             23.329735
         ],
         "lineTypes": [
-            1,
-            2
+            1
         ],
         "stopCode": 1939,
         "stopName": "УЛ. ДУНАВ"
@@ -20288,28 +20210,6 @@
         ],
         "stopCode": 1961,
         "stopName": "УЛ. ИНДИРА ГАНДИ"
-    },
-    {
-        "coordinates": [
-            42.699532,
-            23.329571
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1962,
-        "stopName": "УЛ. ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.700139,
-            23.329585
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 1963,
-        "stopName": "УЛ. ИСКЪР"
     },
     {
         "coordinates": [
@@ -22027,28 +21927,6 @@
     },
     {
         "coordinates": [
-            42.70344,
-            23.328985
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 2121,
-        "stopName": "УЛ. ПОП БОГОМИЛ"
-    },
-    {
-        "coordinates": [
-            42.703145,
-            23.328914
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 2122,
-        "stopName": "УЛ. ПОП БОГОМИЛ"
-    },
-    {
-        "coordinates": [
             42.707079,
             23.380192
         ],
@@ -22901,17 +22779,6 @@
         ],
         "stopCode": 2204,
         "stopName": "УЛ. ТЕОФИЛ ГАНЕВ"
-    },
-    {
-        "coordinates": [
-            42.705715,
-            23.328573
-        ],
-        "lineTypes": [
-            2
-        ],
-        "stopCode": 2205,
-        "stopName": "УЛ. ТИМОК"
     },
     {
         "coordinates": [
@@ -26836,8 +26703,8 @@
     },
     {
         "coordinates": [
-            42.624077,
-            23.369944
+            42.624281,
+            23.371091
         ],
         "lineTypes": [
             0
@@ -28826,6 +28693,17 @@
         ],
         "stopCode": 2845,
         "stopName": "Ж.К. ГОЦЕ ДЕЛЧЕВ"
+    },
+    {
+        "coordinates": [
+            42.655006,
+            23.27761
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2848,
+        "stopName": "НАЦИОНАЛНА ФУТБОЛНА  БАЗА"
     },
     {
         "coordinates": [
