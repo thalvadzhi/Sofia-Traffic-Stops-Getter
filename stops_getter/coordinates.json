@@ -10839,17 +10839,6 @@
     },
     {
         "coordinates": [
-            42.699662,
-            23.312612
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1058,
-        "stopName": "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА"
-    },
-    {
-        "coordinates": [
             42.72741,
             23.261056
         ],
@@ -10999,6 +10988,7 @@
             23.32591
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 1073,
@@ -11010,6 +11000,7 @@
             23.326784
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 1074,
@@ -13049,28 +13040,6 @@
     },
     {
         "coordinates": [
-            42.704031,
-            23.323573
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1276,
-        "stopName": "ПЛ. ЛЪВОВ МОСТ"
-    },
-    {
-        "coordinates": [
-            42.7045,
-            23.323777
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1277,
-        "stopName": "ПЛ. ЛЪВОВ МОСТ"
-    },
-    {
-        "coordinates": [
             42.704497,
             23.324987
         ],
@@ -13391,28 +13360,6 @@
         ],
         "stopCode": 1306,
         "stopName": "ПЛ. РУЧЕЙ"
-    },
-    {
-        "coordinates": [
-            42.696426,
-            23.320944
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1307,
-        "stopName": "ПЛ. СВ. НЕДЕЛЯ"
-    },
-    {
-        "coordinates": [
-            42.697064,
-            23.32097
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1308,
-        "stopName": "ПЛ. СВ. НЕДЕЛЯ"
     },
     {
         "coordinates": [
@@ -19934,6 +19881,7 @@
             23.300584
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 1926,
@@ -20744,23 +20692,11 @@
     },
     {
         "coordinates": [
-            42.707478,
-            23.32319
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2002,
-        "stopName": "УЛ. КОЗЛОДУЙ"
-    },
-    {
-        "coordinates": [
             42.706964,
             23.323295
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 2003,
         "stopName": "УЛ. КОЗЛОДУЙ"
@@ -24208,28 +24144,6 @@
     },
     {
         "coordinates": [
-            42.700021,
-            23.322414
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2336,
-        "stopName": "ЦЕНТРАЛНИ ХАЛИ"
-    },
-    {
-        "coordinates": [
-            42.700386,
-            23.322468
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2337,
-        "stopName": "ЦЕНТРАЛНИ ХАЛИ"
-    },
-    {
-        "coordinates": [
             42.664463,
             23.423522
         ],
@@ -26576,6 +26490,17 @@
         ],
         "stopCode": 2596,
         "stopName": "ПЕТА ГРАДСКА БОЛНИЦА"
+    },
+    {
+        "coordinates": [
+            42.640115,
+            23.311886
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2597,
+        "stopName": "Ж.К. ВОДОЛЕЙ"
     },
     {
         "coordinates": [
@@ -29941,6 +29866,28 @@
     },
     {
         "coordinates": [
+            42.701748,
+            23.298383
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6221,
+        "stopName": "МЕТРОСТАНЦИЯ К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
+            42.700681,
+            23.304868
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6222,
+        "stopName": "УЛ. ОДРИН"
+    },
+    {
+        "coordinates": [
             42.742295,
             23.277768
         ],
@@ -30099,6 +30046,50 @@
     },
     {
         "coordinates": [
+            42.698895,
+            23.315423
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6405,
+        "stopName": "БУЛ. ХРИСТО БОТЕВ"
+    },
+    {
+        "coordinates": [
+            42.698645,
+            23.316123
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6406,
+        "stopName": "БУЛ. ХРИСТО БОТЕВ"
+    },
+    {
+        "coordinates": [
+            42.700017,
+            23.30929
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6407,
+        "stopName": "УЛ. ОПЪЛЧЕНСКА"
+    },
+    {
+        "coordinates": [
+            42.699695,
+            23.310588
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6408,
+        "stopName": "УЛ. ОПЪЛЧЕНСКА"
+    },
+    {
+        "coordinates": [
             42.616565,
             23.364638
         ],
@@ -30141,17 +30132,6 @@
         ],
         "stopCode": 6432,
         "stopName": "ТИХИЯ КЪТ - ПО ЖЕЛАНИЕ"
-    },
-    {
-        "coordinates": [
-            42.63953,
-            23.439447
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6546,
-        "stopName": "ПАРК МУЗЕЙ ВРАНА"
     },
     {
         "coordinates": [
