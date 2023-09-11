@@ -5321,17 +5321,6 @@
     },
     {
         "coordinates": [
-            42.633675,
-            23.310802
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 509,
-        "stopName": "ГРОБИЩЕН ПАРК ДРАГАЛЕВЦИ"
-    },
-    {
-        "coordinates": [
             42.722211,
             23.27049
         ],
@@ -10839,6 +10828,17 @@
     },
     {
         "coordinates": [
+            42.699662,
+            23.312612
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1058,
+        "stopName": "МЕТРОСТАНЦИЯ ОПЪЛЧЕНСКА"
+    },
+    {
+        "coordinates": [
             42.72741,
             23.261056
         ],
@@ -13040,6 +13040,28 @@
     },
     {
         "coordinates": [
+            42.704031,
+            23.323573
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1276,
+        "stopName": "ПЛ. ЛЪВОВ МОСТ"
+    },
+    {
+        "coordinates": [
+            42.7045,
+            23.323777
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1277,
+        "stopName": "ПЛ. ЛЪВОВ МОСТ"
+    },
+    {
+        "coordinates": [
             42.704497,
             23.324987
         ],
@@ -13360,6 +13382,28 @@
         ],
         "stopCode": 1306,
         "stopName": "ПЛ. РУЧЕЙ"
+    },
+    {
+        "coordinates": [
+            42.696426,
+            23.320944
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1307,
+        "stopName": "ПЛ. СВ. НЕДЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.697064,
+            23.32097
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1308,
+        "stopName": "ПЛ. СВ. НЕДЕЛЯ"
     },
     {
         "coordinates": [
@@ -20692,11 +20736,23 @@
     },
     {
         "coordinates": [
+            42.707478,
+            23.32319
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2002,
+        "stopName": "УЛ. КОЗЛОДУЙ"
+    },
+    {
+        "coordinates": [
             42.706964,
             23.323295
         ],
         "lineTypes": [
-            0
+            0,
+            1
         ],
         "stopCode": 2003,
         "stopName": "УЛ. КОЗЛОДУЙ"
@@ -24140,6 +24196,28 @@
             1
         ],
         "stopCode": 2335,
+        "stopName": "ЦЕНТРАЛНИ ХАЛИ"
+    },
+    {
+        "coordinates": [
+            42.700021,
+            23.322414
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2336,
+        "stopName": "ЦЕНТРАЛНИ ХАЛИ"
+    },
+    {
+        "coordinates": [
+            42.700386,
+            23.322468
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2337,
         "stopName": "ЦЕНТРАЛНИ ХАЛИ"
     },
     {
