@@ -6303,6 +6303,7 @@
             23.29723
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 599,
@@ -15879,15 +15880,6 @@
     },
     {
         "coordinates": [
-            42.576833,
-            23.414271
-        ],
-        "lineTypes": [],
-        "stopCode": 1540,
-        "stopName": "СЕЛО КОКАЛЯНЕ"
-    },
-    {
-        "coordinates": [
             42.68194,
             23.462712
         ],
@@ -20246,9 +20238,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -26169,6 +26159,17 @@
     },
     {
         "coordinates": [
+            42.711684,
+            23.140709
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2524,
+        "stopName": "78-МО СОУ БАНКЯ"
+    },
+    {
+        "coordinates": [
             42.753387,
             23.353237
         ],
@@ -29027,6 +29028,28 @@
     },
     {
         "coordinates": [
+            42.680052,
+            23.240361
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2846,
+        "stopName": "МЕТРОСТАНЦИЯ ГОРНА БАНЯ"
+    },
+    {
+        "coordinates": [
+            42.66132,
+            23.242751
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2847,
+        "stopName": "ПЛ. СРЕД СЕЛО"
+    },
+    {
+        "coordinates": [
             42.655006,
             23.27761
         ],
@@ -29983,6 +30006,24 @@
     },
     {
         "coordinates": [
+            42.699443,
+            23.315731
+        ],
+        "lineTypes": [],
+        "stopCode": 6085,
+        "stopName": "ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.700266,
+            23.315673
+        ],
+        "lineTypes": [],
+        "stopCode": 6086,
+        "stopName": "ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
             42.669769,
             23.276326
         ],
@@ -30451,6 +30492,15 @@
     },
     {
         "coordinates": [
+            42.701403,
+            23.291794
+        ],
+        "lineTypes": [],
+        "stopCode": 6608,
+        "stopName": "ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
             42.675128,
             23.322272
         ],
@@ -30481,6 +30531,39 @@
         ],
         "stopCode": 6616,
         "stopName": "Ж.К. МЛАДОСТ-1"
+    },
+    {
+        "coordinates": [
+            42.669464,
+            23.244729
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6621,
+        "stopName": "УЛ. БУРЯ"
+    },
+    {
+        "coordinates": [
+            42.67017,
+            23.242444
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6622,
+        "stopName": "УЛ. КНЯЖЕВСКА"
+    },
+    {
+        "coordinates": [
+            42.670106,
+            23.242206
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6623,
+        "stopName": "УЛ. КНЯЖЕВСКА"
     },
     {
         "coordinates": [
@@ -30536,5 +30619,43 @@
         ],
         "stopCode": 6643,
         "stopName": "СЕЛО КАЗИЧЕНЕ"
+    },
+    {
+        "coordinates": [
+            42.668186,
+            23.241507
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6644,
+        "stopName": "КВ. КАРПУЗИЦА"
+    },
+    {
+        "coordinates": [
+            42.697242,
+            23.287674
+        ],
+        "lineTypes": [],
+        "stopCode": 6659,
+        "stopName": "ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.699003,
+            23.290219
+        ],
+        "lineTypes": [],
+        "stopCode": 6660,
+        "stopName": "ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.701466,
+            23.30845
+        ],
+        "lineTypes": [],
+        "stopCode": 6668,
+        "stopName": "ВРЕМЕННА"
     }
 ]
