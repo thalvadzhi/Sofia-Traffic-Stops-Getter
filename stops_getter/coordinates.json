@@ -1153,6 +1153,7 @@
             23.24253
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 108,
@@ -1442,8 +1443,8 @@
     },
     {
         "coordinates": [
-            42.715257,
-            23.276924
+            42.71502,
+            23.276718
         ],
         "lineTypes": [
             0
@@ -3418,6 +3419,7 @@
             23.244424
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 322,
@@ -19900,8 +19902,8 @@
     },
     {
         "coordinates": [
-            42.712756,
-            23.274529
+            42.712719,
+            23.274479
         ],
         "lineTypes": [
             0
@@ -20238,9 +20240,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -25065,6 +25065,7 @@
             23.241631
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 2398,
@@ -25251,8 +25252,8 @@
     },
     {
         "coordinates": [
-            42.711401,
-            23.271945
+            42.711381,
+            23.271894
         ],
         "lineTypes": [
             0
@@ -30013,16 +30014,16 @@
         ],
         "lineTypes": [],
         "stopCode": 6085,
-        "stopName": "ВРЕМЕННА"
+        "stopName": "СУ СВ. КЛИМЕНТ ОХРИДСКИ"
     },
     {
         "coordinates": [
-            42.700266,
-            23.315673
+            42.700913,
+            23.311853
         ],
         "lineTypes": [],
         "stopCode": 6086,
-        "stopName": "ВРЕМЕННА"
+        "stopName": "18-ТО СУ УЙЛЯМ ГЛАДСТОН"
     },
     {
         "coordinates": [
@@ -30104,12 +30105,58 @@
     },
     {
         "coordinates": [
-            42.713947,
-            23.265018
+            42.713447,
+            23.266205
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 6156,
         "stopName": "УЛ. ЛУИ ПАСТЬОР"
+    },
+    {
+        "coordinates": [
+            42.705593,
+            23.282822
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6157,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.705737,
+            23.283755
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6158,
+        "stopName": "МЕТРОСТАНЦИЯ ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.714025,
+            23.265082
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6159,
+        "stopName": "УЛ. ЛУИ ПАСТЬОР"
+    },
+    {
+        "coordinates": [
+            42.716305,
+            23.251202
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6160,
+        "stopName": "ОБЩИНА ЛЮЛИН"
     },
     {
         "coordinates": [
@@ -30221,6 +30268,28 @@
         ],
         "stopCode": 6246,
         "stopName": "РЕМОНТНА БАЗА"
+    },
+    {
+        "coordinates": [
+            42.713345,
+            23.238298
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6247,
+        "stopName": "ВРЕМЕННА БЛ. 541 Ж.К. ЛЮЛИН 5"
+    },
+    {
+        "coordinates": [
+            42.712817,
+            23.238865
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6248,
+        "stopName": "ВРЕМЕННА БЛ. 541 Ж.К. ЛЮЛИН 5"
     },
     {
         "coordinates": [
@@ -30499,7 +30568,7 @@
         ],
         "lineTypes": [],
         "stopCode": 6608,
-        "stopName": "ВРЕМЕННА"
+        "stopName": "10-ТИ ДКЦ"
     },
     {
         "coordinates": [
@@ -30640,7 +30709,7 @@
         ],
         "lineTypes": [],
         "stopCode": 6659,
-        "stopName": "ВРЕМЕННА"
+        "stopName": "БУЛ. ВАРДАР"
     },
     {
         "coordinates": [
@@ -30649,15 +30718,33 @@
         ],
         "lineTypes": [],
         "stopCode": 6660,
+        "stopName": "ПЪРВА АГ БОЛНИЦА СВ. СОФИЯ"
+    },
+    {
+        "coordinates": [
+            42.70149,
+            23.308461
+        ],
+        "lineTypes": [],
+        "stopCode": 6668,
+        "stopName": "134 СУ ДИМЧО ДЕБЕЛЯНОВ"
+    },
+    {
+        "coordinates": [
+            42.713153,
+            23.307825
+        ],
+        "lineTypes": [],
+        "stopCode": 6669,
         "stopName": "ВРЕМЕННА"
     },
     {
         "coordinates": [
-            42.701466,
-            23.30845
+            42.704453,
+            23.31724
         ],
         "lineTypes": [],
-        "stopCode": 6668,
-        "stopName": "ВРЕМЕННА"
+        "stopCode": 6670,
+        "stopName": "46-ТО ОУ КОНСТАНТИН ФОТИНОВ"
     }
 ]
