@@ -11047,7 +11047,6 @@
             23.32591
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 1073,
@@ -11059,7 +11058,6 @@
             23.326784
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 1074,
@@ -18930,6 +18928,7 @@
             23.349532
         ],
         "lineTypes": [
+            0,
             1
         ],
         "stopCode": 1822,
@@ -20055,7 +20054,6 @@
             23.300584
         ],
         "lineTypes": [
-            0,
             1
         ],
         "stopCode": 1926,
@@ -30146,28 +30144,6 @@
     },
     {
         "coordinates": [
-            42.701748,
-            23.298383
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6221,
-        "stopName": "МЕТРОСТАНЦИЯ К. ВЕЛИЧКОВ"
-    },
-    {
-        "coordinates": [
-            42.700681,
-            23.304868
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6222,
-        "stopName": "УЛ. ОДРИН"
-    },
-    {
-        "coordinates": [
             42.742295,
             23.277768
         ],
@@ -30323,50 +30299,6 @@
         ],
         "stopCode": 6382,
         "stopName": "УЛ. ПЪРВА БЪЛГАРСКА АРМИЯ"
-    },
-    {
-        "coordinates": [
-            42.698895,
-            23.315423
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6405,
-        "stopName": "БУЛ. ХРИСТО БОТЕВ"
-    },
-    {
-        "coordinates": [
-            42.698645,
-            23.316123
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6406,
-        "stopName": "БУЛ. ХРИСТО БОТЕВ"
-    },
-    {
-        "coordinates": [
-            42.700017,
-            23.30929
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6407,
-        "stopName": "УЛ. ОПЪЛЧЕНСКА"
-    },
-    {
-        "coordinates": [
-            42.699695,
-            23.310588
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6408,
-        "stopName": "УЛ. ОПЪЛЧЕНСКА"
     },
     {
         "coordinates": [
