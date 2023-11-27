@@ -3449,6 +3449,28 @@
     },
     {
         "coordinates": [
+            42.700614,
+            23.296459
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 326,
+        "stopName": "БУЛ. К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
+            42.700521,
+            23.296841
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 327,
+        "stopName": "БУЛ. К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
             42.70669,
             23.299919
         ],
@@ -7284,6 +7306,28 @@
         ],
         "stopCode": 705,
         "stopName": "Ж.П. ПРЕЛЕЗ"
+    },
+    {
+        "coordinates": [
+            42.702223,
+            23.286005
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 706,
+        "stopName": "БУЛ. ВАРДАР"
+    },
+    {
+        "coordinates": [
+            42.702121,
+            23.286446
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 707,
+        "stopName": "БУЛ. ВАРДАР"
     },
     {
         "coordinates": [
@@ -11868,6 +11912,28 @@
         ],
         "stopCode": 1164,
         "stopName": "БЛ. 21 Ж.К. ЛЮЛИН-1"
+    },
+    {
+        "coordinates": [
+            42.701265,
+            23.292002
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1165,
+        "stopName": "10-ТИ ДКЦ"
+    },
+    {
+        "coordinates": [
+            42.701221,
+            23.292517
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 1166,
+        "stopName": "10-ТИ ДКЦ"
     },
     {
         "coordinates": [
@@ -26733,9 +26799,7 @@
             42.792923,
             23.329337
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 2620,
         "stopName": "УЛ. КРУШАТА - ПО ЖЕЛАНИЕ"
     },
@@ -26744,7 +26808,9 @@
             42.792842,
             23.329435
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 2621,
         "stopName": "УЛ. КРУШАТА - ПО ЖЕЛАНИЕ"
     },
