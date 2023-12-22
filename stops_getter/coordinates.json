@@ -20104,9 +20104,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -28855,6 +28853,50 @@
         ],
         "stopCode": 2840,
         "stopName": "ЗЛАТНИ МОСТОВЕ"
+    },
+    {
+        "coordinates": [
+            42.710955,
+            23.177083
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2841,
+        "stopName": "УЛ. МИЛЕНИУМ"
+    },
+    {
+        "coordinates": [
+            42.710837,
+            23.177203
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2842,
+        "stopName": "УЛ. МИЛЕНИУМ"
+    },
+    {
+        "coordinates": [
+            42.714266,
+            23.17387
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2843,
+        "stopName": "УЛ. ПЕРУНИКА"
+    },
+    {
+        "coordinates": [
+            42.714095,
+            23.174123
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2844,
+        "stopName": "УЛ. ПЕРУНИКА"
     },
     {
         "coordinates": [
