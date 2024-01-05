@@ -28429,6 +28429,42 @@
     },
     {
         "coordinates": [
+            42.65677,
+            23.326838
+        ],
+        "lineTypes": [],
+        "stopCode": 2782,
+        "stopName": "УЛ. МОГИЛАТА"
+    },
+    {
+        "coordinates": [
+            42.65673,
+            23.327152
+        ],
+        "lineTypes": [],
+        "stopCode": 2783,
+        "stopName": "УЛ. МОГИЛАТА"
+    },
+    {
+        "coordinates": [
+            42.656877,
+            23.318996
+        ],
+        "lineTypes": [],
+        "stopCode": 2784,
+        "stopName": "4 РСПБЗН"
+    },
+    {
+        "coordinates": [
+            42.656814,
+            23.319126
+        ],
+        "lineTypes": [],
+        "stopCode": 2785,
+        "stopName": "4 РСПБЗН"
+    },
+    {
+        "coordinates": [
             42.7095,
             23.134388
         ],
