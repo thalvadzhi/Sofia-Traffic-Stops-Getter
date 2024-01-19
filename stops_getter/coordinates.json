@@ -20130,9 +20130,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -25464,6 +25462,17 @@
         ],
         "stopCode": 2460,
         "stopName": "ГАРА КУРИЛО"
+    },
+    {
+        "coordinates": [
+            42.650814,
+            23.367758
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2463,
+        "stopName": "Ж.К. МЛАДОСТ 1"
     },
     {
         "coordinates": [
