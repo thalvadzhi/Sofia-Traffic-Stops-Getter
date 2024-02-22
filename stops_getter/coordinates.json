@@ -28425,7 +28425,9 @@
             42.710598,
             23.36149
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 2789,
         "stopName": "Ж.К. ХАДЖИ ДИМИТЪР"
     },
@@ -29055,6 +29057,17 @@
         ],
         "stopCode": 2859,
         "stopName": "ЛОВЕН ПАРК"
+    },
+    {
+        "coordinates": [
+            42.660475,
+            23.316637
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2860,
+        "stopName": "УЛ. КИШИНЕВ"
     },
     {
         "coordinates": [
