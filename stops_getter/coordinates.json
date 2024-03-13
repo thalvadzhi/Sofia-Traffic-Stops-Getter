@@ -21922,8 +21922,8 @@
     },
     {
         "coordinates": [
-            42.710411,
-            23.379503
+            42.710894,
+            23.380174
         ],
         "lineTypes": [
             0,
@@ -22733,28 +22733,6 @@
         ],
         "stopCode": 2200,
         "stopName": "УЛ. ТЕМЕНУГА"
-    },
-    {
-        "coordinates": [
-            42.714541,
-            23.14104
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2201,
-        "stopName": "УЛ. ЦАРИБРОДСКА"
-    },
-    {
-        "coordinates": [
-            42.714775,
-            23.140643
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2202,
-        "stopName": "УЛ. ЦАРИБРОДСКА"
     },
     {
         "coordinates": [
