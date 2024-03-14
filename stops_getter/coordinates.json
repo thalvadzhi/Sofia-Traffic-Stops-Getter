@@ -982,6 +982,28 @@
     },
     {
         "coordinates": [
+            42.676541,
+            23.268081
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 96,
+        "stopName": "НЦ ПО РЕХАБИЛИТАЦИЯ"
+    },
+    {
+        "coordinates": [
+            42.676932,
+            23.268021
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 97,
+        "stopName": "НЦ ПО РЕХАБИЛИТАЦИЯ"
+    },
+    {
+        "coordinates": [
             42.677635,
             23.268407
         ],
@@ -5854,6 +5876,28 @@
     },
     {
         "coordinates": [
+            42.685533,
+            23.274375
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 567,
+        "stopName": "БАЛКАНКАР АД"
+    },
+    {
+        "coordinates": [
+            42.68579,
+            23.274666
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 568,
+        "stopName": "БАЛКАНКАР АД"
+    },
+    {
+        "coordinates": [
             42.684748,
             23.275306
         ],
@@ -6486,6 +6530,17 @@
             1
         ],
         "stopCode": 633,
+        "stopName": "Ж.К. КРАСНА ПОЛЯНА"
+    },
+    {
+        "coordinates": [
+            42.690687,
+            23.278396
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 634,
         "stopName": "Ж.К. КРАСНА ПОЛЯНА"
     },
     {
@@ -20030,9 +20085,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -21203,6 +21256,28 @@
     },
     {
         "coordinates": [
+            42.680304,
+            23.269043
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2055,
+        "stopName": "УЛ. НАРОДНО ХОРО"
+    },
+    {
+        "coordinates": [
+            42.680562,
+            23.269183
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2056,
+        "stopName": "УЛ. НАРОДНО ХОРО"
+    },
+    {
+        "coordinates": [
             42.680909,
             23.269516
         ],
@@ -21293,6 +21368,28 @@
         ],
         "stopCode": 2066,
         "stopName": "УЛ. ОБИКОЛНА"
+    },
+    {
+        "coordinates": [
+            42.682325,
+            23.270692
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2067,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.682449,
+            23.270921
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2068,
+        "stopName": "МЕТРОСТАНЦИЯ ОВЧА КУПЕЛ"
     },
     {
         "coordinates": [
