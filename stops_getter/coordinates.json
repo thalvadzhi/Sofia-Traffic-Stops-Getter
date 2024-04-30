@@ -4822,24 +4822,6 @@
     },
     {
         "coordinates": [
-            42.739049,
-            23.264547
-        ],
-        "lineTypes": [],
-        "stopCode": 460,
-        "stopName": "ГАРА ОБЕЛЯ"
-    },
-    {
-        "coordinates": [
-            42.738871,
-            23.2644
-        ],
-        "lineTypes": [],
-        "stopCode": 461,
-        "stopName": "ГАРА ОБЕЛЯ"
-    },
-    {
-        "coordinates": [
             42.666594,
             23.338594
         ],
@@ -20081,9 +20063,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
