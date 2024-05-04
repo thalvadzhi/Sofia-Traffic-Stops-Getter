@@ -3929,6 +3929,28 @@
     },
     {
         "coordinates": [
+            42.726776,
+            23.313185
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 374,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
+            42.726861,
+            23.312939
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 375,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
             42.704969,
             23.317552
         ],
@@ -4947,6 +4969,28 @@
         ],
         "stopCode": 475,
         "stopName": "ГАРА РУДНИЧНА - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.726745,
+            23.315081
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 476,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
+    },
+    {
+        "coordinates": [
+            42.726458,
+            23.315311
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 477,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
     {
         "coordinates": [
@@ -12707,6 +12751,7 @@
             23.334951
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 1242,
@@ -20063,7 +20108,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -27226,6 +27273,28 @@
         ],
         "stopCode": 2667,
         "stopName": "УЛ. ДЖЕРМАН - ПО ЖЕЛАНИЕ"
+    },
+    {
+        "coordinates": [
+            42.726927,
+            23.313091
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2670,
+        "stopName": "МОДНА КЪЩА АГРЕСИЯ"
+    },
+    {
+        "coordinates": [
+            42.726763,
+            23.316084
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 2672,
+        "stopName": "ГАРА СОФИЯ СЕВЕР"
     },
     {
         "coordinates": [
