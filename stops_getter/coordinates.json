@@ -274,28 +274,6 @@
     },
     {
         "coordinates": [
-            42.665548,
-            23.406848
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 26,
-        "stopName": "28-МИ ДКЦ"
-    },
-    {
-        "coordinates": [
-            42.665749,
-            23.406313
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 27,
-        "stopName": "28-МИ ДКЦ"
-    },
-    {
-        "coordinates": [
             42.66544,
             23.407377
         ],
@@ -371,28 +349,6 @@
             0
         ],
         "stopCode": 34,
-        "stopName": "КВ. ГАРА ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.662581,
-            23.414805
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 35,
-        "stopName": "КВ. ГАРА ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.662305,
-            23.414963
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 36,
         "stopName": "КВ. ГАРА ИСКЪР"
     },
     {
@@ -3847,28 +3803,6 @@
     },
     {
         "coordinates": [
-            42.673523,
-            23.382842
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 367,
-        "stopName": "БУЛ. ПРОФ. ЦВ. ЛАЗАРОВ"
-    },
-    {
-        "coordinates": [
-            42.673657,
-            23.382454
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 368,
-        "stopName": "БУЛ. ПРОФ. ЦВ. ЛАЗАРОВ"
-    },
-    {
-        "coordinates": [
             42.673441,
             23.381207
         ],
@@ -4310,7 +4244,9 @@
             42.699585,
             23.367334
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 410,
         "stopName": "БЛ. 4 Ж.К. СУХАТА РЕКА"
     },
@@ -4319,7 +4255,9 @@
             42.699349,
             23.365771
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 411,
         "stopName": "БЛ. 4 Ж.К. СУХАТА РЕКА"
     },
@@ -4935,7 +4873,9 @@
             42.696812,
             23.355828
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 472,
         "stopName": "ГАРА ПОДУЯНЕ"
     },
@@ -4944,7 +4884,9 @@
             42.696861,
             23.355617
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 473,
         "stopName": "ГАРА ПОДУЯНЕ"
     },
@@ -5399,28 +5341,6 @@
             2
         ],
         "stopCode": 517,
-        "stopName": "ДЕПО ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.656353,
-            23.41451
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 518,
-        "stopName": "ДЕПО ИСКЪР"
-    },
-    {
-        "coordinates": [
-            42.65608,
-            23.414402
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 519,
         "stopName": "ДЕПО ИСКЪР"
     },
     {
@@ -6197,17 +6117,6 @@
     },
     {
         "coordinates": [
-            42.676582,
-            23.369863
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 595,
-        "stopName": "Ж.К. ГЕО МИЛЕВ"
-    },
-    {
-        "coordinates": [
             42.677144,
             23.369769
         ],
@@ -6223,8 +6132,7 @@
             23.369683
         ],
         "lineTypes": [
-            0,
-            1
+            0
         ],
         "stopCode": 597,
         "stopName": "Ж.К. ГЕО МИЛЕВ"
@@ -6314,31 +6222,10 @@
             23.413581
         ],
         "lineTypes": [
+            0,
             2
         ],
         "stopCode": 605,
-        "stopName": "Ж.К. ДРУЖБА-1"
-    },
-    {
-        "coordinates": [
-            42.670233,
-            23.397538
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 606,
-        "stopName": "Ж.К. ДРУЖБА-1"
-    },
-    {
-        "coordinates": [
-            42.670475,
-            23.397155
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 607,
         "stopName": "Ж.К. ДРУЖБА-1"
     },
     {
@@ -11794,28 +11681,6 @@
     },
     {
         "coordinates": [
-            42.674968,
-            23.376492
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1153,
-        "stopName": "СК ЦСКА"
-    },
-    {
-        "coordinates": [
-            42.675052,
-            23.375814
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1154,
-        "stopName": "СК ЦСКА"
-    },
-    {
-        "coordinates": [
             42.67409,
             23.375076
         ],
@@ -13261,7 +13126,9 @@
             42.698739,
             23.362456
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 1292,
         "stopName": "ПЛ. ПИРДОП"
     },
@@ -13270,7 +13137,9 @@
             42.698779,
             23.36289
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 1293,
         "stopName": "ПЛ. ПИРДОП"
     },
@@ -14398,28 +14267,6 @@
     },
     {
         "coordinates": [
-            42.663775,
-            23.411223
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1409,
-        "stopName": "28-МИ ПОЩЕНСКИ КЛОН"
-    },
-    {
-        "coordinates": [
-            42.663907,
-            23.410969
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1410,
-        "stopName": "28-МИ ПОЩЕНСКИ КЛОН"
-    },
-    {
-        "coordinates": [
             42.663954,
             23.411691
         ],
@@ -14867,28 +14714,6 @@
             0
         ],
         "stopCode": 1452,
-        "stopName": "РАЗКЛОНА ЗА ЛЕТИЩЕТО"
-    },
-    {
-        "coordinates": [
-            42.671793,
-            23.393071
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1453,
-        "stopName": "РАЗКЛОНА ЗА ЛЕТИЩЕТО"
-    },
-    {
-        "coordinates": [
-            42.671635,
-            23.393702
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1454,
         "stopName": "РАЗКЛОНА ЗА ЛЕТИЩЕТО"
     },
     {
@@ -16303,28 +16128,6 @@
     },
     {
         "coordinates": [
-            42.65934,
-            23.414952
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1593,
-        "stopName": "СОФИЯ МЕД АД"
-    },
-    {
-        "coordinates": [
-            42.659659,
-            23.415063
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1594,
-        "stopName": "СОФИЯ МЕД АД"
-    },
-    {
-        "coordinates": [
             42.70015,
             23.14968
         ],
@@ -16708,28 +16511,6 @@
             0
         ],
         "stopCode": 1629,
-        "stopName": "БУЛ. КРЪСТЬО ПАСТУХОВ"
-    },
-    {
-        "coordinates": [
-            42.667992,
-            23.402038
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1630,
-        "stopName": "БУЛ. КРЪСТЬО ПАСТУХОВ"
-    },
-    {
-        "coordinates": [
-            42.668243,
-            23.401661
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1631,
         "stopName": "БУЛ. КРЪСТЬО ПАСТУХОВ"
     },
     {
@@ -19331,7 +19112,9 @@
             42.700507,
             23.372171
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 1872,
         "stopName": "УЛ. ВИТИНЯ"
     },
@@ -19340,7 +19123,9 @@
             42.700845,
             23.374329
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 1873,
         "stopName": "УЛ. ВИТИНЯ"
     },
@@ -20086,9 +19871,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -20467,28 +20250,6 @@
         ],
         "stopCode": 1978,
         "stopName": "УЛ. КАМЕНОДЕЛСКА"
-    },
-    {
-        "coordinates": [
-            42.672672,
-            23.387892
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1979,
-        "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.672758,
-            23.387676
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1980,
-        "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
     },
     {
         "coordinates": [
@@ -20901,7 +20662,9 @@
             42.703015,
             23.386039
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2022,
         "stopName": "АВТОСТАНЦИЯ ИЗТОК"
     },
@@ -20910,7 +20673,9 @@
             42.703268,
             23.387659
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2023,
         "stopName": "АВТОСТАНЦИЯ ИЗТОК"
     },
@@ -22083,7 +21848,9 @@
             42.702342,
             23.382305
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2129,
         "stopName": "УЛ. ПОП ГРУЙО"
     },
@@ -22092,7 +21859,9 @@
             42.702354,
             23.382623
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2130,
         "stopName": "УЛ. ПОП ГРУЙО"
     },
@@ -22399,7 +22168,9 @@
             42.701306,
             23.376618
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2159,
         "stopName": "УЛ. РИЛСКА ОБИТЕЛ"
     },
@@ -22408,7 +22179,9 @@
             42.701716,
             23.379128
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            1
+        ],
         "stopCode": 2160,
         "stopName": "УЛ. РИЛСКА ОБИТЕЛ"
     },
@@ -26386,94 +26159,6 @@
     },
     {
         "coordinates": [
-            42.662749,
-            23.411789
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2582,
-        "stopName": "УЛ. ИСКЪРСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
-            42.662693,
-            23.4117
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2583,
-        "stopName": "УЛ. ИСКЪРСКО ШОСЕ"
-    },
-    {
-        "coordinates": [
-            42.66026,
-            23.410535
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2584,
-        "stopName": "УЛ. МЮНХЕН"
-    },
-    {
-        "coordinates": [
-            42.660037,
-            23.410356
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2585,
-        "stopName": "УЛ. МЮНХЕН"
-    },
-    {
-        "coordinates": [
-            42.655341,
-            23.407989
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2586,
-        "stopName": "УЛ. АМСТЕРДАМ"
-    },
-    {
-        "coordinates": [
-            42.655078,
-            23.407782
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2587,
-        "stopName": "УЛ. АМСТЕРДАМ"
-    },
-    {
-        "coordinates": [
-            42.651092,
-            23.405634
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2588,
-        "stopName": "БУЛ. ПРОФ. ЦВ. ЛАЗАРОВ"
-    },
-    {
-        "coordinates": [
-            42.65158,
-            23.40584
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2589,
-        "stopName": "БУЛ. ПРОФ. ЦВ. ЛАЗАРОВ"
-    },
-    {
-        "coordinates": [
             42.636792,
             23.399565
         ],
@@ -26504,17 +26189,6 @@
         ],
         "stopCode": 2593,
         "stopName": "ХЕРМЕС ПАРК"
-    },
-    {
-        "coordinates": [
-            42.647884,
-            23.403749
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 2594,
-        "stopName": "УЛ. ОБИКОЛНА"
     },
     {
         "coordinates": [
@@ -30078,6 +29752,17 @@
     },
     {
         "coordinates": [
+            42.671565,
+            23.395052
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6116,
+        "stopName": "РАЗКЛОНА ЗА ЛЕТИЩЕТО"
+    },
+    {
+        "coordinates": [
             42.713447,
             23.266205
         ],
@@ -30130,17 +29815,6 @@
         ],
         "stopCode": 6178,
         "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.648476,
-            23.404153
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 6213,
-        "stopName": "УЛ. ОБИКОЛНА"
     },
     {
         "coordinates": [
