@@ -29759,6 +29759,50 @@
     },
     {
         "coordinates": [
+            42.66141,
+            23.2501
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6125,
+        "stopName": "УЛ. ПЛАНИНЕЦ"
+    },
+    {
+        "coordinates": [
+            42.661473,
+            23.250077
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6127,
+        "stopName": "УЛ. ПЛАНИНЕЦ-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659852,
+            23.24543
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6128,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659787,
+            23.24545
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6129,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА"
+    },
+    {
+        "coordinates": [
             42.713447,
             23.266205
         ],
@@ -30320,8 +30364,8 @@
     },
     {
         "coordinates": [
-            42.6976,
-            23.316379
+            42.697603,
+            23.316363
         ],
         "lineTypes": [
             0
@@ -30656,6 +30700,28 @@
         ],
         "stopCode": 6644,
         "stopName": "КВ. КАРПУЗИЦА"
+    },
+    {
+        "coordinates": [
+            42.738723,
+            23.264797
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6652,
+        "stopName": "ГАРА ОБЕЛЯ"
+    },
+    {
+        "coordinates": [
+            42.738784,
+            23.264561
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6653,
+        "stopName": "ГАРА ОБЕЛЯ"
     },
     {
         "coordinates": [
