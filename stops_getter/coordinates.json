@@ -8851,6 +8851,24 @@
     },
     {
         "coordinates": [
+            42.674045,
+            23.269554
+        ],
+        "lineTypes": [],
+        "stopCode": 877,
+        "stopName": "КВ. ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.673689,
+            23.270051
+        ],
+        "lineTypes": [],
+        "stopCode": 878,
+        "stopName": "КВ. ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
             42.671602,
             23.27253
         ],
@@ -19865,9 +19883,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
