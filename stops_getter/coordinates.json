@@ -8851,24 +8851,6 @@
     },
     {
         "coordinates": [
-            42.674045,
-            23.269554
-        ],
-        "lineTypes": [],
-        "stopCode": 877,
-        "stopName": "КВ. ОВЧА КУПЕЛ"
-    },
-    {
-        "coordinates": [
-            42.673689,
-            23.270051
-        ],
-        "lineTypes": [],
-        "stopCode": 878,
-        "stopName": "КВ. ОВЧА КУПЕЛ"
-    },
-    {
-        "coordinates": [
             42.671602,
             23.27253
         ],
@@ -19883,7 +19865,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -29772,50 +29756,6 @@
         ],
         "stopCode": 6116,
         "stopName": "РАЗКЛОНА ЗА ЛЕТИЩЕТО"
-    },
-    {
-        "coordinates": [
-            42.66141,
-            23.2501
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6125,
-        "stopName": "УЛ. ПЛАНИНЕЦ"
-    },
-    {
-        "coordinates": [
-            42.661473,
-            23.250077
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6127,
-        "stopName": "УЛ. ПЛАНИНЕЦ-ВРЕМЕННА"
-    },
-    {
-        "coordinates": [
-            42.659852,
-            23.24543
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6128,
-        "stopName": "УЛ. РАЙСКА ГРАДИНА-ВРЕМЕННА"
-    },
-    {
-        "coordinates": [
-            42.659787,
-            23.24545
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 6129,
-        "stopName": "УЛ. РАЙСКА ГРАДИНА"
     },
     {
         "coordinates": [
