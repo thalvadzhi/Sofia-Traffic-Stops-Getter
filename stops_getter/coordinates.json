@@ -562,17 +562,6 @@
     },
     {
         "coordinates": [
-            42.754514,
-            23.32073
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 58,
-        "stopName": "АВТОСТАНЦИЯ ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
             42.741998,
             23.277789
         ],
@@ -8520,28 +8509,6 @@
         ],
         "stopCode": 846,
         "stopName": "КВ. ИЗГРЕВ - ПО ЖЕЛАНИЕ"
-    },
-    {
-        "coordinates": [
-            42.754036,
-            23.320869
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 847,
-        "stopName": "КВ. ИЛИЯНЦИ"
-    },
-    {
-        "coordinates": [
-            42.753851,
-            23.320535
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 848,
-        "stopName": "КВ. ИЛИЯНЦИ"
     },
     {
         "coordinates": [
@@ -16548,28 +16515,6 @@
     },
     {
         "coordinates": [
-            42.743769,
-            23.318289
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1635,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
-    },
-    {
-        "coordinates": [
-            42.744068,
-            23.318359
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1636,
-        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
-    },
-    {
-        "coordinates": [
             42.743968,
             23.31789
         ],
@@ -19577,28 +19522,6 @@
     },
     {
         "coordinates": [
-            42.748569,
-            23.319547
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1915,
-        "stopName": "УЛ. ГРОЗДЕН"
-    },
-    {
-        "coordinates": [
-            42.748334,
-            23.319244
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1916,
-        "stopName": "УЛ. ГРОЗДЕН"
-    },
-    {
-        "coordinates": [
             42.641923,
             23.3734
         ],
@@ -19871,9 +19794,7 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [
-            0
-        ],
+        "lineTypes": [],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -20321,28 +20242,6 @@
         ],
         "stopCode": 1986,
         "stopName": "УЛ. КАП. Д. СПИСАРЕВСКИ"
-    },
-    {
-        "coordinates": [
-            42.750877,
-            23.32035
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1987,
-        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
-    },
-    {
-        "coordinates": [
-            42.751077,
-            23.320318
-        ],
-        "lineTypes": [
-            1
-        ],
-        "stopCode": 1988,
-        "stopName": "УЛ. КИРИЛ БЛАГОЕВ"
     },
     {
         "coordinates": [
@@ -26161,6 +26060,17 @@
     },
     {
         "coordinates": [
+            42.735043,
+            23.286304
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 2579,
+        "stopName": "Ж.К. ВРЪБНИЦА-1"
+    },
+    {
+        "coordinates": [
             42.636792,
             23.399565
         ],
@@ -26323,17 +26233,6 @@
         ],
         "stopCode": 2607,
         "stopName": "УЛ. НАРОДЕН ГЕРОЙ"
-    },
-    {
-        "coordinates": [
-            42.754556,
-            23.320492
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2608,
-        "stopName": "АВТОСТАНЦИЯ ИЛИЯНЦИ"
     },
     {
         "coordinates": [
@@ -29883,6 +29782,28 @@
         ],
         "stopCode": 6221,
         "stopName": "МЕТРОСТАНЦИЯ К. ВЕЛИЧКОВ"
+    },
+    {
+        "coordinates": [
+            42.743185,
+            23.318827
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 6238,
+        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
+    },
+    {
+        "coordinates": [
+            42.743488,
+            23.319265
+        ],
+        "lineTypes": [
+            1
+        ],
+        "stopCode": 6239,
+        "stopName": "ХЮНДАЙ БЪЛГАРИЯ"
     },
     {
         "coordinates": [
