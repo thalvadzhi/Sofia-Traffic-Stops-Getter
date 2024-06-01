@@ -20026,7 +20026,9 @@
             42.711729,
             23.144349
         ],
-        "lineTypes": [],
+        "lineTypes": [
+            0
+        ],
         "stopCode": 1942,
         "stopName": "УЛ. СТАРА ПЛАНИНА"
     },
@@ -25302,17 +25304,6 @@
     },
     {
         "coordinates": [
-            42.657046,
-            23.271778
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2458,
-        "stopName": "НИМ"
-    },
-    {
-        "coordinates": [
             42.712803,
             23.419076
         ],
@@ -28930,17 +28921,6 @@
         ],
         "stopCode": 2847,
         "stopName": "ПЛ. СРЕД СЕЛО"
-    },
-    {
-        "coordinates": [
-            42.655006,
-            23.27761
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 2848,
-        "stopName": "НАЦИОНАЛНА ФУТБОЛНА  БАЗА"
     },
     {
         "coordinates": [
