@@ -2896,17 +2896,6 @@
     },
     {
         "coordinates": [
-            42.662973,
-            23.2657
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 276,
-        "stopName": "БУЛ. АЛ. ПУШКИН"
-    },
-    {
-        "coordinates": [
             42.660328,
             23.264566
         ],
@@ -2914,17 +2903,6 @@
             0
         ],
         "stopCode": 277,
-        "stopName": "БУЛ. АЛ. ПУШКИН"
-    },
-    {
-        "coordinates": [
-            42.662246,
-            23.265365
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 278,
         "stopName": "БУЛ. АЛ. ПУШКИН"
     },
     {
@@ -8919,6 +8897,24 @@
     },
     {
         "coordinates": [
+            42.674045,
+            23.269554
+        ],
+        "lineTypes": [],
+        "stopCode": 877,
+        "stopName": "КВ. ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
+            42.673689,
+            23.270051
+        ],
+        "lineTypes": [],
+        "stopCode": 878,
+        "stopName": "КВ. ОВЧА КУПЕЛ"
+    },
+    {
+        "coordinates": [
             42.671602,
             23.27253
         ],
@@ -9040,17 +9036,6 @@
     },
     {
         "coordinates": [
-            42.667115,
-            23.266253
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 890,
-        "stopName": "КВ. ПАВЛОВО"
-    },
-    {
-        "coordinates": [
             42.667793,
             23.265747
         ],
@@ -9069,17 +9054,6 @@
             1
         ],
         "stopCode": 892,
-        "stopName": "КВ. ПАВЛОВО"
-    },
-    {
-        "coordinates": [
-            42.667555,
-            23.266122
-        ],
-        "lineTypes": [
-            0
-        ],
-        "stopCode": 893,
         "stopName": "КВ. ПАВЛОВО"
     },
     {
@@ -29931,6 +29905,61 @@
         ],
         "stopCode": 6089,
         "stopName": "МЕТРОСТАНЦИЯ МИЗИЯ"
+    },
+    {
+        "coordinates": [
+            42.66141,
+            23.2501
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6125,
+        "stopName": "УЛ. ПЛАНИНЕЦ"
+    },
+    {
+        "coordinates": [
+            42.664822,
+            23.25899
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6126,
+        "stopName": "БУЛ. ЦАР БОРИС ІІІ-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.661473,
+            23.250077
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6127,
+        "stopName": "УЛ. ПЛАНИНЕЦ-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659852,
+            23.24543
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6128,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА-ВРЕМЕННА"
+    },
+    {
+        "coordinates": [
+            42.659787,
+            23.24545
+        ],
+        "lineTypes": [
+            0
+        ],
+        "stopCode": 6129,
+        "stopName": "УЛ. РАЙСКА ГРАДИНА"
     },
     {
         "coordinates": [
