@@ -1,0 +1,9 @@
+services:
+  stops-getter-v3:
+    image: thalvadzhiev/sumc_stops_getter
+    command: sh ./docker/entry_script.sh
+    restart: unless-stopped
+    working_dir: /home/sumc
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ../:/home/sumc
