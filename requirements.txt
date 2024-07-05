@@ -5,3 +5,4 @@ requests
 six
 shapely
 polyline
+numpy==1.26.4

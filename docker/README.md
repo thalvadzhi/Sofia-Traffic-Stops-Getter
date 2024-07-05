@@ -15,6 +15,8 @@ getter`
  * `-v /etc/localtime:/etc/localtime` will make sure the timezone of the container is synchronized with the timezone of the host
 
 ## Running with docker-compose (recommended)
+* RUN - `chmod +x /home/sumc/utils/ask_pass.py`
+
 Navigate to `/docker` folder and run:
 ```commandline
 docker-compose up --detach

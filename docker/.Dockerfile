@@ -4,7 +4,7 @@ ARG RASPBERRY_GETTER_TOKEN
 ARG path_to_repo=/home/sumc
 ARG path_to_crontab_file=/home/cron
 
-RUN apt update && apt install -y git python3 python3-pip python3-distutils
+RUN apt update && apt install -y git python3 python3-pip python3-distutils libgeos-dev libopenblas-dev
 RUN mkdir ${path_to_repo}
 RUN mkdir ${path_to_crontab_file}
 
@@ -32,6 +32,7 @@ RUN chmod +x ${path_to_repo}/entry_script.sh
 
 RUN git config --global user.name raspberry-getter
 RUN git config --global user.email devthebear@gmail.com
+RUN git config --global --add safe.directory ${path_to_repo}
 
 WORKDIR ${path_to_repo}
 
