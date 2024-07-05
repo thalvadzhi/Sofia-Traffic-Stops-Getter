@@ -1,4 +1,4 @@
-FROM balenalib/raspberry-pi
+FROM balenalib/raspberry-pi:latest
 
 ARG RASPBERRY_GETTER_TOKEN
 ARG path_to_repo=/home/sumc

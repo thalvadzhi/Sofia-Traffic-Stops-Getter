@@ -3,4 +3,5 @@ GitPython
 workerpool
 requests
 six
-
+shapely
+polyline

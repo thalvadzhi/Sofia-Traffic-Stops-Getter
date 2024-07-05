@@ -1,6 +1,8 @@
 services:
   stops-getter-v3:
-    image: thalvadzhiev/sumc_stops_getter
+    image: thalvadzhiev/sumc_stops_getter:latest
+    build: .
+    platform: linux/arm/v6
     command: sh ./docker/entry_script.sh
     restart: unless-stopped
     working_dir: /home/sumc
