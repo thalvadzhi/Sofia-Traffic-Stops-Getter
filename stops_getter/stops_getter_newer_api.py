@@ -189,7 +189,7 @@ def get_stops():
                      coordinates=[float(stop["latitude"]), float(stop["longitude"])], lineTypes=None, lineNames=None)
                 stop_code_to_stop[stop["code"]] = s
                 stop_code_to_line_type[stop["code"]].add(new_type_to_old_type[line["type"]])
-                stop_code_to_line_names[stop["code"]].add((f"\"{line['name']}\"", new_type_to_old_type[line["type"]]))
+                stop_code_to_line_names[stop["code"]].add((f"\"{line['name']}\"", new_type_to_old_type[line["type"]], line["id"]))
     for stop_code, stop in stop_code_to_stop.items():
         line_type = stop_code_to_line_type[stop_code]
         line_names = stop_code_to_line_names[stop_code]
