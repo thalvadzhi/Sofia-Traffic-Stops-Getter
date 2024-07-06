@@ -70,12 +70,13 @@ def get_all_routes():
 
 
 class Stop:
-    def __init__(self, stopCode, stopName, coordinates, lineTypes, lineNames):
+    def __init__(self, stopCode, stopName, coordinates, lineTypes, lineNames, extStopCode):
         self.stopCode = stopCode
         self.coordinates = coordinates
         self.stopName = stopName
         self.lineTypes = lineTypes
         self.lineNames = lineNames
+        self.extStopCode = extStopCode
 
     def __eq__(self, other):
         if isinstance(other, Stop):
@@ -173,12 +174,13 @@ def prepare_commandline_parser():
     parser.add_option("-u", "--upload", action="store_true", dest="should_upload", help="whether to upload to github or not", default=False)
     return parser
 
-def get_stops():
+def get_stops(all_routes):
     stop_code_to_line_type = defaultdict(set)
     stop_code_to_line_names = defaultdict(set)
-    all_routes = get_all_routes()
     stops = set()
     stop_code_to_stop = dict()
+
+
     for line_route in all_routes:
         route = line_route['routes']
         line = line_route["line"]
@@ -186,7 +188,7 @@ def get_stops():
             for segment in r["segments"]:
                 stop = segment["stop"]
                 s = Stop(stopCode=int(stop["code"]), stopName=stop["name"],
-                     coordinates=[float(stop["latitude"]), float(stop["longitude"])], lineTypes=None, lineNames=None)
+                     coordinates=[float(stop["latitude"]), float(stop["longitude"])], extStopCode=stop["ext_id"], lineTypes=None, lineNames=None)
                 stop_code_to_stop[stop["code"]] = s
                 stop_code_to_line_type[stop["code"]].add(new_type_to_old_type[line["type"]])
                 stop_code_to_line_names[stop["code"]].add((f"\"{line['name']}\"", new_type_to_old_type[line["type"]], line["id"]))
@@ -201,7 +203,14 @@ def get_stops():
 
 def run_stop_getter(should_upload: bool):
     start = time.time()
-    stops = get_stops()
+    all_routes = get_all_routes()
+    subway_routes = filter(lambda route: route["line"]["type"] == 3, all_routes)
+
+    ground_routes = filter(lambda route: route["line"]["type"] != 3, all_routes)
+
+    subway_stops = get_stops(subway_routes)
+    ground_stops = get_stops(ground_routes)
+    stops = ground_stops + subway_stops
     calculate_hash(stops)
     manage_new_coordinates_information(stops, should_upload)
     end = time.time()
