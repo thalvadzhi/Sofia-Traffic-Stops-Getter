@@ -6,6 +6,9 @@ services:
     command: sh ./docker/entry_script.sh
     restart: unless-stopped
     working_dir: /home/sumc
+    dns:
+      - 8.8.8.8
+      - 4.4.4.4
     volumes:
       - /etc/localtime:/etc/localtime
       - ../:/home/sumc
