@@ -55,7 +55,7 @@ def get_route(line_id, xsrf_token, session_token):
     try:
         routes = requests.post(url_routes, headers=headers, json=payload).json()
     except Exception:
-        logging.info("Couldn't get routes from url '{0}'".format(url_routes))
+        logging.exception("Couldn't get routes from url '{0}', payload: {1}".format(url_routes, payload))
         sys.exit(0)
     return routes
 
