@@ -58,7 +58,7 @@ def get_all_routes():
     xsrf_token, session_token = get_xsrf_token_and_session()
     lines = get_lines(xsrf_token, session_token)
     line_ids = list(map(lambda line: line["line_id"], lines))
-    get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session)
+    get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session_token)
     with ThreadPool(10) as pool:
         routes = pool.map(get_route_partial, line_ids)
     return routes
