@@ -29,7 +29,7 @@ hash_file_name = os.path.join(ROOT_DIR, "polyline_getter", "hash_v2.txt")
 hash_file_name_temp = os.path.join(ROOT_DIR,"polyline_getter" ,"new_hash_v2.txt")
 symbol_to_type = {"bus" : 1, "trolley" : 2, "tram" : 0}
 new_type_to_old_type = {1: 1, 2: 0, 4: 2, 3: 3, 5: 5}
-
+session = requests.Session()
 def get_xsrf_token_and_session():
     resp = requests.get("https://www.sofiatraffic.bg/")
     return resp.cookies["XSRF-TOKEN"], resp.cookies["sofia_traffic_session"]
@@ -48,15 +48,15 @@ def get_route(line_id, xsrf_token, session_token):
     headers = {"cookie": f"XSRF-TOKEN={xsrf_token}; sofia_traffic_session={session_token}", "x-xsrf-token": unquote(xsrf_token)}
     payload = {"line_id": line_id}
     try:
-        routes = requests.post(url_routes, headers=headers, json=payload).json()
+        routes = session.post(url_routes, headers=headers, json=payload).json()
     except Exception:
         logging.info("Couldn't get routes from url '{0}'".format(url_routes))
         sys.exit(0)
     return routes
 
 def get_all_routes():
-    xsrf_token, session = get_xsrf_token_and_session()
-    lines = get_lines(xsrf_token, session)
+    xsrf_token, session_token = get_xsrf_token_and_session()
+    lines = get_lines(xsrf_token, session_token)
     line_ids = list(map(lambda line: line["line_id"], lines))
     get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session)
     with ThreadPool(10) as pool:
