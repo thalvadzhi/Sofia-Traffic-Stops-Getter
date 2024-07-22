@@ -30,7 +30,7 @@ stop_identity = "{0},{1},{2}={3}"
 
 url_routes = "https://www.sofiatraffic.bg/bg/trip/getSchedule"
 url_lines = "https://www.sofiatraffic.bg/bg/trip/getLines"
-
+session = requests.Session()
 def get_xsrf_token_and_session():
     resp = requests.get("https://www.sofiatraffic.bg/")
     return resp.cookies["XSRF-TOKEN"], resp.cookies["sofia_traffic_session"]
@@ -47,7 +47,7 @@ def get_route(line_id, xsrf_token, session_token):
     headers = {"cookie": f"XSRF-TOKEN={xsrf_token}; sofia_traffic_session={session_token}", "x-xsrf-token": unquote(xsrf_token)}
     payload = {"line_id": line_id}
     try:
-        routes = requests.post(url_routes, headers=headers, json=payload).json()
+        routes = session.post(url_routes, headers=headers, json=payload).json()
     except Exception:
         logging.info("Couldn't get routes from url '{0}'".format(url_routes))
         sys.exit(0)
