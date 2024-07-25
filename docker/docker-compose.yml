@@ -9,6 +9,7 @@ services:
     dns:
       - 8.8.8.8
       - 4.4.4.4
+    network_mode: bridge
     volumes:
       - /etc/localtime:/etc/localtime
       - ../:/home/sumc
