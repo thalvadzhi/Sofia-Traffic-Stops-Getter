@@ -11,6 +11,7 @@ RUN mkdir ${path_to_crontab_file}
 RUN python3 -m pip install --upgrade pip
 
 RUN apt install -y cron
+RUN mkdir /root/.ssh && chmod -R 700 /root/.ssh
 RUN echo "StrictHostKeyChecking no" > /root/.ssh/config
 # this line is added so it invalidates the cache of the clone everytime the code in the repo changes
 ADD https://api.github.com/repos/thalvadzhi/Sofia-Traffic-Stops-Getter/git/refs/heads/master delete.json
