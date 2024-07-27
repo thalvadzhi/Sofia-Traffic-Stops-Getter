@@ -5,7 +5,7 @@ RUN eval "$(ssh-agent -s)" & ssh-add $SSH_KEY
 ARG path_to_repo=/home/sumc
 ARG path_to_crontab_file=/home/cron
 
-RUN apt update && apt install -y git python3 python3-pip python3-distutils libgeos-dev libopenblas-dev
+RUN apt update && apt install -y git python3 python3-pip python3-distutils libgeos-dev libopenblas-dev openssh-client
 RUN mkdir ${path_to_repo}
 RUN mkdir ${path_to_crontab_file}
 
