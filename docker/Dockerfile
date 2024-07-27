@@ -11,7 +11,7 @@ RUN mkdir ${path_to_crontab_file}
 RUN python3 -m pip install --upgrade pip
 
 RUN apt install -y cron
-
+RUN ssh -o StrictHostKeyChecking=no devthebear@gmail.com uptime
 # this line is added so it invalidates the cache of the clone everytime the code in the repo changes
 ADD https://api.github.com/repos/thalvadzhi/Sofia-Traffic-Stops-Getter/git/refs/heads/master delete.json
 RUN git clone git@github.com:thalvadzhi/Sofia-Traffic-Stops-Getter.git ${path_to_repo}
