@@ -13,3 +13,11 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime
       - ../:/home/sumc
+    secrets:
+      - ssh_key_stops_getter
+    environment:
+      SSH_KEY: /run/secrets/ssh_key_stops_getter
+
+secrets:
+  ssh_key_stops_getter:
+    file: ./ssh_key
