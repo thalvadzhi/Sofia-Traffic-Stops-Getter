@@ -35,7 +35,6 @@ RUN git config --global user.name raspberry-getter
 RUN git config --global user.email devthebear@gmail.com
 RUN git config --global --add safe.directory ${path_to_repo}
 
-RUN cp /run/secrets/ssh_key_stops_getter /root/.ssh/id_rsa
 
 WORKDIR ${path_to_repo}
 
