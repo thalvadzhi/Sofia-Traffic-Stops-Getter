@@ -46,7 +46,7 @@ def get_lines(xsrf_token, session_token):
 def get_route(line_id, xsrf_token, session_token):
     routes = None
     headers = {"cookie": f"XSRF-TOKEN={xsrf_token}; sofia_traffic_session={session_token}", "x-xsrf-token": unquote(xsrf_token)}
-    payload = {"line_id": line_id}
+    payload = {"ext_id": line_id}
     try:
         routes = session.post(url_routes, headers=headers, json=payload).json()
     except Exception:
@@ -57,7 +57,7 @@ def get_route(line_id, xsrf_token, session_token):
 def get_all_routes():
     xsrf_token, session_token = get_xsrf_token_and_session()
     lines = get_lines(xsrf_token, session_token)
-    line_ids = list(map(lambda line: line["line_id"], lines))
+    line_ids = list(map(lambda line: line["ext_id"], lines))
     get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session_token)
     with ThreadPool(10) as pool:
         routes = pool.map(get_route_partial, line_ids)
@@ -88,7 +88,12 @@ def transform_new_route_to_old_route_format(new_route_format):
         poly_str = polyline.encode(inverted_decoded)
 
         first_stop = segments[0]["stop"]["code"]
-        last_stop = segments[-1]["end_stop"]["code"]
+        last_stop = segments[-1]["end_stop"]
+        if last_stop:
+            last_stop = last_stop["code"]
+        else:
+            last_stop = segments[-1]["stop"]["code"]
+
         old_route = {
             "first_stop": int(first_stop),
             "last_stop": int(last_stop),
