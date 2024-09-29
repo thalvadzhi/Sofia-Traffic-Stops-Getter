@@ -1,7 +1,8 @@
 import sys
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from functools import partial
-from multiprocessing.pool import ThreadPool
+# from multiprocessing.pool import ThreadPool
 from urllib.parse import unquote
 
 from bs4 import UnicodeDammit
@@ -58,7 +59,7 @@ def get_all_routes():
     lines = get_lines(xsrf_token, session)
     line_ids = list(map(lambda line: line["ext_id"], lines))
     get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session)
-    with ThreadPool(10) as pool:
+    with ThreadPoolExecutor(10) as pool:
         routes = pool.map(get_route_partial, line_ids)
     return routes
 
