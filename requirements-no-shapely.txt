@@ -1,0 +1,7 @@
+bs4
+GitPython
+workerpool
+requests
+six
+polyline
+numpy==1.26.4
