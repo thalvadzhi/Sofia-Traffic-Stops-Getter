@@ -2,8 +2,9 @@
 printenv  >> /etc/environment
 mkdir -p /root/.ssh
 #cp /run/secrets/ssh_key_stops_getter /root/.ssh/id_rsa]
-echo "$SSH_KEY"
-echo "$SSH_KEY" | base64 -d > /root/.ssh/id_rsa
+
+echo "$SSH_KEY" > encoded_key
+base64 -d -i  encoded_key > /root/.ssh/id_rsa
 
 #echo $SSH_KEY > /root/.ssh/id_rsa
 chmod 400 /root/.ssh/id_rsa
