@@ -24,7 +24,7 @@ url_routes = "https://www.sofiatraffic.bg/bg/trip/getSchedule"
 url_lines = "https://www.sofiatraffic.bg/bg/trip/getLines"
 polyline_file = os.path.join(ROOT_DIR, "polyline_getter", "polyline_v2.txt")
 log_file_name = os.path.join(ROOT_DIR, "stops_log.txt")
-logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', filename=log_file_name, level=logging.INFO)
+logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', level=logging.INFO)
 hash_file_name = os.path.join(ROOT_DIR, "polyline_getter", "hash_v2.txt")
 hash_file_name_temp = os.path.join(ROOT_DIR,"polyline_getter" ,"new_hash_v2.txt")
 symbol_to_type = {"bus" : 1, "trolley" : 2, "tram" : 0}

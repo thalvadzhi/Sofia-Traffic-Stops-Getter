@@ -24,7 +24,7 @@ direction_template = "{0} - {1}"
 stop_identity = "{0},{1},{2}={3}"
 hash_file_name = os.path.join(ROOT_DIR, "descriptions_getter", "hash_v2.txt")
 hash_file_name_temp = os.path.join(ROOT_DIR, "descriptions_getter", "new_hash_v2.txt")
-logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', filename=log_file_name, level=logging.INFO)
+logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', level=logging.INFO)
 symbol_to_type = {"bus" : 1, "trolley" : 2, "tram" : 0}
 new_type_to_old_type = {1: 1, 2: 0, 4: 2, 3: 3, 5: 5}
 stop_identity = "{0},{1},{2}={3}"

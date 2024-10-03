@@ -26,7 +26,7 @@ log_file_name = os.path.join(ROOT_DIR, "stops_log.txt")
 # url_routes = "https://routes.sofiatraffic.bg/resources/routes.json"
 # url_stops = "https://routes.sofiatraffic.bg/resources/stops-bg.json"
 
-logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', filename=log_file_name, level=logging.INFO)
+logging.basicConfig(format='[%(asctime)s : %(filename)s] %(message)s', level=logging.INFO)
 
 coord_file_name = os.path.join(ROOT_DIR, "stops_getter", "coordinates_v2.json")
 hash_file_name = os.path.join(ROOT_DIR, "stops_getter" , "hash_v2.txt")
