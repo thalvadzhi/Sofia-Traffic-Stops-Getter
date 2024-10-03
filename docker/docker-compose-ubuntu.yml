@@ -1,10 +1,12 @@
 services:
   stops-getter-v3:
-    image: thalvadzhiev/sumc_stops_getter:latest
-    build: .
-    platform: linux/arm/v6
-    command: sh ./docker/entry_script.sh
-    restart: unless-stopped
+    image: sofia-traffic-stops-getter:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile-ubuntu
+
+    platform: linux/amd64
+
     working_dir: /home/sumc
     dns:
       - 8.8.8.8
@@ -12,11 +14,12 @@ services:
     network_mode: bridge
     volumes:
       - /etc/localtime:/etc/localtime
-      - ../:/home/sumc
+#      - ../:/home/sumc
     secrets:
       - ssh_key_stops_getter
     environment:
       SSH_KEY: /run/secrets/ssh_key_stops_getter
+
 
 secrets:
   ssh_key_stops_getter:

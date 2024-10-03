@@ -1,7 +1,10 @@
 #!/usr/bin/bash
 printenv  >> /etc/environment
+mkdir -p /root/.ssh
 cp /run/secrets/ssh_key_stops_getter /root/.ssh/id_rsa
 
 git remote set-url origin git@github.com:thalvadzhi/Sofia-Traffic-Stops-Getter.git
 
-cron -f
+git pull origin master
+
+python3 get_everything.py

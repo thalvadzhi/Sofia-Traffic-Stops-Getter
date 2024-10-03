@@ -206,7 +206,7 @@ def get_stops(all_routes):
 
 def run_stop_getter(should_upload: bool):
     start = time.time()
-    all_routes = get_all_routes()
+    all_routes = list(get_all_routes())
     subway_routes = filter(lambda route: route["line"]["type"] == 3, all_routes)
 
     ground_routes = filter(lambda route: route["line"]["type"] != 3, all_routes)
