@@ -140,16 +140,16 @@
         "type": 0
     },
     {
-        "first_stop": 473,
-        "geo": "cfrcGqjpmCNkA\\c@nE{@dCGlACfCDbE@`@[bB`@dCpAfExBbHpD~FpC~E|C~AxBlApA^Hb@Qp@mA?o@XJxAwCnAgCxA{Cv@cBUKtBgCpAcBxCqC`DyCA[hD{B~A_BZe@\\mCTmERkDYUt@sFXsETkDP{Ab@aCA{@t@yArBqFxAeE|AyE`@uA@gAZc@Je@Xs@Hq@ZcA~@gDd@mDV{D`@}C\\wCRcBGEfA}Hl@_HvAcMxAkFRkAIc@|@sFn@iH~@gKCkAf@_Cv@aIl@gEr@qFRkCGaCj@{CdCcJ|BuFUI~BiEhAoCpBoF`CgG@q@vCwFvCkHnCqHPEjA{CxAeExBaHrAqGDy@Vw@ToAf@uC|AkHVq@z@_A\\o@`@Cv@YtCNxER~@?dACdJhA`K~@{A[",
-        "last_stop": 519,
+        "first_stop": 518,
+        "geo": "{kjcG{c|mCaHo@cHi@DMEL_ACqES}COaAZc@^k@Nw@tASr@gAbFcAvFO~@a@xAFDsAnGwB`HsBxFODcEvKyCfHgDlIS?sArE{BbGgAlCcCbGc@XaAlDiCdJ_@zGY@@lCs@hFk@jEu@jHm@dE@l@}@tJo@fHu@zGQl@?VaAvCkB`Oo@nHg@dE?Pe@~Da@lDc@`D[|Dg@jDgAlDa@nCcAfCJ^[hA_BzE}AnEqBlFGAF@u@tCc@hCQtAUnD]xFYx@Nn@_@bHWlEYbCa@l@yAzA{Ax@A\\wAlAuCjCoChCyAlBcBjBDZ{@lByAvCqAlCyArCu@~@FF[`@YJYKeAeA_B{BgF{C{FsCqFqCwFwCkCsAmIONKOJuA@q@?kADiCFmEv@k@l@]xD",
+        "last_stop": 469,
         "name": "22",
         "type": 0
     },
     {
-        "first_stop": 518,
-        "geo": "{kjcG{c|mCaHo@cHi@DMEL_ACqES}COaAZc@^k@Nw@tASr@gAbFcAvFO~@a@xAFDsAnGwB`HsBxFODcEvKyCfHgDlIS?sArE{BbGgAlCcCbGc@XaAlDiCdJ_@zGY@@lCs@hFk@jEu@jHm@dE@l@}@tJo@fHu@zGQl@?VaAvCkB`Oo@nHg@dE?Pe@~Da@lDc@`D[|Dg@jDgAlDa@nCcAfCJ^[hA_BzE}AnEqBlFGAF@u@tCc@hCQtAUnD]xFYx@Nn@_@bHWlEYbCa@l@yAzA{Ax@A\\wAlAuCjCoChCyAlBcBjBDZ{@lByAvCqAlCyArCu@~@FF[`@YJYKeAeA_B{BgF{C{FsCqFqCwFwCkCsAmIONKOJuA@q@?kADiCFmEv@k@l@]xD",
-        "last_stop": 469,
+        "first_stop": 470,
+        "geo": "cfrcGqjpmCNkA\\c@nE{@dCGlACfCDbE@`@[bB`@dCpAfExBbHpD~FpC~E|C~AxBlApA^Hb@Qp@mA?o@XJxAwCnAgCxA{Cv@cBUKtBgCpAcBxCqC`DyCA[hD{B~A_BZe@\\mCTmERkDYUt@sFXsETkDP{Ab@aCA{@t@yArBqFxAeE|AyE`@uA@gAZc@Je@Xs@Hq@ZcA~@gDd@mDV{D`@}C\\wCRcBGEfA}Hl@_HvAcMxAkFRkAIc@|@sFn@iH~@gKCkAf@_Cv@aIl@gEr@qFRkCGaCj@{CdCcJ|BuFUI~BiEhAoCpBoF`CgG@q@vCwFvCkHnCqHPEjA{CxAeExBaHrAqGDy@Vw@ToAf@uC|AkHVq@z@_A\\o@`@Cv@YtCNxER~@?dACdJhA`K~@{A[",
+        "last_stop": 519,
         "name": "22",
         "type": 0
     },
@@ -630,7 +630,7 @@
         "type": 1
     },
     {
-        "first_stop": 1546,
+        "first_stop": 1021,
         "geo": "}r{cGkcomC`Cr@tAxAzAdCxA`B`CpAbB|AjDdAtBfArAt@dBl@vAv@`CFnCd@v@PzDFrB`@dANfAEbC[tC]rBMt@IxDa@jBU|BWzCI~CO`Bg@fCObCY~BSrCH`Bl@rC|@~Bz@fCjAxCzA~AvAdBzAdCzBvBhBfB~@tBvAhBbAbBfAxAhAx@i@r@s@tBmBvAiAl@YMq@?_B?gABcBFo@v@AdAXh@NJB",
         "last_stop": 62,
         "name": "24",
