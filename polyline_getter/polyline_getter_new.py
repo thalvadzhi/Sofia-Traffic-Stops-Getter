@@ -104,8 +104,7 @@ def transform_new_route_to_old_route_format(new_route_format):
         old_routes.append(old_route)
     return old_routes
 
-def get_polys():
-    routes = get_all_routes()
+def get_polys(routes):
     all_old_routes = []
     for route in routes:
         old_routes = transform_new_route_to_old_route_format(route)
@@ -156,9 +155,9 @@ def polys_have_changed_hash():
 
 
 
-def run_polyline_getter(should_upload=False):
+def run_polyline_getter(all_routes, should_upload=False):
     start = time.time()
-    polys = get_polys()
+    polys = get_polys(all_routes)
     polys.sort(key=lambda s: s["name"])
     polys.sort(key=lambda s: s["type"])
     polys_string = json.dumps(polys, ensure_ascii=False, indent=4, sort_keys=True)

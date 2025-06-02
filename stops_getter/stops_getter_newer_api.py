@@ -57,6 +57,7 @@ def get_route(line_id, xsrf_token, session_token):
     payload = {"ext_id": line_id}
     try:
         routes = session.post(url_routes, headers=headers, json=payload).json()
+        time.sleep(0.5)
     except Exception:
         logging.exception("Couldn't get routes from url '{0}', payload: {1}".format(url_routes, payload))
         sys.exit(0)
@@ -67,7 +68,7 @@ def get_all_routes():
     lines = get_lines(xsrf_token, session)
     line_ids = list(map(lambda line: line["ext_id"], lines))
     get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session)
-    with ThreadPoolExecutor(10) as pool:
+    with ThreadPoolExecutor(2) as pool:
         routes = pool.map(get_route_partial, line_ids)
     return routes
 
@@ -204,9 +205,8 @@ def get_stops(all_routes):
     return list(stops)
 
 
-def run_stop_getter(should_upload: bool):
+def run_stop_getter(all_routes, should_upload: bool):
     start = time.time()
-    all_routes = list(get_all_routes())
     subway_routes = filter(lambda route: route["line"]["type"] == 3, all_routes)
 
     ground_routes = filter(lambda route: route["line"]["type"] != 3, all_routes)
