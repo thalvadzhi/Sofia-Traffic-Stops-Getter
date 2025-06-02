@@ -49,6 +49,7 @@ def get_route(line_id, xsrf_token, session_token):
     payload = {"ext_id": line_id}
     try:
         routes = session.post(url_routes, headers=headers, json=payload).json()
+        time.sleep(0.5)
     except Exception:
         logging.info("Couldn't get routes from url '{0}'".format(url_routes))
         sys.exit(0)
@@ -59,13 +60,12 @@ def get_all_routes():
     lines = get_lines(xsrf_token, session)
     line_ids = list(map(lambda line: line["ext_id"], lines))
     get_route_partial = partial(get_route, xsrf_token=xsrf_token, session_token=session)
-    with ThreadPoolExecutor(10) as pool:
+    with ThreadPoolExecutor(2) as pool:
         routes = pool.map(get_route_partial, line_ids)
     return routes
 
-def get_descriptions():
+def get_descriptions(all_routes):
 
-    all_routes = get_all_routes()
     stop_ids = set()
 
     for line_route in all_routes:
@@ -126,11 +126,11 @@ def stops_descs_have_changed_hash():
 def join_stops_desc(stops):
     return ";".join(stops)
 
-def run_directions_getter(should_upload=False):
+def run_directions_getter(all_routes, should_upload=False):
     start = time.time()
 
     logging.info("Generating descriptions...")
-    descriptions_all = get_descriptions()
+    descriptions_all = get_descriptions(all_routes)
     if len(descriptions_all) < 100:
         # less than 100 descriptions is a suspiciosly low amount
         logging.info("Descriptions are suspiciosly low, aborting...")
